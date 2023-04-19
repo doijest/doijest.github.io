@@ -61,20 +61,6 @@
 			background-color: #003399;
 		}
 
-		/* Style for screens larger than 800px */
-		@media only screen and (min-width: 800px) {
-		.index-section {
-			column-count: 3;
-		}
-		}
-		
-		/* Style for screens smaller than 800px */
-		@media only screen and (max-width: 799px) {
-		.index-section {
-			column-count: 1;
-		}
-		}
-
 	</style>
 </head>
 <body>
@@ -84,7 +70,7 @@
 
 	<main>
 		<h2>Recipes:</h2>
-		<section class="index-section">
+		<section id="section-recipes">
 			<ul>
 				<li><a href="#mushroom-stroganoff">Mushroom Stroganoff</a></li>
 			</ul>
@@ -97,7 +83,7 @@
 	
 	<main>
 		<h2>Cooking Instructions:</h2>
-		<section class="index-section">
+		<section>
 			<ul>
 				<li><a href="#berrie-brekkie">Berrie Brekkie</a></li>
 				<li><a href="#airfryer-cauliflower-pakoras">Air Fryer: Cauliflower Pakoras</a></li>
@@ -323,7 +309,7 @@
 
 	<script>
 		function randomRecipeLink() {
-			var links = document.querySelectorAll('section:first-of-type ul li a');
+			var links = document.querySelectorAll('#section-recipes ul li a');
 			var randomIndex = Math.floor(Math.random() * links.length);
 			window.location.href = links[randomIndex].href;
 		}
