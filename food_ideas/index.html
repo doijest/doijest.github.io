@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Food Ideas</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+
+		header {
+			background-color: #F2F2F2;
+			padding: 20px;
+			text-align: center;
+		}
+
+		h1 {
+			font-size: 36px;
+			margin: 0;
+		}
+
+		main {
+			margin: 20px auto;
+			max-width: 800px;
+			padding: 20px;
+		}
+
+		ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+		}
+
+		li {
+			margin: 10px 0;
+		}
+
+		a {
+			color: #0066CC;
+			text-decoration: none;
+		}
+
+		a:hover {
+			text-decoration: underline;
+		}
+
+		button {
+			background-color: #0066CC;
+			border: none;
+			border-radius: 4px;
+			color: #FFF;
+			cursor: pointer;
+			font-size: 18px;
+			padding: 10px 20px;
+			transition: background-color 0.3s ease;
+			margin-right: 10px;
+		}
+
+		button:hover {
+			background-color: #003399;
+		}
+
+		.home-button {
+			float: right;
+		}
+
+		.recipe-links {
+			margin-bottom: 50px;
+		}
+
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Food Ideas</h1>
+	</header>
+
+	<main>
+		<section class="recipe-links">
+			<h2>Links to Recipes:</h2>
+				<ul>
+					<li><a href="recipes/spagbol.html">Spaghetti Bolognaise</a></li>
+					<li><a href="recipe2.html">Recipe 2</a></li>
+					<li><a href="recipe3.html">Recipe 3</a></li>
+					<li><a href="recipe4.html">Recipe 4</a></li>
+					<li><a href="recipe5.html">Recipe 5</a></li>
+				</ul>
+			<button onclick="randomRecipeLink()">I'm Feeling Lucky</button>
+		</section>
+		<section>
+			<h2>Links to Cooking Instructions:</h2>
+				<ul>
+					<li><a href="instructions/berrie_brekkie.html">Berrie Brekkie</a></li>
+					<li><a href="instruction2.html">Air Fryer: Heck Sausages</a></li>
+					<li><a href="instruction3.html">Recipe 3</a></li>
+					<li><a href="instruction4.html">Recipe 4</a></li>
+					<li><a href="instruction5.html">Recipe 5</a></li>
+				</ul>
+		</section>
+	</main>
+
+	<script>
+		function randomRecipeLink() {
+			var links = document.querySelectorAll('section:first-of-type ul li a');
+			var randomIndex = Math.floor(Math.random() * links.length);
+			window.location.href = links[randomIndex].href;
+		}
+	</script>
+
+</body>
+</html>
