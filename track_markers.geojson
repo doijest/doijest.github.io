@@ -1,0 +1,5135 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.782471,
+          50.598943
+        ]
+      },
+      "properties": {
+        "name": "2025-05-29 @ 18-11-55",
+        "date": "2025-05-29T18:11:55",
+        "distance_km": 7.3,
+        "distance_mi": 4.53,
+        "duration": "2:38:25",
+        "ascent": 368,
+        "descent": -372,
+        "center_lat": 50.590443567589865,
+        "center_lon": -3.767234516933632,
+        "place_name": "Holwell Bridge, Manaton, Teignbridge",
+        "gridref": "SX 73946 79208",
+        "googleMapsLink": "https://www.google.com/maps?q=50.598943,-3.782471",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2025-05-29_18-11-55.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2025-05-29_18-11-55.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2025-05-29_18-11-55_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2025-05-29_18-11-55.png",
+        "cluster_label": 2,
+        "colour": "darkred"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.005117,
+          50.488102
+        ]
+      },
+      "properties": {
+        "name": "2025-05-15 @ 18-10-00",
+        "date": "2025-05-15T18:10:00",
+        "distance_km": 5.68,
+        "distance_mi": 3.53,
+        "duration": "0:53:32",
+        "ascent": 197,
+        "descent": -196,
+        "center_lat": 50.49503702877999,
+        "center_lon": -3.990785778240194,
+        "place_name": "Enclosure, Edward's Path, Sheepstor",
+        "gridref": "SX 57856 67287",
+        "googleMapsLink": "https://www.google.com/maps?q=50.48810197971761,-4.005116997286677",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2025-05-15_18-10-00.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2025-05-15_18-10-00.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2025-05-15_18-10-00_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2025-05-15_18-10-00.png",
+        "cluster_label": 1,
+        "colour": "darkred"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.838277,
+          50.515003
+        ]
+      },
+      "properties": {
+        "name": "2025-05-08 @ 18-00-00",
+        "date": "2025-05-08T18:00:00",
+        "distance_km": 4.64,
+        "distance_mi": 2.88,
+        "duration": "1:26:20",
+        "ascent": 104,
+        "descent": -105,
+        "center_lat": 50.51548268089074,
+        "center_lon": -3.846102605607825,
+        "place_name": "Ross's Quarry, Holne",
+        "gridref": "SX 69765 69971",
+        "googleMapsLink": "https://www.google.com/maps?q=50.515003,-3.838277",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2025-05-08_18-00-00.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2025-05-08_18-00-00.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2025-05-08_18-00-00_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2025-05-08_18-00-00.png",
+        "cluster_label": 5,
+        "colour": "darkred"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.041501,
+          50.308313
+        ]
+      },
+      "properties": {
+        "name": "2025-04-24 @ 18-07-22",
+        "date": "2025-04-24T18:07:22",
+        "distance_km": 10.9,
+        "distance_mi": 6.77,
+        "duration": "2:36:17",
+        "ascent": 253,
+        "descent": -258,
+        "center_lat": 50.30377129020989,
+        "center_lon": -4.045710746648709,
+        "place_name": "1, Hannaford Road, Noss Mayo, Newton and Noss",
+        "gridref": "SX 54726 47368",
+        "googleMapsLink": "https://www.google.com/maps?q=50.308313,-4.041501",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2025-04-24_18-07-22.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2025-04-24_18-07-22.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2025-04-24_18-07-22_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2025-04-24_18-07-22.png",
+        "cluster_label": 9,
+        "colour": "darkred"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.877796,
+          50.530629
+        ]
+      },
+      "properties": {
+        "name": "2025-04-17 @ 18-07-20",
+        "date": "2025-04-17T18:07:20",
+        "distance_km": 10.92,
+        "distance_mi": 6.79,
+        "duration": "2:41:03",
+        "ascent": 353,
+        "descent": -359,
+        "center_lat": 50.52249551022075,
+        "center_lon": -3.895214802946341,
+        "place_name": "B3357, Pixieland, Dartmoor Forest",
+        "gridref": "SX 67007 71779",
+        "googleMapsLink": "https://www.google.com/maps?q=50.530629,-3.877796",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2025-04-17_18-07-20.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2025-04-17_18-07-20.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2025-04-17_18-07-20_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2025-04-17_18-07-20.png",
+        "cluster_label": 5,
+        "colour": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.049566,
+          50.504752
+        ]
+      },
+      "properties": {
+        "name": "2025-04-10 @ 18-03-21",
+        "date": "2025-04-10T18:03:21",
+        "distance_km": 8.52,
+        "distance_mi": 5.29,
+        "duration": "2:18:18",
+        "ascent": 251,
+        "descent": -253,
+        "center_lat": 50.515647487389366,
+        "center_lon": -4.036907847228856,
+        "place_name": "B3212, Walkhampton, Dousland",
+        "gridref": "SX 54755 69224",
+        "googleMapsLink": "https://www.google.com/maps?q=50.504752,-4.049566",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2025-04-10_18-03-21.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2025-04-10_18-03-21.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2025-04-10_18-03-21_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2025-04-10_18-03-21.png",
+        "cluster_label": 1,
+        "colour": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.112248,
+          50.51289
+        ]
+      },
+      "properties": {
+        "name": "2025-03-27 @ 18-00-00",
+        "date": "2025-03-27T18:00:00",
+        "distance_km": 7.37,
+        "distance_mi": 4.58,
+        "duration": "2:23:40",
+        "ascent": 315,
+        "descent": -311,
+        "center_lat": 50.512497122309846,
+        "center_lon": -4.132022394171559,
+        "place_name": "A386, Horrabridge, West Devon",
+        "gridref": "SX 50336 70253",
+        "googleMapsLink": "https://www.google.com/maps?q=50.51289,-4.112248",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2025-03-27_18-00-00.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2025-03-27_18-00-00.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2025-03-27_18-00-00_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2025-03-27_18-00-00.png",
+        "cluster_label": 12,
+        "colour": "darkred"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.867594,
+          50.619011
+        ]
+      },
+      "properties": {
+        "name": "2025-03-20 @ 18-05-29",
+        "date": "2025-03-20T18:05:29",
+        "distance_km": 6.11,
+        "distance_mi": 3.8,
+        "duration": "1:50:21",
+        "ascent": 387,
+        "descent": -387,
+        "center_lat": 50.61662386105894,
+        "center_lon": -3.8521358726528323,
+        "place_name": "B3212, Chagford, West Devon",
+        "gridref": "SX 67978 81588",
+        "googleMapsLink": "https://www.google.com/maps?q=50.619011,-3.867594",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2025-03-20_18-05-29.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2025-03-20_18-05-29.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2025-03-20_18-05-29_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2025-03-20_18-05-29.png",
+        "cluster_label": 11,
+        "colour": "darkred"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.778915,
+          50.55482
+        ]
+      },
+      "properties": {
+        "name": "2025-03-13 @ 18-00-00",
+        "date": "2025-03-13T18:00:00",
+        "distance_km": 5.07,
+        "distance_mi": 3.15,
+        "duration": "1:50:59",
+        "ascent": 153,
+        "descent": -145,
+        "center_lat": 50.56474795815773,
+        "center_lon": -3.7802938454764266,
+        "place_name": "Lower Bowdley, Ashburton, Teignbridge",
+        "gridref": "SX 74080 74296",
+        "googleMapsLink": "https://www.google.com/maps?q=50.55482,-3.778915",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2025-03-13_18-00-00.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2025-03-13_18-00-00.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2025-03-13_18-00-00_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2025-03-13_18-00-00.png",
+        "cluster_label": 2,
+        "colour": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.913987,
+          50.592054
+        ]
+      },
+      "properties": {
+        "name": "2025-03-06 @ 18-08-55",
+        "date": "2025-03-06T18:08:55",
+        "distance_km": 9.11,
+        "distance_mi": 5.66,
+        "duration": "2:54:17",
+        "ascent": 501,
+        "descent": -499,
+        "center_lat": 50.605429662198546,
+        "center_lon": -3.9257021672359995,
+        "place_name": "B3212, Dartfordleigh, Dartmoor Forest, Postbridge",
+        "gridref": "SX 64619 78674",
+        "googleMapsLink": "https://www.google.com/maps?q=50.592054,-3.913987",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2025-03-06_18-08-55.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2025-03-06_18-08-55.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2025-03-06_18-08-55_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2025-03-06_18-08-55.png",
+        "cluster_label": 11,
+        "colour": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.87788,
+          50.5309
+        ]
+      },
+      "properties": {
+        "name": "2025-02-13 @ 18-09-43",
+        "date": "2025-02-13T18:09:43",
+        "distance_km": 6.75,
+        "distance_mi": 4.2,
+        "duration": "1:49:16",
+        "ascent": 409,
+        "descent": -409,
+        "center_lat": 50.53065079779542,
+        "center_lon": -3.866598306333507,
+        "place_name": "B3357, Dartmoor Forest, Dartmeet",
+        "gridref": "SX 67002 71809",
+        "googleMapsLink": "https://www.google.com/maps?q=50.5309,-3.87788",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2025-02-13_18-09-43.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2025-02-13_18-09-43.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2025-02-13_18-09-43_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2025-02-13_18-09-43.png",
+        "cluster_label": 5,
+        "colour": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.019837,
+          50.505914
+        ]
+      },
+      "properties": {
+        "name": "2025-02-06 @ 18-08-43",
+        "date": "2025-02-06T18:08:43",
+        "distance_km": 8.27,
+        "distance_mi": 5.14,
+        "duration": "2:29:21",
+        "ascent": 584,
+        "descent": -571,
+        "center_lat": 50.500777658302894,
+        "center_lon": -4.016412764490984,
+        "place_name": "Walkhampton, West Devon, Devon",
+        "gridref": "SX 56866 69295",
+        "googleMapsLink": "https://www.google.com/maps?q=50.505914,-4.019837",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2025-02-06_18-08-43.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2025-02-06_18-08-43.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2025-02-06_18-08-43_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2025-02-06_18-08-43.png",
+        "cluster_label": 1,
+        "colour": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.843577,
+          50.543212
+        ]
+      },
+      "properties": {
+        "name": "2025-01-30 @ 18-12-57",
+        "date": "2025-01-30T18:12:57",
+        "distance_km": 5.17,
+        "distance_mi": 3.21,
+        "duration": "1:41:53",
+        "ascent": 340,
+        "descent": -335,
+        "center_lat": 50.546564211421426,
+        "center_lon": -3.855687451482763,
+        "place_name": "Dr Blackall's Drive, Widecombe-in-the-Moor, Poundsgate",
+        "gridref": "SX 69467 73117",
+        "googleMapsLink": "https://www.google.com/maps?q=50.543212,-3.843577",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2025-01-30_18-12-57.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2025-01-30_18-12-57.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2025-01-30_18-12-57_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2025-01-30_18-12-57.png",
+        "cluster_label": 5,
+        "colour": "blue"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.964694,
+          50.558643
+        ]
+      },
+      "properties": {
+        "name": "2025-01-16 @ 18-12-55",
+        "date": "2025-01-16T18:12:55",
+        "distance_km": 6.41,
+        "distance_mi": 3.98,
+        "duration": "2:09:42",
+        "ascent": 505,
+        "descent": -511,
+        "center_lat": 50.57187361998828,
+        "center_lon": -3.9601848692035433,
+        "place_name": "B3357, Two Bridges, Dartmoor Forest",
+        "gridref": "SX 60931 75053",
+        "googleMapsLink": "https://www.google.com/maps?q=50.558643,-3.964694",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2025-01-16_18-12-55.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2025-01-16_18-12-55.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2025-01-16_18-12-55_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2025-01-16_18-12-55.png",
+        "cluster_label": 10,
+        "colour": "darkred"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.829115,
+          50.502091
+        ]
+      },
+      "properties": {
+        "name": "2025-01-09 @ 18-00-00",
+        "date": "2025-01-09T18:00:00",
+        "distance_km": 6.91,
+        "distance_mi": 4.29,
+        "duration": "1:42:50",
+        "ascent": 256,
+        "descent": -257,
+        "center_lat": 50.49697979311212,
+        "center_lon": -3.8442481156319865,
+        "place_name": "Scorriton, West Buckfastleigh, Combe",
+        "gridref": "SX 70379 68520",
+        "googleMapsLink": "https://www.google.com/maps?q=50.502091,-3.829115",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2025-01-09_18-00-00.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2025-01-09_18-00-00.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2025-01-09_18-00-00_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2025-01-09_18-00-00.png",
+        "cluster_label": 5,
+        "colour": "gray"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.075096,
+          50.557442
+        ]
+      },
+      "properties": {
+        "name": "2025-01-02 @ 18-08-02",
+        "date": "2025-01-02T18:08:02",
+        "distance_km": 5.12,
+        "distance_mi": 3.18,
+        "duration": "1:53:09",
+        "ascent": 361,
+        "descent": -369,
+        "center_lat": 50.564530610926504,
+        "center_lon": -4.067713725662603,
+        "place_name": "Pork Hill Car Park, B3357, Whitchurch",
+        "gridref": "SX 53108 75133",
+        "googleMapsLink": "https://www.google.com/maps?q=50.557442,-4.075096",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2025-01-02_18-08-02.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2025-01-02_18-08-02.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2025-01-02_18-08-02_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2025-01-02_18-08-02.png",
+        "cluster_label": 12,
+        "colour": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.037237,
+          50.462604
+        ]
+      },
+      "properties": {
+        "name": "2024-12-12 @ 18-06-03",
+        "date": "2024-12-12T18:06:03",
+        "distance_km": 7.06,
+        "distance_mi": 4.39,
+        "duration": "2:14:28",
+        "ascent": 335,
+        "descent": -322,
+        "center_lat": 50.458533825552955,
+        "center_lon": -4.054018641140563,
+        "place_name": "Shaugh Prior, South Hams, Devon",
+        "gridref": "SX 55500 64514",
+        "googleMapsLink": "https://www.google.com/maps?q=50.462604,-4.037237",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2024-12-12_18-06-03.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2024-12-12_18-06-03.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2024-12-12_18-06-03_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2024-12-12_18-06-03.png",
+        "cluster_label": 1,
+        "colour": "blue"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.871922,
+          50.613792
+        ]
+      },
+      "properties": {
+        "name": "2024-12-05 @ 18-00-00",
+        "date": "2024-12-05T18:00:00",
+        "distance_km": 7.63,
+        "distance_mi": 4.74,
+        "duration": "2:22:06",
+        "ascent": 169,
+        "descent": -156,
+        "center_lat": 50.60944082002733,
+        "center_lon": -3.8583435815116434,
+        "place_name": "B3212, Chagford",
+        "gridref": "SX 67657 81015",
+        "googleMapsLink": "https://www.google.com/maps?q=50.613792,-3.871922",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2024-12-05_18-00-00.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2024-12-05_18-00-00.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2024-12-05_18-00-00_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2024-12-05_18-00-00.png",
+        "cluster_label": 11,
+        "colour": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.745308,
+          50.580862
+        ]
+      },
+      "properties": {
+        "name": "2024-11-28 @ 10-22-14",
+        "date": "2024-11-28T10:22:14",
+        "distance_km": 20.44,
+        "distance_mi": 12.7,
+        "duration": "5:44:44",
+        "ascent": 571,
+        "descent": -912,
+        "center_lat": 50.57248549308325,
+        "center_lon": -3.66759447012725,
+        "place_name": "B3387, Smallacombe, Ilsington, Haytor Vale",
+        "gridref": "SX 76528 77135",
+        "googleMapsLink": "https://www.google.com/maps?q=50.580862,-3.745308",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2024-11-28_10-22-14.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2024-11-28_10-22-14.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2024-11-28_10-22-14_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2024-11-28_10-22-14.png",
+        "cluster_label": 2,
+        "colour": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.004957,
+          50.488287
+        ]
+      },
+      "properties": {
+        "name": "2024-11-14 @ 18-15-00",
+        "date": "2024-11-14T18:15:00",
+        "distance_km": 8.33,
+        "distance_mi": 5.18,
+        "duration": "2:35:01",
+        "ascent": 194,
+        "descent": -194,
+        "center_lat": 50.49215013719358,
+        "center_lon": -3.9864550789782305,
+        "place_name": "Gutter Tor Car Park, Edward's Path, Sheepstor",
+        "gridref": "SX 57868 67307",
+        "googleMapsLink": "https://www.google.com/maps?q=50.488287,-4.004957",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2024-11-14_18-15-00.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2024-11-14_18-15-00.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2024-11-14_18-15-00_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2024-11-14_18-15-00.png",
+        "cluster_label": 1,
+        "colour": "gray"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.969865,
+          50.42474
+        ]
+      },
+      "properties": {
+        "name": "2024-11-07 @ 18-05-00",
+        "date": "2024-11-07T18:05:00",
+        "distance_km": 9.52,
+        "distance_mi": 5.92,
+        "duration": "2:57:19",
+        "ascent": 363,
+        "descent": -364,
+        "center_lat": 50.440728875420064,
+        "center_lon": -3.977133846416916,
+        "place_name": "Cornwood",
+        "gridref": "SX 60170 60175",
+        "googleMapsLink": "https://www.google.com/maps?q=50.42474,-3.969865",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2024-11-07_18-05-00.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2024-11-07_18-05-00.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2024-11-07_18-05-00_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2024-11-07_18-05-00.png",
+        "cluster_label": 0,
+        "colour": "darkred"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.779172,
+          50.55416
+        ]
+      },
+      "properties": {
+        "name": "2024-10-31 @ 18-06-00",
+        "date": "2024-10-31T18:06:00",
+        "distance_km": 6.3,
+        "distance_mi": 3.91,
+        "duration": "1:57:15",
+        "ascent": 132,
+        "descent": -131,
+        "center_lat": 50.553681054132646,
+        "center_lon": -3.789788556306965,
+        "place_name": "Cold East Cross, Dartmoor",
+        "gridref": "SX 74060 74223",
+        "googleMapsLink": "https://www.google.com/maps?q=50.55416,-3.779172",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2024-10-31_18-06-00.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2024-10-31_18-06-00.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2024-10-31_18-06-00_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2024-10-31_18-06-00.png",
+        "cluster_label": 2,
+        "colour": "blue"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.067281,
+          50.45408
+        ]
+      },
+      "properties": {
+        "name": "2024-10-10 @ 18-07-07",
+        "date": "2024-10-10T18:07:07",
+        "distance_km": 9.2,
+        "distance_mi": 5.72,
+        "duration": "2:36:28",
+        "ascent": 451,
+        "descent": -464,
+        "center_lat": 50.4592557054525,
+        "center_lon": -4.057640968244494,
+        "place_name": "Shaugh Bridge, Shaugh Prior",
+        "gridref": "SX 53342 63625",
+        "googleMapsLink": "https://www.google.com/maps?q=50.45408,-4.067281",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2024-10-10_18-07-07.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2024-10-10_18-07-07.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2024-10-10_18-07-07_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2024-10-10_18-07-07.png",
+        "cluster_label": 1,
+        "colour": "purple"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.089177,
+          50.581903
+        ]
+      },
+      "properties": {
+        "name": "2024-10-03 @ 18-13-50",
+        "date": "2024-10-03T18:13:50",
+        "distance_km": 9.16,
+        "distance_mi": 5.69,
+        "duration": "2:38:47",
+        "ascent": 381,
+        "descent": -485,
+        "center_lat": 50.58031676056885,
+        "center_lon": -4.077734706010336,
+        "place_name": "Quarryman's Path, Harragrove, Peter Tavy",
+        "gridref": "SX 52188 77880",
+        "googleMapsLink": "https://www.google.com/maps?q=50.581903,-4.089177",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2024-10-03_18-13-50.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2024-10-03_18-13-50.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2024-10-03_18-13-50_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2024-10-03_18-13-50.png",
+        "cluster_label": 12,
+        "colour": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.851647,
+          50.522971
+        ]
+      },
+      "properties": {
+        "name": "2024-09-26 @ 16-08-06",
+        "date": "2024-09-26T16:08:06",
+        "distance_km": 6.37,
+        "distance_mi": 3.96,
+        "duration": "1:43:35",
+        "ascent": 314,
+        "descent": -293,
+        "center_lat": 50.523664746188565,
+        "center_lon": -3.8548725080749064,
+        "place_name": "Sandy Way, Holne",
+        "gridref": "SX 68839 70881",
+        "googleMapsLink": "https://www.google.com/maps?q=50.522971,-3.851647",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2024-09-26_16-08-06.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2024-09-26_16-08-06.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2024-09-26_16-08-06_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2024-09-26_16-08-06.png",
+        "cluster_label": 5,
+        "colour": "purple"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.833422,
+          50.485086
+        ]
+      },
+      "properties": {
+        "name": "2024-09-19 @ 18-06-56",
+        "date": "2024-09-19T18:06:56",
+        "distance_km": 7.23,
+        "distance_mi": 4.5,
+        "duration": "1:57:45",
+        "ascent": 317,
+        "descent": -317,
+        "center_lat": 50.48672297021038,
+        "center_lon": -3.8535827625243737,
+        "place_name": "Oaklands Road, Parklands Farm, West Buckfastleigh, Combe",
+        "gridref": "SX 70027 66636",
+        "googleMapsLink": "https://www.google.com/maps?q=50.485086,-3.833422",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2024-09-19_18-06-56.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2024-09-19_18-06-56.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2024-09-19_18-06-56_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2024-09-19_18-06-56.png",
+        "cluster_label": 14,
+        "colour": "darkred"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.895296,
+          50.637431
+        ]
+      },
+      "properties": {
+        "name": "2024-09-12 @ 18-13-21",
+        "date": "2024-09-12T18:13:21",
+        "distance_km": 9.38,
+        "distance_mi": 5.83,
+        "duration": "2:43:54",
+        "ascent": 476,
+        "descent": -488,
+        "center_lat": 50.6465746727438,
+        "center_lon": -3.9038860232890804,
+        "place_name": "Dartmoor Forest",
+        "gridref": "SX 66071 83685",
+        "googleMapsLink": "https://www.google.com/maps?q=50.637431,-3.895296",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2024-09-12_18-13-21.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2024-09-12_18-13-21.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2024-09-12_18-13-21_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2024-09-12_18-13-21.png",
+        "cluster_label": 11,
+        "colour": "blue"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.859762,
+          50.451053
+        ]
+      },
+      "properties": {
+        "name": "2024-09-05 @ 18-09-36",
+        "date": "2024-09-05T18:09:36",
+        "distance_km": 8.52,
+        "distance_mi": 5.29,
+        "duration": "2:28:37",
+        "ascent": 319,
+        "descent": -334,
+        "center_lat": 50.46254722219284,
+        "center_lon": -3.8680908428331495,
+        "place_name": "Zeal Tor Tramway, Shipley Bridge, South Brent, Didworthy",
+        "gridref": "SX 68064 62899",
+        "googleMapsLink": "https://www.google.com/maps?q=50.451053,-3.859762",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2024-09-05_18-09-36.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2024-09-05_18-09-36.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2024-09-05_18-09-36_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2024-09-05_18-09-36.png",
+        "cluster_label": 14,
+        "colour": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.808898,
+          50.607442
+        ]
+      },
+      "properties": {
+        "name": "2024-08-29 @ 18-19-00",
+        "date": "2024-08-29T18:19:00",
+        "distance_km": 8.52,
+        "distance_mi": 5.29,
+        "duration": "2:24:20",
+        "ascent": 265,
+        "descent": -400,
+        "center_lat": 50.59676341425165,
+        "center_lon": -3.8249886452730473,
+        "place_name": "Mantaon, Teignbridge",
+        "gridref": "SX 72098 80198",
+        "googleMapsLink": "https://www.google.com/maps?q=50.607442,-3.808898",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2024-08-29_18-19-00.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2024-08-29_18-19-00.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2024-08-29_18-19-00_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2024-08-29_18-19-00.png",
+        "cluster_label": 2,
+        "colour": "gray"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.970461,
+          50.52033
+        ]
+      },
+      "properties": {
+        "name": "2024-08-08 @ 18-14-37",
+        "date": "2024-08-08T18:14:37",
+        "distance_km": 4.85,
+        "distance_mi": 3.01,
+        "duration": "1:27:19",
+        "ascent": 172,
+        "descent": -173,
+        "center_lat": 50.51760213618675,
+        "center_lon": -3.9640486001751536,
+        "place_name": "Tor Royal Lane, Peat Cot, Dartmoor Forest",
+        "gridref": "SX 60410 70804",
+        "googleMapsLink": "https://www.google.com/maps?q=50.52033,-3.970461",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2024-08-08_18-14-37.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2024-08-08_18-14-37.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2024-08-08_18-14-37_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2024-08-08_18-14-37.png",
+        "cluster_label": 10,
+        "colour": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.05568,
+          50.606487
+        ]
+      },
+      "properties": {
+        "name": "2024-08-01 @ 17-09-41",
+        "date": "2024-08-01T17:09:41",
+        "distance_km": 12.84,
+        "distance_mi": 7.98,
+        "duration": "4:02:00",
+        "ascent": 471,
+        "descent": -465,
+        "center_lat": 50.61495473083761,
+        "center_lon": -4.023748365672981,
+        "place_name": "Wapsworthy, Peter Tavy",
+        "gridref": "SX 54635 80547",
+        "googleMapsLink": "https://www.google.com/maps?q=50.606487,-4.05568",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2024-08-01_17-09-41.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2024-08-01_17-09-41.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2024-08-01_17-09-41_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2024-08-01_17-09-41.png",
+        "cluster_label": 3,
+        "colour": "darkred"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.963654,
+          50.722658
+        ]
+      },
+      "properties": {
+        "name": "2024-07-25 @ 18-10-07",
+        "date": "2024-07-25T18:10:07",
+        "distance_km": 9.57,
+        "distance_mi": 5.94,
+        "duration": "2:37:43",
+        "ascent": 191,
+        "descent": -181,
+        "center_lat": 50.70628148351002,
+        "center_lon": -3.971779106502775,
+        "place_name": "Belstone",
+        "gridref": "SX 61489 93287",
+        "googleMapsLink": "https://www.google.com/maps?q=50.722658,-3.963654",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2024-07-25_18-10-07.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2024-07-25_18-10-07.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2024-07-25_18-10-07_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2024-07-25_18-10-07.png",
+        "cluster_label": 7,
+        "colour": "darkred"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.004779,
+          50.488268
+        ]
+      },
+      "properties": {
+        "name": "2024-07-18 @ 18-01-27",
+        "date": "2024-07-18T18:01:27",
+        "distance_km": 8.65,
+        "distance_mi": 5.37,
+        "duration": "3:25:39",
+        "ascent": 298,
+        "descent": -290,
+        "center_lat": 50.47965430254296,
+        "center_lon": -3.990338815876617,
+        "place_name": "Gutter Tor Car Park, Edward's Path, Sheepstor",
+        "gridref": "SX 57881 67304",
+        "googleMapsLink": "https://www.google.com/maps?q=50.488268,-4.004779",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2024-07-18_18-01-27.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2024-07-18_18-01-27.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2024-07-18_18-01-27_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2024-07-18_18-01-27.png",
+        "cluster_label": 1,
+        "colour": "black"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.019815,
+          50.506076
+        ]
+      },
+      "properties": {
+        "name": "2024-07-11 @ 18-17-00",
+        "date": "2024-07-11T18:17:00",
+        "distance_km": 8.84,
+        "distance_mi": 5.5,
+        "duration": "2:44:32",
+        "ascent": 251,
+        "descent": -250,
+        "center_lat": 50.500885352521095,
+        "center_lon": -4.011456665745632,
+        "place_name": "Burrator - Norsworthy, Norsworthy Bridge to South Hessary Tor, Walkhampton",
+        "gridref": "SX 56868 69313",
+        "googleMapsLink": "https://www.google.com/maps?q=50.506076,-4.019815",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2024-07-11_18-17-00.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2024-07-11_18-17-00.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2024-07-11_18-17-00_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2024-07-11_18-17-00.png",
+        "cluster_label": 1,
+        "colour": "cadetblue"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.889053,
+          50.398924
+        ]
+      },
+      "properties": {
+        "name": "2024-07-04 @ 18-08-09",
+        "date": "2024-07-04T18:08:09",
+        "distance_km": 8.32,
+        "distance_mi": 5.17,
+        "duration": "2:07:13",
+        "ascent": 232,
+        "descent": -234,
+        "center_lat": 50.41084976765519,
+        "center_lon": -3.890154422155667,
+        "place_name": "Ugborough, Bittaford",
+        "gridref": "SX 65837 57155",
+        "googleMapsLink": "https://www.google.com/maps?q=50.398924,-3.889053",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2024-07-04_18-08-09.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2024-07-04_18-08-09.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2024-07-04_18-08-09_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2024-07-04_18-08-09.png",
+        "cluster_label": 0,
+        "colour": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.923598,
+          50.584575
+        ]
+      },
+      "properties": {
+        "name": "2024-06-27 @ 18-16-41",
+        "date": "2024-06-27T18:16:41",
+        "distance_km": 11.23,
+        "distance_mi": 6.98,
+        "duration": "3:14:07",
+        "ascent": 395,
+        "descent": -421,
+        "center_lat": 50.580033525391585,
+        "center_lon": -3.9553008014888613,
+        "place_name": "B3212, Dartfordleigh, Dartmoor Forest, Postbridge",
+        "gridref": "SX 63917 77860",
+        "googleMapsLink": "https://www.google.com/maps?q=50.584575,-3.923598",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2024-06-27_18-16-41.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2024-06-27_18-16-41.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2024-06-27_18-16-41_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2024-06-27_18-16-41.png",
+        "cluster_label": 11,
+        "colour": "gray"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.069124,
+          50.622481
+        ]
+      },
+      "properties": {
+        "name": "2024-06-20 @ 18-13-14",
+        "date": "2024-06-20T18:13:14",
+        "distance_km": 7.28,
+        "distance_mi": 4.53,
+        "duration": "2:43:12",
+        "ascent": 302,
+        "descent": -308,
+        "center_lat": 50.629357753217796,
+        "center_lon": -4.052052466417158,
+        "place_name": "A386, Ley, Mary Tavy",
+        "gridref": "SX 53733 82352",
+        "googleMapsLink": "https://www.google.com/maps?q=50.622481,-4.069124",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2024-06-20_18-13-14.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2024-06-20_18-13-14.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2024-06-20_18-13-14_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2024-06-20_18-13-14.png",
+        "cluster_label": 3,
+        "colour": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.920841,
+          50.725911
+        ]
+      },
+      "properties": {
+        "name": "2024-06-13 @ 10-37-02",
+        "date": "2024-06-13T10:37:02",
+        "distance_km": 19.69,
+        "distance_mi": 12.23,
+        "duration": "5:20:13",
+        "ascent": 833,
+        "descent": -855,
+        "center_lat": 50.684726230015904,
+        "center_lon": -3.9115938493275877,
+        "place_name": "South Tawton, Sticklepath",
+        "gridref": "SX 64520 93570",
+        "googleMapsLink": "https://www.google.com/maps?q=50.725911,-3.920841",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2024-06-13_10-37-02.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2024-06-13_10-37-02.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2024-06-13_10-37-02_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2024-06-13_10-37-02.png",
+        "cluster_label": 7,
+        "colour": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.83496,
+          50.427835
+        ]
+      },
+      "properties": {
+        "name": "2024-06-06 @ 18-07-53",
+        "date": "2024-06-06T18:07:53",
+        "distance_km": 10.85,
+        "distance_mi": 6.74,
+        "duration": "3:07:18",
+        "ascent": 475,
+        "descent": -479,
+        "center_lat": 50.4358891515989,
+        "center_lon": -3.850966409704829,
+        "place_name": "Station Approach, Aish, South Brent",
+        "gridref": "SX 69761 60274",
+        "googleMapsLink": "https://www.google.com/maps?q=50.427835,-3.83496",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2024-06-06_18-07-53.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2024-06-06_18-07-53.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2024-06-06_18-07-53_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2024-06-06_18-07-53.png",
+        "cluster_label": 14,
+        "colour": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.037731,
+          50.311612
+        ]
+      },
+      "properties": {
+        "name": "2024-05-30 @ 18-09-11",
+        "date": "2024-05-30T18:09:11",
+        "distance_km": 11.57,
+        "distance_mi": 7.19,
+        "duration": "2:23:31",
+        "ascent": 239,
+        "descent": -235,
+        "center_lat": 50.30407206735555,
+        "center_lon": -4.045309272731093,
+        "place_name": "Stoke Road, Noss Mayo, Newton and Noss, Newton Ferrers",
+        "gridref": "SX 55005 47727",
+        "googleMapsLink": "https://www.google.com/maps?q=50.311612,-4.037731",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2024-05-30_18-09-11.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2024-05-30_18-09-11.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2024-05-30_18-09-11_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2024-05-30_18-09-11.png",
+        "cluster_label": 9,
+        "colour": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.95294,
+          50.429467
+        ]
+      },
+      "properties": {
+        "name": "2024-05-23 @ 18-13-56",
+        "date": "2024-05-23T18:13:56",
+        "distance_km": 7.43,
+        "distance_mi": 4.62,
+        "duration": "2:37:01",
+        "ascent": 356,
+        "descent": -374,
+        "center_lat": 50.43713554985361,
+        "center_lon": -3.9397605997194436,
+        "place_name": "Cornwood",
+        "gridref": "SX 61386 60669",
+        "googleMapsLink": "https://www.google.com/maps?q=50.429467,-3.95294",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2024-05-23_18-13-56.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2024-05-23_18-13-56.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2024-05-23_18-13-56_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2024-05-23_18-13-56.png",
+        "cluster_label": 0,
+        "colour": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.905185,
+          50.538881
+        ]
+      },
+      "properties": {
+        "name": "2024-05-16 @ 18-15-07",
+        "date": "2024-05-16T18:15:07",
+        "distance_km": 10.26,
+        "distance_mi": 6.37,
+        "duration": "3:07:05",
+        "ascent": 354,
+        "descent": -350,
+        "center_lat": 50.5216883588042,
+        "center_lon": -3.8969443067340666,
+        "place_name": "Hexworthy, Dartmoor Forest",
+        "gridref": "SX 65090 72746",
+        "googleMapsLink": "https://www.google.com/maps?q=50.538881,-3.905185",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2024-05-16_18-15-07.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2024-05-16_18-15-07.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2024-05-16_18-15-07_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2024-05-16_18-15-07.png",
+        "cluster_label": 5,
+        "colour": "black"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.130596,
+          50.49532
+        ]
+      },
+      "properties": {
+        "name": "2024-05-09 @ 18-17-59",
+        "date": "2024-05-09T18:17:59",
+        "distance_km": 9.06,
+        "distance_mi": 5.63,
+        "duration": "2:50:47",
+        "ascent": 456,
+        "descent": -468,
+        "center_lat": 50.5006414023987,
+        "center_lon": -4.145352826839364,
+        "place_name": "The Village, Buckland Monachorum",
+        "gridref": "SX 48979 68337",
+        "googleMapsLink": "https://www.google.com/maps?q=50.49532,-4.130596",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2024-05-09_18-17-59.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2024-05-09_18-17-59.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2024-05-09_18-17-59_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2024-05-09_18-17-59.png",
+        "cluster_label": 12,
+        "colour": "blue"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.05119,
+          50.484172
+        ]
+      },
+      "properties": {
+        "name": "2024-05-02 @ 18-05-55",
+        "date": "2024-05-02T18:05:55",
+        "distance_km": 6.43,
+        "distance_mi": 3.99,
+        "duration": "2:16:17",
+        "ascent": 322,
+        "descent": -337,
+        "center_lat": 50.48942482977348,
+        "center_lon": -4.042064357902752,
+        "place_name": "Lovaton, Meavy",
+        "gridref": "SX 54576 66939",
+        "googleMapsLink": "https://www.google.com/maps?q=50.484172,-4.05119",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2024-05-02_18-05-55.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2024-05-02_18-05-55.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2024-05-02_18-05-55_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2024-05-02_18-05-55.png",
+        "cluster_label": 1,
+        "colour": "darkgreen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.739002,
+          50.586854
+        ]
+      },
+      "properties": {
+        "name": "2024-04-25 @ 18-07-26",
+        "date": "2024-04-25T18:07:26",
+        "distance_km": 8.33,
+        "distance_mi": 5.18,
+        "duration": "2:30:15",
+        "ascent": 324,
+        "descent": -328,
+        "center_lat": 50.589742622684696,
+        "center_lon": -3.749004412168467,
+        "place_name": "Haytor Granite Tramway, Smallacombe, Ilsington, Haytor Vale",
+        "gridref": "SX 76990 77791",
+        "googleMapsLink": "https://www.google.com/maps?q=50.586854,-3.739002",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2024-04-25_18-07-26.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2024-04-25_18-07-26.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2024-04-25_18-07-26_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2024-04-25_18-07-26.png",
+        "cluster_label": 2,
+        "colour": "purple"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.024326,
+          50.4618
+        ]
+      },
+      "properties": {
+        "name": "2024-04-18 @ 18-13-40",
+        "date": "2024-04-18T18:13:40",
+        "distance_km": 8.1,
+        "distance_mi": 5.03,
+        "duration": "2:41:18",
+        "ascent": 242,
+        "descent": -243,
+        "center_lat": 50.45890509314575,
+        "center_lon": -4.010815857105963,
+        "place_name": "Trowlesworthy Farm Access Track, Shaugh Prior",
+        "gridref": "SX 56414 64399",
+        "googleMapsLink": "https://www.google.com/maps?q=50.4618,-4.024326",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2024-04-18_18-13-40.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2024-04-18_18-13-40.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2024-04-18_18-13-40_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2024-04-18_18-13-40.png",
+        "cluster_label": 1,
+        "colour": "orange"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.860125,
+          50.451185
+        ]
+      },
+      "properties": {
+        "name": "2024-04-11 @ 18-06-35",
+        "date": "2024-04-11T18:06:35",
+        "distance_km": 7.9,
+        "distance_mi": 4.91,
+        "duration": "2:40:08",
+        "ascent": 343,
+        "descent": -343,
+        "center_lat": 50.46057023750104,
+        "center_lon": -3.859342765018639,
+        "place_name": "Zeal Tor Tramway, Shipley Bridge, South Brent, Didworthy",
+        "gridref": "SX 68038 62914",
+        "googleMapsLink": "https://www.google.com/maps?q=50.451185,-3.860125",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2024-04-11_18-06-35.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2024-04-11_18-06-35.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2024-04-11_18-06-35_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2024-04-11_18-06-35.png",
+        "cluster_label": 14,
+        "colour": "blue"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.067647,
+          50.453997
+        ]
+      },
+      "properties": {
+        "name": "2024-04-04 @ 18-11-56",
+        "date": "2024-04-04T18:11:56",
+        "distance_km": 8.05,
+        "distance_mi": 5.0,
+        "duration": "2:22:17",
+        "ascent": 388,
+        "descent": -380,
+        "center_lat": 50.44664056426139,
+        "center_lon": -4.072711206510418,
+        "place_name": "Shaugh Bridge, Shaugh Prior",
+        "gridref": "SX 53315 63616",
+        "googleMapsLink": "https://www.google.com/maps?q=50.453997,-4.067647",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2024-04-04_18-11-56.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2024-04-04_18-11-56.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2024-04-04_18-11-56_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2024-04-04_18-11-56.png",
+        "cluster_label": 1,
+        "colour": "darkblue"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.912728,
+          50.555155
+        ]
+      },
+      "properties": {
+        "name": "2024-03-28 @ 18-11-57",
+        "date": "2024-03-28T18:11:57",
+        "distance_km": 8.63,
+        "distance_mi": 5.36,
+        "duration": "2:44:21",
+        "ascent": 379,
+        "descent": -372,
+        "center_lat": 50.56907312631595,
+        "center_lon": -3.906365596955515,
+        "place_name": "Dunnabridge Pound, B3357, Dunabridge Pound Farm, Dartmoor Forest",
+        "gridref": "SX 64602 74569",
+        "googleMapsLink": "https://www.google.com/maps?q=50.555155,-3.912728",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2024-03-28_18-11-57.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2024-03-28_18-11-57.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2024-03-28_18-11-57_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2024-03-28_18-11-57.png",
+        "cluster_label": 5,
+        "colour": "cadetblue"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.895523,
+          50.637443
+        ]
+      },
+      "properties": {
+        "name": "2024-03-21 @ 17-51-07",
+        "date": "2024-03-21T17:51:07",
+        "distance_km": 9.2,
+        "distance_mi": 5.71,
+        "duration": "2:25:58",
+        "ascent": 391,
+        "descent": -407,
+        "center_lat": 50.63020689914783,
+        "center_lon": -3.9126979837613276,
+        "place_name": "Dartmoor Forest",
+        "gridref": "SX 66055 83687",
+        "googleMapsLink": "https://www.google.com/maps?q=50.637443,-3.895523",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2024-03-21_17-51-07.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2024-03-21_17-51-07.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2024-03-21_17-51-07_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2024-03-21_17-51-07.png",
+        "cluster_label": 11,
+        "colour": "purple"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.634493,
+          50.328851
+        ]
+      },
+      "properties": {
+        "name": "2024-03-14 @ 09-33-05",
+        "date": "2024-03-14T09:33:05",
+        "distance_km": 20.46,
+        "distance_mi": 12.71,
+        "duration": "7:14:26",
+        "ascent": 1161,
+        "descent": -1169,
+        "center_lat": 50.332316783711576,
+        "center_lon": -4.540392077474393,
+        "place_name": "The Russell Inn, 2, West Street, Lanteglos",
+        "gridref": "SX 12587 50977",
+        "googleMapsLink": "https://www.google.com/maps?q=50.328851,-4.634493",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2024-03-14_09-33-05.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2024-03-14_09-33-05.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2024-03-14_09-33-05_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2024-03-14_09-33-05.png",
+        "cluster_label": 8,
+        "colour": "darkred"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.265583,
+          50.357678
+        ]
+      },
+      "properties": {
+        "name": "2024-03-13 @ 09-39-29",
+        "date": "2024-03-13T09:39:29",
+        "distance_km": 17.51,
+        "distance_mi": 10.88,
+        "duration": "6:21:41",
+        "ascent": 858,
+        "descent": -969,
+        "center_lat": 50.36179325174478,
+        "center_lon": -4.361982665030398,
+        "place_name": "B3247, Sheviock",
+        "gridref": "SX 38939 53318",
+        "googleMapsLink": "https://www.google.com/maps?q=50.357678,-4.265583",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2024-03-13_09-39-29.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2024-03-13_09-39-29.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2024-03-13_09-39-29_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2024-03-13_09-39-29.png",
+        "cluster_label": 12,
+        "colour": "gray"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.004938,
+          50.488286
+        ]
+      },
+      "properties": {
+        "name": "2024-03-07 @ 18-02-34",
+        "date": "2024-03-07T18:02:34",
+        "distance_km": 6.93,
+        "distance_mi": 4.31,
+        "duration": "1:57:31",
+        "ascent": 275,
+        "descent": -277,
+        "center_lat": 50.48851390475155,
+        "center_lon": -3.9901332153783633,
+        "place_name": "Gutter Tor Car Park, Edward's Path, Sheepstor",
+        "gridref": "SX 57870 67307",
+        "googleMapsLink": "https://www.google.com/maps?q=50.488286,-4.004938",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2024-03-07_18-02-34.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2024-03-07_18-02-34.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2024-03-07_18-02-34_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2024-03-07_18-02-34.png",
+        "cluster_label": 1,
+        "colour": "darkred"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.075114,
+          50.55736
+        ]
+      },
+      "properties": {
+        "name": "2024-02-29 @ 18-02-25",
+        "date": "2024-02-29T18:02:25",
+        "distance_km": 5.63,
+        "distance_mi": 3.5,
+        "duration": "1:59:29",
+        "ascent": 257,
+        "descent": -246,
+        "center_lat": 50.560538130853935,
+        "center_lon": -4.069532119923425,
+        "place_name": "Pork Hill Car Park, B3357, Whitchurch",
+        "gridref": "SX 53107 75123",
+        "googleMapsLink": "https://www.google.com/maps?q=50.55736,-4.075114",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2024-02-29_18-02-25.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2024-02-29_18-02-25.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2024-02-29_18-02-25_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2024-02-29_18-02-25.png",
+        "cluster_label": 12,
+        "colour": "purple"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.112167,
+          50.513061
+        ]
+      },
+      "properties": {
+        "name": "2024-02-22 @ 18-17-57",
+        "date": "2024-02-22T18:17:57",
+        "distance_km": 7.97,
+        "distance_mi": 4.96,
+        "duration": "2:16:59",
+        "ascent": 388,
+        "descent": -387,
+        "center_lat": 50.51221011267882,
+        "center_lon": -4.1319036512418,
+        "place_name": "A386, Horrabridge",
+        "gridref": "SX 50342 70272",
+        "googleMapsLink": "https://www.google.com/maps?q=50.513061,-4.112167",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2024-02-22_18-17-57.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2024-02-22_18-17-57.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2024-02-22_18-17-57_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2024-02-22_18-17-57.png",
+        "cluster_label": 12,
+        "colour": "black"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.877462,
+          50.530659
+        ]
+      },
+      "properties": {
+        "name": "2024-02-08 @ 18-00-00",
+        "date": "2024-02-08T18:00:00",
+        "distance_km": 5.79,
+        "distance_mi": 3.6,
+        "duration": "1:11:47",
+        "ascent": 131,
+        "descent": -131,
+        "center_lat": 50.53155197323207,
+        "center_lon": -3.8701572886793163,
+        "place_name": "B3357, Pixieland, Dartmoor Forest, Dartmeet",
+        "gridref": "SX 67031 71782",
+        "googleMapsLink": "https://www.google.com/maps?q=50.530659,-3.877462",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2024-02-08_18-00-00.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2024-02-08_18-00-00.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2024-02-08_18-00-00_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2024-02-08_18-00-00.png",
+        "cluster_label": 5,
+        "colour": "darkgreen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.863132,
+          50.41853
+        ]
+      },
+      "properties": {
+        "name": "2024-02-01 @ 18-00-00",
+        "date": "2024-02-01T18:00:00",
+        "distance_km": 7.12,
+        "distance_mi": 4.43,
+        "duration": "3:08:00",
+        "ascent": 227,
+        "descent": -224,
+        "center_lat": 50.418710377293536,
+        "center_lon": -3.8797572744443616,
+        "place_name": "Ugborough, Moorhaven Village",
+        "gridref": "SX 67734 59289",
+        "googleMapsLink": "https://www.google.com/maps?q=50.41853,-3.863132",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2024-02-01_18-00-00.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2024-02-01_18-00-00.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2024-02-01_18-00-00_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2024-02-01_18-00-00.png",
+        "cluster_label": 14,
+        "colour": "gray"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.083548,
+          50.471319
+        ]
+      },
+      "properties": {
+        "name": "2024-01-25 @ 18-12-09",
+        "date": "2024-01-25T18:12:09",
+        "distance_km": 7.21,
+        "distance_mi": 4.48,
+        "duration": "1:57:30",
+        "ascent": 306,
+        "descent": -307,
+        "center_lat": 50.46204240628204,
+        "center_lon": -4.07357836647207,
+        "place_name": "Plym Valley Trail, Buckland Monachorum",
+        "gridref": "SX 52241 65574",
+        "googleMapsLink": "https://www.google.com/maps?q=50.471319,-4.083548",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2024-01-25_18-12-09.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2024-01-25_18-12-09.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2024-01-25_18-12-09_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2024-01-25_18-12-09.png",
+        "cluster_label": 1,
+        "colour": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.049602,
+          50.504741
+        ]
+      },
+      "properties": {
+        "name": "2024-01-18 @ 18-09-12",
+        "date": "2024-01-18T18:09:12",
+        "distance_km": 8.28,
+        "distance_mi": 5.14,
+        "duration": "2:25:12",
+        "ascent": 254,
+        "descent": -263,
+        "center_lat": 50.514199070990415,
+        "center_lon": -4.038131669340518,
+        "place_name": "B3212, Walkhampton, Dousland",
+        "gridref": "SX 54752 69223",
+        "googleMapsLink": "https://www.google.com/maps?q=50.504741,-4.049602",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2024-01-18_18-09-12.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2024-01-18_18-09-12.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2024-01-18_18-09-12_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2024-01-18_18-09-12.png",
+        "cluster_label": 1,
+        "colour": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.86773,
+          50.619023
+        ]
+      },
+      "properties": {
+        "name": "2024-01-11 @ 18-08-53",
+        "date": "2024-01-11T18:08:53",
+        "distance_km": 7.53,
+        "distance_mi": 4.68,
+        "duration": "2:16:57",
+        "ascent": 277,
+        "descent": -272,
+        "center_lat": 50.61011754649852,
+        "center_lon": -3.8564523827882593,
+        "place_name": "B3212, Chagford",
+        "gridref": "SX 67968 81589",
+        "googleMapsLink": "https://www.google.com/maps?q=50.619023,-3.86773",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2024-01-11_18-08-53.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2024-01-11_18-08-53.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2024-01-11_18-08-53_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2024-01-11_18-08-53.png",
+        "cluster_label": 11,
+        "colour": "black"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.917851,
+          50.418516
+        ]
+      },
+      "properties": {
+        "name": "2023-12-28 @ 18-06-55",
+        "date": "2023-12-28T18:06:55",
+        "distance_km": 8.31,
+        "distance_mi": 5.16,
+        "duration": "2:40:56",
+        "ascent": 406,
+        "descent": -408,
+        "center_lat": 50.42840683888247,
+        "center_lon": -3.9050322699732627,
+        "place_name": "Harford",
+        "gridref": "SX 63847 59386",
+        "googleMapsLink": "https://www.google.com/maps?q=50.418516,-3.917851",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2023-12-28_18-06-55.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2023-12-28_18-06-55.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2023-12-28_18-06-55_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2023-12-28_18-06-55.png",
+        "cluster_label": 0,
+        "colour": "blue"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.01958,
+          50.506001
+        ]
+      },
+      "properties": {
+        "name": "2023-12-21 @ 18-15-18",
+        "date": "2023-12-21T18:15:18",
+        "distance_km": 2.73,
+        "distance_mi": 1.7,
+        "duration": "2:23:22",
+        "ascent": 134,
+        "descent": -126,
+        "center_lat": 50.50383483547047,
+        "center_lon": -4.012110208511072,
+        "place_name": "Burrator - Norsworthy, Norsworthy Bridge to South Hessary Tor, Walkhampton",
+        "gridref": "SX 56885 69304",
+        "googleMapsLink": "https://www.google.com/maps?q=50.506001,-4.01958",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2023-12-21_18-15-18.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2023-12-21_18-15-18.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2023-12-21_18-15-18_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2023-12-21_18-15-18.png",
+        "cluster_label": 1,
+        "colour": "blue"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.964968,
+          50.558691
+        ]
+      },
+      "properties": {
+        "name": "2023-12-14 @ 18-05-00",
+        "date": "2023-12-14T18:05:00",
+        "distance_km": 6.16,
+        "distance_mi": 3.83,
+        "duration": "2:10:45",
+        "ascent": 126,
+        "descent": -125,
+        "center_lat": 50.571643604272744,
+        "center_lon": -3.9604934920149995,
+        "place_name": "B3357, Two Bridges, Dartmoor Forest",
+        "gridref": "SX 60912 75059",
+        "googleMapsLink": "https://www.google.com/maps?q=50.558691,-3.964968",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2023-12-14_18-05-00.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2023-12-14_18-05-00.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2023-12-14_18-05-00_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2023-12-14_18-05-00.png",
+        "cluster_label": 10,
+        "colour": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.534043,
+          50.994183
+        ]
+      },
+      "properties": {
+        "name": "2023-12-07 @ 10-16-29",
+        "date": "2023-12-07T10:16:29",
+        "distance_km": 23.14,
+        "distance_mi": 14.38,
+        "duration": "7:43:29",
+        "ascent": 1202,
+        "descent": -1214,
+        "center_lat": 50.93566205942263,
+        "center_lon": -4.544681639459209,
+        "place_name": "Beach Path, Hartland",
+        "gridref": "SS 22268 24700",
+        "googleMapsLink": "https://www.google.com/maps?q=50.994183,-4.534043",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2023-12-07_10-16-29.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2023-12-07_10-16-29.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2023-12-07_10-16-29_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2023-12-07_10-16-29.png",
+        "cluster_label": 6,
+        "colour": "darkred"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.839479,
+          50.515363
+        ]
+      },
+      "properties": {
+        "name": "2023-11-30 @ 18-10-00",
+        "date": "2023-11-30T18:10:00",
+        "distance_km": 6.21,
+        "distance_mi": 3.86,
+        "duration": "1:51:17",
+        "ascent": 231,
+        "descent": -232,
+        "center_lat": 50.51400691390734,
+        "center_lon": -3.85732811428926,
+        "place_name": "Holne",
+        "gridref": "SX 69681 70013",
+        "googleMapsLink": "https://www.google.com/maps?q=50.515363,-3.839479",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2023-11-30_18-10-00.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2023-11-30_18-10-00.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2023-11-30_18-10-00_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2023-11-30_18-10-00.png",
+        "cluster_label": 5,
+        "colour": "orange"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.888963,
+          50.398833
+        ]
+      },
+      "properties": {
+        "name": "2023-11-23 @ 18-08-50",
+        "date": "2023-11-23T18:08:50",
+        "distance_km": 8.48,
+        "distance_mi": 5.27,
+        "duration": "2:26:18",
+        "ascent": 281,
+        "descent": -275,
+        "center_lat": 50.41097799623023,
+        "center_lon": -3.890621879336243,
+        "place_name": "Ugborough, Bittaford",
+        "gridref": "SX 65843 57145",
+        "googleMapsLink": "https://www.google.com/maps?q=50.398833,-3.888963",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2023-11-23_18-08-50.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2023-11-23_18-08-50.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2023-11-23_18-08-50_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2023-11-23_18-08-50.png",
+        "cluster_label": 0,
+        "colour": "gray"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.049705,
+          50.504712
+        ]
+      },
+      "properties": {
+        "name": "2023-11-16 @ 18-00-00",
+        "date": "2023-11-16T18:00:00",
+        "distance_km": 10.77,
+        "distance_mi": 6.69,
+        "duration": "3:20:29",
+        "ascent": 221,
+        "descent": -221,
+        "center_lat": 50.51405416102927,
+        "center_lon": -4.030876497361894,
+        "place_name": "B3212, Walkhampton, Dousland",
+        "gridref": "SX 54745 69220",
+        "googleMapsLink": "https://www.google.com/maps?q=50.504712,-4.049705",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2023-11-16_18-00-00.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2023-11-16_18-00-00.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2023-11-16_18-00-00_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2023-11-16_18-00-00.png",
+        "cluster_label": 1,
+        "colour": "gray"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.04395,
+          50.55695
+        ]
+      },
+      "properties": {
+        "name": "2023-11-09 @ 18-05-00",
+        "date": "2023-11-09T18:05:00",
+        "distance_km": 10.63,
+        "distance_mi": 6.6,
+        "duration": "2:38:18",
+        "ascent": 215,
+        "descent": -214,
+        "center_lat": 50.543415139742926,
+        "center_lon": -4.0419149129710625,
+        "place_name": "B3357, Dartmoor Forest",
+        "gridref": "SX 55313 75017",
+        "googleMapsLink": "https://www.google.com/maps?q=50.55695,-4.04395",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2023-11-09_18-05-00.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2023-11-09_18-05-00.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2023-11-09_18-05-00_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2023-11-09_18-05-00.png",
+        "cluster_label": 10,
+        "colour": "blue"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.779404,
+          50.554262
+        ]
+      },
+      "properties": {
+        "name": "2023-11-02 @ 18-05-22",
+        "date": "2023-11-02T18:05:22",
+        "distance_km": 5.49,
+        "distance_mi": 3.41,
+        "duration": "1:57:18",
+        "ascent": 222,
+        "descent": -216,
+        "center_lat": 50.56406235729552,
+        "center_lon": -3.7793283393972263,
+        "place_name": "B3387, Smallacombe, Ilsington, Haytor Vale",
+        "gridref": "SX 74043 74235",
+        "googleMapsLink": "https://www.google.com/maps?q=50.554262,-3.779404",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2023-11-02_18-05-22.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2023-11-02_18-05-22.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2023-11-02_18-05-22_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2023-11-02_18-05-22.png",
+        "cluster_label": 2,
+        "colour": "black"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.867898,
+          50.408285
+        ]
+      },
+      "properties": {
+        "name": "2023-10-26 @ 18-09-39",
+        "date": "2023-10-26T18:09:39",
+        "distance_km": 10.04,
+        "distance_mi": 6.24,
+        "duration": "3:05:36",
+        "ascent": 315,
+        "descent": -323,
+        "center_lat": 50.42166329809278,
+        "center_lon": -3.8856491714927213,
+        "place_name": "Golf Links Road, Wrangaton, Ugborough, Moorhaven Village",
+        "gridref": "SX 67367 58158",
+        "googleMapsLink": "https://www.google.com/maps?q=50.408285,-3.867898",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2023-10-26_18-09-39.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2023-10-26_18-09-39.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2023-10-26_18-09-39_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2023-10-26_18-09-39.png",
+        "cluster_label": 14,
+        "colour": "purple"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.780983,
+          50.696232
+        ]
+      },
+      "properties": {
+        "name": "2023-10-19 @ 18-03-19",
+        "date": "2023-10-19T18:03:19",
+        "distance_km": 6.93,
+        "distance_mi": 4.3,
+        "duration": "2:25:24",
+        "ascent": 507,
+        "descent": -514,
+        "center_lat": 50.69464628289258,
+        "center_lon": -3.798350784703465,
+        "place_name": "Preston, Drewsteignton",
+        "gridref": "SX 74311 90023",
+        "googleMapsLink": "https://www.google.com/maps?q=50.696232,-3.780983",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2023-10-19_18-03-19.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2023-10-19_18-03-19.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2023-10-19_18-03-19_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2023-10-19_18-03-19.png",
+        "cluster_label": 15,
+        "colour": "darkred"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.856094,
+          50.526197
+        ]
+      },
+      "properties": {
+        "name": "2023-10-12 @ 18-04-37",
+        "date": "2023-10-12T18:04:37",
+        "distance_km": 3.95,
+        "distance_mi": 2.46,
+        "duration": "1:00:41",
+        "ascent": 138,
+        "descent": -132,
+        "center_lat": 50.52032463832258,
+        "center_lon": -3.8576660880780307,
+        "place_name": "Sandy Way, Holne",
+        "gridref": "SX 68533 71247",
+        "googleMapsLink": "https://www.google.com/maps?q=50.526197,-3.856094",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2023-10-12_18-04-37.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2023-10-12_18-04-37.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2023-10-12_18-04-37_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2023-10-12_18-04-37.png",
+        "cluster_label": 5,
+        "colour": "darkblue"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.917434,
+          50.314637
+        ]
+      },
+      "properties": {
+        "name": "2023-10-05 @ 18-17-33",
+        "date": "2023-10-05T18:17:33",
+        "distance_km": 8.46,
+        "distance_mi": 5.26,
+        "duration": "2:32:22",
+        "ascent": 369,
+        "descent": -356,
+        "center_lat": 50.30792697006212,
+        "center_lon": -3.933244899714746,
+        "place_name": "Dolphin Inn Car Park, Yellands Park, Great Torr, Kingston",
+        "gridref": "SX 63578 47836",
+        "googleMapsLink": "https://www.google.com/maps?q=50.314637,-3.917434",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2023-10-05_18-17-33.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2023-10-05_18-17-33.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2023-10-05_18-17-33_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2023-10-05_18-17-33.png",
+        "cluster_label": 9,
+        "colour": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.004933,
+          50.488311
+        ]
+      },
+      "properties": {
+        "name": "2023-09-28 @ 18-08-03",
+        "date": "2023-09-28T18:08:03",
+        "distance_km": 5.5,
+        "distance_mi": 3.42,
+        "duration": "1:42:06",
+        "ascent": 247,
+        "descent": -240,
+        "center_lat": 50.49019246731282,
+        "center_lon": -3.989568206409631,
+        "place_name": "Gutter Tor Car Park, Edward's Path, Sheepstor",
+        "gridref": "SX 57870 67309",
+        "googleMapsLink": "https://www.google.com/maps?q=50.488311,-4.004933",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2023-09-28_18-08-03.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2023-09-28_18-08-03.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2023-09-28_18-08-03_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2023-09-28_18-08-03.png",
+        "cluster_label": 1,
+        "colour": "purple"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.828621,
+          50.502678
+        ]
+      },
+      "properties": {
+        "name": "2023-09-21 @ 18-04-43",
+        "date": "2023-09-21T18:04:43",
+        "distance_km": 8.36,
+        "distance_mi": 5.2,
+        "duration": "2:42:28",
+        "ascent": 483,
+        "descent": -516,
+        "center_lat": 50.49579153489254,
+        "center_lon": -3.8494177449423232,
+        "place_name": "Scorriton, West Buckfastleigh, Combe",
+        "gridref": "SX 70416 68584",
+        "googleMapsLink": "https://www.google.com/maps?q=50.502678,-3.828621",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2023-09-21_18-04-43.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2023-09-21_18-04-43.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2023-09-21_18-04-43_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2023-09-21_18-04-43.png",
+        "cluster_label": 5,
+        "colour": "darkred"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.019564,
+          50.505914
+        ]
+      },
+      "properties": {
+        "name": "2023-09-14 @ 18-10-39",
+        "date": "2023-09-14T18:10:39",
+        "distance_km": 6.89,
+        "distance_mi": 4.28,
+        "duration": "2:41:33",
+        "ascent": 296,
+        "descent": -297,
+        "center_lat": 50.49988617891198,
+        "center_lon": -4.0104450800701175,
+        "place_name": "Burrator - Norsworthy, Norsworthy Bridge to South Hessary Tor, Walkhampton",
+        "gridref": "SX 56885 69295",
+        "googleMapsLink": "https://www.google.com/maps?q=50.505914,-4.019564",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2023-09-14_18-10-39.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2023-09-14_18-10-39.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2023-09-14_18-10-39_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2023-09-14_18-10-39.png",
+        "cluster_label": 1,
+        "colour": "black"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.78241,
+          50.598878
+        ]
+      },
+      "properties": {
+        "name": "2023-08-31 @ 18-07-10",
+        "date": "2023-08-31T18:07:10",
+        "distance_km": 9.42,
+        "distance_mi": 5.85,
+        "duration": "2:56:50",
+        "ascent": 448,
+        "descent": -453,
+        "center_lat": 50.59631063734679,
+        "center_lon": -3.7925390148005205,
+        "place_name": "Holwell Bridge, Manaton",
+        "gridref": "SX 73950 79201",
+        "googleMapsLink": "https://www.google.com/maps?q=50.598878,-3.78241",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2023-08-31_18-07-10.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2023-08-31_18-07-10.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2023-08-31_18-07-10_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2023-08-31_18-07-10.png",
+        "cluster_label": 2,
+        "colour": "cadetblue"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.847104,
+          50.415883
+        ]
+      },
+      "properties": {
+        "name": "2023-08-24 @ 18-06-10",
+        "date": "2023-08-24T18:06:10",
+        "distance_km": 7.71,
+        "distance_mi": 4.79,
+        "duration": "2:41:38",
+        "ascent": 392,
+        "descent": -407,
+        "center_lat": 50.41957195775129,
+        "center_lon": -3.868060554045395,
+        "place_name": "Ugborough, South Brent",
+        "gridref": "SX 68865 58966",
+        "googleMapsLink": "https://www.google.com/maps?q=50.415883,-3.847104",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2023-08-24_18-06-10.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2023-08-24_18-06-10.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2023-08-24_18-06-10_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2023-08-24_18-06-10.png",
+        "cluster_label": 14,
+        "colour": "black"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.867784,
+          50.61903
+        ]
+      },
+      "properties": {
+        "name": "2023-08-22 @ 11-02-31",
+        "date": "2023-08-22T11:02:31",
+        "distance_km": 18.77,
+        "distance_mi": 11.66,
+        "duration": "7:22:40",
+        "ascent": 817,
+        "descent": -1155,
+        "center_lat": 50.617733806504546,
+        "center_lon": -3.794327485796974,
+        "place_name": "B3212, Chagford",
+        "gridref": "SX 67964 81590",
+        "googleMapsLink": "https://www.google.com/maps?q=50.61903,-3.867784",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2023-08-22_11-02-31.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2023-08-22_11-02-31.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2023-08-22_11-02-31_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2023-08-22_11-02-31.png",
+        "cluster_label": 11,
+        "colour": "cadetblue"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.994918,
+          50.542205
+        ]
+      },
+      "properties": {
+        "name": "2023-08-17 @ 18-14-18",
+        "date": "2023-08-17T18:14:18",
+        "distance_km": 8.62,
+        "distance_mi": 5.36,
+        "duration": "2:31:34",
+        "ascent": 244,
+        "descent": -248,
+        "center_lat": 50.52791459218023,
+        "center_lon": -3.9892746481097734,
+        "place_name": "B3212, Princetown, Walkhampton, Dousland",
+        "gridref": "SX 58742 73283",
+        "googleMapsLink": "https://www.google.com/maps?q=50.542205,-3.994918",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2023-08-17_18-14-18.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2023-08-17_18-14-18.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2023-08-17_18-14-18_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2023-08-17_18-14-18.png",
+        "cluster_label": 10,
+        "colour": "gray"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.843096,
+          50.543282
+        ]
+      },
+      "properties": {
+        "name": "2023-08-10 @ 18-06-05",
+        "date": "2023-08-10T18:06:05",
+        "distance_km": 9.28,
+        "distance_mi": 5.76,
+        "duration": "3:01:46",
+        "ascent": 448,
+        "descent": -443,
+        "center_lat": 50.53694918905514,
+        "center_lon": -3.8278494685676234,
+        "place_name": "Dr Blackall's Drive, Widecombe in the Moor, Poundsgate",
+        "gridref": "SX 69501 73124",
+        "googleMapsLink": "https://www.google.com/maps?q=50.543282,-3.843096",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2023-08-10_18-06-05.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2023-08-10_18-06-05.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2023-08-10_18-06-05_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2023-08-10_18-06-05.png",
+        "cluster_label": 5,
+        "colour": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.112317,
+          50.513022
+        ]
+      },
+      "properties": {
+        "name": "2023-08-03 @ 18-09-46",
+        "date": "2023-08-03T18:09:46",
+        "distance_km": 8.21,
+        "distance_mi": 5.1,
+        "duration": "2:31:39",
+        "ascent": 421,
+        "descent": -411,
+        "center_lat": 50.51215068398174,
+        "center_lon": -4.132346427619454,
+        "place_name": "A386, Horrabridge",
+        "gridref": "SX 50331 70268",
+        "googleMapsLink": "https://www.google.com/maps?q=50.513022,-4.112317",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2023-08-03_18-09-46.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2023-08-03_18-09-46.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2023-08-03_18-09-46_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2023-08-03_18-09-46.png",
+        "cluster_label": 12,
+        "colour": "cadetblue"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.78194,
+          50.598666
+        ]
+      },
+      "properties": {
+        "name": "2023-07-27 @ 18-03-34",
+        "date": "2023-07-27T18:03:34",
+        "distance_km": 7.76,
+        "distance_mi": 4.82,
+        "duration": "3:01:46",
+        "ascent": 358,
+        "descent": -369,
+        "center_lat": 50.59011621425929,
+        "center_lon": -3.7662084141702965,
+        "place_name": "Great Houndtor, Manaton, Water",
+        "gridref": "SX 73982 79176",
+        "googleMapsLink": "https://www.google.com/maps?q=50.598666,-3.78194",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2023-07-27_18-03-34.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2023-07-27_18-03-34.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2023-07-27_18-03-34_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2023-07-27_18-03-34.png",
+        "cluster_label": 2,
+        "colour": "darkgreen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.88253,
+          50.679985
+        ]
+      },
+      "properties": {
+        "name": "2023-07-20 @ 18-10-05",
+        "date": "2023-07-20T18:10:05",
+        "distance_km": 9.02,
+        "distance_mi": 5.6,
+        "duration": "2:58:31",
+        "ascent": 398,
+        "descent": -389,
+        "center_lat": 50.668362248323355,
+        "center_lon": -3.8912348407476336,
+        "place_name": "Chapple, Gidleigh, Throwleigh",
+        "gridref": "SX 67094 88394",
+        "googleMapsLink": "https://www.google.com/maps?q=50.679985,-3.88253",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2023-07-20_18-10-05.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2023-07-20_18-10-05.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2023-07-20_18-10-05_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2023-07-20_18-10-05.png",
+        "cluster_label": 7,
+        "colour": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.041519,
+          50.308379
+        ]
+      },
+      "properties": {
+        "name": "2023-07-13 @ 18-11-58",
+        "date": "2023-07-13T18:11:58",
+        "distance_km": 7.32,
+        "distance_mi": 4.55,
+        "duration": "1:59:33",
+        "ascent": 346,
+        "descent": -357,
+        "center_lat": 50.301240984424375,
+        "center_lon": -4.036314824734709,
+        "place_name": "1, Hannaford Road, Noss Mayo, Newton and Noss, Newton Ferrers",
+        "gridref": "SX 54725 47375",
+        "googleMapsLink": "https://www.google.com/maps?q=50.308379,-4.041519",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2023-07-13_18-11-58.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2023-07-13_18-11-58.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2023-07-13_18-11-58_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2023-07-13_18-11-58.png",
+        "cluster_label": 9,
+        "colour": "blue"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.782407,
+          50.223111
+        ]
+      },
+      "properties": {
+        "name": "2023-07-06 @ 18-34-37",
+        "date": "2023-07-06T18:34:37",
+        "distance_km": 6.99,
+        "distance_mi": 4.34,
+        "duration": "2:28:59",
+        "ascent": 362,
+        "descent": -280,
+        "center_lat": 50.21924664292558,
+        "center_lon": -3.807614615069607,
+        "place_name": "Ringrone, Cliff Road, Salcombe",
+        "gridref": "SX 72948 37421",
+        "googleMapsLink": "https://www.google.com/maps?q=50.223111,-3.782407",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2023-07-06_18-34-37.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2023-07-06_18-34-37.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2023-07-06_18-34-37_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2023-07-06_18-34-37.png",
+        "cluster_label": 13,
+        "colour": "darkred"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.075323,
+          50.557606
+        ]
+      },
+      "properties": {
+        "name": "2023-06-29 @ 18-16-31",
+        "date": "2023-06-29T18:16:31",
+        "distance_km": 5.21,
+        "distance_mi": 3.24,
+        "duration": "1:45:42",
+        "ascent": 236,
+        "descent": -232,
+        "center_lat": 50.564577539466974,
+        "center_lon": -4.067222923491545,
+        "place_name": "Pork Hill Car Park, B3357, Whitchurch",
+        "gridref": "SX 53093 75151",
+        "googleMapsLink": "https://www.google.com/maps?q=50.557606,-4.075323",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2023-06-29_18-16-31.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2023-06-29_18-16-31.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2023-06-29_18-16-31_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2023-06-29_18-16-31.png",
+        "cluster_label": 12,
+        "colour": "darkgreen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.856151,
+          50.526198
+        ]
+      },
+      "properties": {
+        "name": "2023-06-22 @ 18-22-46",
+        "date": "2023-06-22T18:22:46",
+        "distance_km": 5.7,
+        "distance_mi": 3.54,
+        "duration": "1:44:19",
+        "ascent": 200,
+        "descent": -203,
+        "center_lat": 50.52051421858333,
+        "center_lon": -3.8681507675440416,
+        "place_name": "Sandy Way, Holne",
+        "gridref": "SX 68529 71248",
+        "googleMapsLink": "https://www.google.com/maps?q=50.526198,-3.856151",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2023-06-22_18-22-46.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2023-06-22_18-22-46.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2023-06-22_18-22-46_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2023-06-22_18-22-46.png",
+        "cluster_label": 5,
+        "colour": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.886913,
+          50.54441
+        ]
+      },
+      "properties": {
+        "name": "2023-06-15 @ 18-06-54",
+        "date": "2023-06-15T18:06:54",
+        "distance_km": 8.25,
+        "distance_mi": 5.13,
+        "duration": "2:41:46",
+        "ascent": 295,
+        "descent": -303,
+        "center_lat": 50.54947902182911,
+        "center_lon": -3.8735106740576826,
+        "place_name": "Pixieland, Dartmoor Forest, Dartmeet",
+        "gridref": "SX 66400 73327",
+        "googleMapsLink": "https://www.google.com/maps?q=50.54441001266241,-3.8869134709239006",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2023-06-15_18-06-54.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2023-06-15_18-06-54.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2023-06-15_18-06-54_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2023-06-15_18-06-54.png",
+        "cluster_label": 5,
+        "colour": "blue"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.900455,
+          50.538271
+        ]
+      },
+      "properties": {
+        "name": "2023-05-25 @ 18-06-44",
+        "date": "2023-05-25T18:06:44",
+        "distance_km": 9.73,
+        "distance_mi": 6.05,
+        "duration": "2:46:43",
+        "ascent": 385,
+        "descent": -366,
+        "center_lat": 50.549804061841,
+        "center_lon": -3.900301649951317,
+        "place_name": "Hexworthy, Dartmoor Forest",
+        "gridref": "SX 65423 72669",
+        "googleMapsLink": "https://www.google.com/maps?q=50.538271,-3.900455",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2023-05-25_18-06-44.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2023-05-25_18-06-44.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2023-05-25_18-06-44_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2023-05-25_18-06-44.png",
+        "cluster_label": 5,
+        "colour": "gray"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.917294,
+          50.314542
+        ]
+      },
+      "properties": {
+        "name": "2023-05-18 @ 18-14-19",
+        "date": "2023-05-18T18:14:19",
+        "distance_km": 9.58,
+        "distance_mi": 5.95,
+        "duration": "2:49:44",
+        "ascent": 444,
+        "descent": -448,
+        "center_lat": 50.30577829166787,
+        "center_lon": -3.927105459742925,
+        "place_name": "Dolphin Inn Car Park, Yellands Park, Great Torr, Kingston",
+        "gridref": "SX 63588 47825",
+        "googleMapsLink": "https://www.google.com/maps?q=50.314542,-3.917294",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2023-05-18_18-14-19.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2023-05-18_18-14-19.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2023-05-18_18-14-19_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2023-05-18_18-14-19.png",
+        "cluster_label": 9,
+        "colour": "gray"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.051138,
+          50.484248
+        ]
+      },
+      "properties": {
+        "name": "2023-05-11 @ 18-10-09",
+        "date": "2023-05-11T18:10:09",
+        "distance_km": 5.57,
+        "distance_mi": 3.46,
+        "duration": "2:16:43",
+        "ascent": 262,
+        "descent": -277,
+        "center_lat": 50.4891071795295,
+        "center_lon": -4.042287922246264,
+        "place_name": "Lovaton, Meavy",
+        "gridref": "SX 54580 66947",
+        "googleMapsLink": "https://www.google.com/maps?q=50.484248,-4.051138",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2023-05-11_18-10-09.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2023-05-11_18-10-09.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2023-05-11_18-10-09_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2023-05-11_18-10-09.png",
+        "cluster_label": 1,
+        "colour": "cadetblue"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.827372,
+          50.46139
+        ]
+      },
+      "properties": {
+        "name": "2023-04-20 @ 18-13-17",
+        "date": "2023-04-20T18:13:17",
+        "distance_km": 8.03,
+        "distance_mi": 4.99,
+        "duration": "2:22:19",
+        "ascent": 155,
+        "descent": -164,
+        "center_lat": 50.46810890218916,
+        "center_lon": -3.842963964126138,
+        "place_name": "Deancombe, Dean Prior",
+        "gridref": "SX 70391 63991",
+        "googleMapsLink": "https://www.google.com/maps?q=50.46139,-3.827372",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2023-04-20_18-13-17.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2023-04-20_18-13-17.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2023-04-20_18-13-17_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2023-04-20_18-13-17.png",
+        "cluster_label": 14,
+        "colour": "cadetblue"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.917947,
+          50.418524
+        ]
+      },
+      "properties": {
+        "name": "2023-04-13 @ 18-06-46",
+        "date": "2023-04-13T18:06:46",
+        "distance_km": 9.32,
+        "distance_mi": 5.79,
+        "duration": "2:37:28",
+        "ascent": 347,
+        "descent": -331,
+        "center_lat": 50.42948682861136,
+        "center_lon": -3.902480616040625,
+        "place_name": "Harford",
+        "gridref": "SX 63840 59387",
+        "googleMapsLink": "https://www.google.com/maps?q=50.418524,-3.917947",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2023-04-13_18-06-46.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2023-04-13_18-06-46.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2023-04-13_18-06-46_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2023-04-13_18-06-46.png",
+        "cluster_label": 0,
+        "colour": "purple"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.833455,
+          50.48508
+        ]
+      },
+      "properties": {
+        "name": "2023-04-06 @ 18-02-36",
+        "date": "2023-04-06T18:02:36",
+        "distance_km": 8.61,
+        "distance_mi": 5.35,
+        "duration": "2:32:58",
+        "ascent": 256,
+        "descent": -278,
+        "center_lat": 50.483435150240126,
+        "center_lon": -3.857614749422208,
+        "place_name": "Oaklands Road, Parklands Farm, West Buckfastleigh, Combe",
+        "gridref": "SX 70025 66636",
+        "googleMapsLink": "https://www.google.com/maps?q=50.48507971689105,-3.83345453068614",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2023-04-06_18-02-36.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2023-04-06_18-02-36.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2023-04-06_18-02-36_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2023-04-06_18-02-36.png",
+        "cluster_label": 14,
+        "colour": "darkgreen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.833359,
+          50.484977
+        ]
+      },
+      "properties": {
+        "name": "2023-03-30 @ 18-19-51",
+        "date": "2023-03-30T18:19:51",
+        "distance_km": 4.49,
+        "distance_mi": 2.79,
+        "duration": "1:17:06",
+        "ascent": 208,
+        "descent": -204,
+        "center_lat": 50.479697269666495,
+        "center_lon": -3.8425822673316437,
+        "place_name": "Oaklands Road, Parklands Farm, West Buckfastleigh, Combe",
+        "gridref": "SX 70031 66624",
+        "googleMapsLink": "https://www.google.com/maps?q=50.484977,-3.833359",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2023-03-30_18-19-51.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2023-03-30_18-19-51.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2023-03-30_18-19-51_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2023-03-30_18-19-51.png",
+        "cluster_label": 14,
+        "colour": "orange"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.862414,
+          50.544268
+        ]
+      },
+      "properties": {
+        "name": "2023-03-23 @ 18-09-03",
+        "date": "2023-03-23T18:09:03",
+        "distance_km": 4.29,
+        "distance_mi": 2.66,
+        "duration": "1:49:38",
+        "ascent": 219,
+        "descent": -218,
+        "center_lat": 50.54697102932424,
+        "center_lon": -3.8574346893660385,
+        "place_name": "B3357, Peter's Cottage, Widecombe in the Moor",
+        "gridref": "SX 68135 73268",
+        "googleMapsLink": "https://www.google.com/maps?q=50.544268,-3.862414",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2023-03-23_18-09-03.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2023-03-23_18-09-03.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2023-03-23_18-09-03_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2023-03-23_18-09-03.png",
+        "cluster_label": 5,
+        "colour": "purple"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.843661,
+          50.542032
+        ]
+      },
+      "properties": {
+        "name": "2023-03-16 @ 18-10-53",
+        "date": "2023-03-16T18:10:53",
+        "distance_km": 8.94,
+        "distance_mi": 5.56,
+        "duration": "2:35:57",
+        "ascent": 449,
+        "descent": -444,
+        "center_lat": 50.53698032504251,
+        "center_lon": -3.8278752787247816,
+        "place_name": "Dr Blackall's Drive, Widecombe in the Moor, Poundsgate",
+        "gridref": "SX 69458 72986",
+        "googleMapsLink": "https://www.google.com/maps?q=50.542032,-3.843661",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2023-03-16_18-10-53.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2023-03-16_18-10-53.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2023-03-16_18-10-53_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2023-03-16_18-10-53.png",
+        "cluster_label": 5,
+        "colour": "black"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.037914,
+          50.473747
+        ]
+      },
+      "properties": {
+        "name": "2023-03-09 @ 18-21-21",
+        "date": "2023-03-09T18:21:21",
+        "distance_km": 6.27,
+        "distance_mi": 3.9,
+        "duration": "1:47:21",
+        "ascent": 198,
+        "descent": -200,
+        "center_lat": 50.47690621413147,
+        "center_lon": -4.0233626994974845,
+        "place_name": "Portland Lane, Sheepstor",
+        "gridref": "SX 55486 65754",
+        "googleMapsLink": "https://www.google.com/maps?q=50.473747,-4.037914",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2023-03-09_18-21-21.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2023-03-09_18-21-21.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2023-03-09_18-21-21_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2023-03-09_18-21-21.png",
+        "cluster_label": 1,
+        "colour": "darkgreen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.083746,
+          50.471401
+        ]
+      },
+      "properties": {
+        "name": "2023-02-23 @ 18-11-20",
+        "date": "2023-02-23T18:11:20",
+        "distance_km": 6.55,
+        "distance_mi": 4.07,
+        "duration": "1:59:21",
+        "ascent": 275,
+        "descent": -278,
+        "center_lat": 50.462566914231175,
+        "center_lon": -4.07403660165963,
+        "place_name": "Plym Valley Trail, Buckland Monachorum",
+        "gridref": "SX 52227 65583",
+        "googleMapsLink": "https://www.google.com/maps?q=50.471401,-4.083746",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2023-02-23_18-11-20.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2023-02-23_18-11-20.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2023-02-23_18-11-20_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2023-02-23_18-11-20.png",
+        "cluster_label": 1,
+        "colour": "orange"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.949699,
+          50.406443
+        ]
+      },
+      "properties": {
+        "name": "2023-02-09 @ 18-02-46",
+        "date": "2023-02-09T18:02:46",
+        "distance_km": 7.79,
+        "distance_mi": 4.84,
+        "duration": "2:46:26",
+        "ascent": 119,
+        "descent": -108,
+        "center_lat": 50.411773000517194,
+        "center_lon": -3.9450464735225745,
+        "place_name": "Uppaton Lane, Cornwood",
+        "gridref": "SX 61549 58103",
+        "googleMapsLink": "https://www.google.com/maps?q=50.406443,-3.949699",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2023-02-09_18-02-46.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2023-02-09_18-02-46.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2023-02-09_18-02-46_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2023-02-09_18-02-46.png",
+        "cluster_label": 0,
+        "colour": "black"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.969755,
+          50.424712
+        ]
+      },
+      "properties": {
+        "name": "2023-02-02 @ 18-15-32",
+        "date": "2023-02-02T18:15:32",
+        "distance_km": 8.06,
+        "distance_mi": 5.01,
+        "duration": "2:47:03",
+        "ascent": 357,
+        "descent": -365,
+        "center_lat": 50.43779194557019,
+        "center_lon": -3.977108215000413,
+        "place_name": "Cornwood",
+        "gridref": "SX 60178 60171",
+        "googleMapsLink": "https://www.google.com/maps?q=50.424712,-3.969755",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2023-02-02_18-15-32.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2023-02-02_18-15-32.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2023-02-02_18-15-32_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2023-02-02_18-15-32.png",
+        "cluster_label": 0,
+        "colour": "cadetblue"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.10098,
+          50.580754
+        ]
+      },
+      "properties": {
+        "name": "2023-01-19 @ 18-15-19",
+        "date": "2023-01-19T18:15:19",
+        "distance_km": 8.27,
+        "distance_mi": 5.14,
+        "duration": "2:28:35",
+        "ascent": 383,
+        "descent": -384,
+        "center_lat": 50.586339559346676,
+        "center_lon": -4.083974606040131,
+        "place_name": "Langsford Road, Peter Tavy",
+        "gridref": "SX 51348 77776",
+        "googleMapsLink": "https://www.google.com/maps?q=50.580754,-4.10098",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2023-01-19_18-15-19.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2023-01-19_18-15-19.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2023-01-19_18-15-19_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2023-01-19_18-15-19.png",
+        "cluster_label": 12,
+        "colour": "orange"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.049592,
+          50.504737
+        ]
+      },
+      "properties": {
+        "name": "2023-01-12 @ 18-11-06",
+        "date": "2023-01-12T18:11:06",
+        "distance_km": 6.01,
+        "distance_mi": 3.73,
+        "duration": "1:53:26",
+        "ascent": 266,
+        "descent": -264,
+        "center_lat": 50.5073275774647,
+        "center_lon": -4.038091644165258,
+        "place_name": "B3212, Walkhampton, Dousland",
+        "gridref": "SX 54753 69222",
+        "googleMapsLink": "https://www.google.com/maps?q=50.504737,-4.049592",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2023-01-12_18-11-06.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2023-01-12_18-11-06.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2023-01-12_18-11-06_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2023-01-12_18-11-06.png",
+        "cluster_label": 1,
+        "colour": "darkblue"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.867731,
+          50.61906
+        ]
+      },
+      "properties": {
+        "name": "2022-12-08 @ 18-14-08",
+        "date": "2022-12-08T18:14:08",
+        "distance_km": 6.3,
+        "distance_mi": 3.91,
+        "duration": "2:09:34",
+        "ascent": 269,
+        "descent": -265,
+        "center_lat": 50.61655506642297,
+        "center_lon": -3.852258492790634,
+        "place_name": "B3212, Chagford",
+        "gridref": "SX 67968 81593",
+        "googleMapsLink": "https://www.google.com/maps?q=50.61906,-3.867731",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2022-12-08_18-14-08.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2022-12-08_18-14-08.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2022-12-08_18-14-08_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2022-12-08_18-14-08.png",
+        "cluster_label": 11,
+        "colour": "darkgreen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.917851,
+          50.418475
+        ]
+      },
+      "properties": {
+        "name": "2022-12-01 @ 18-06-39",
+        "date": "2022-12-01T18:06:39",
+        "distance_km": 7.6,
+        "distance_mi": 4.72,
+        "duration": "3:00:24",
+        "ascent": 336,
+        "descent": -330,
+        "center_lat": 50.42986475370398,
+        "center_lon": -3.909237069678706,
+        "place_name": "Harford",
+        "gridref": "SX 63846 59382",
+        "googleMapsLink": "https://www.google.com/maps?q=50.418475,-3.917851",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2022-12-01_18-06-39.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2022-12-01_18-06-39.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2022-12-01_18-06-39_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2022-12-01_18-06-39.png",
+        "cluster_label": 0,
+        "colour": "darkgreen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.11232,
+          50.512926
+        ]
+      },
+      "properties": {
+        "name": "2022-11-24 @ 18-10-42",
+        "date": "2022-11-24T18:10:42",
+        "distance_km": 8.09,
+        "distance_mi": 5.02,
+        "duration": "2:32:07",
+        "ascent": 420,
+        "descent": -428,
+        "center_lat": 50.51230126188355,
+        "center_lon": -4.131778622411297,
+        "place_name": "A386, Horrabridge",
+        "gridref": "SX 50331 70258",
+        "googleMapsLink": "https://www.google.com/maps?q=50.512926,-4.11232",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2022-11-24_18-10-42.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2022-11-24_18-10-42.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2022-11-24_18-10-42_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2022-11-24_18-10-42.png",
+        "cluster_label": 12,
+        "colour": "darkblue"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.965012,
+          50.558586
+        ]
+      },
+      "properties": {
+        "name": "2022-11-17 @ 18-14-24",
+        "date": "2022-11-17T18:14:24",
+        "distance_km": 7.55,
+        "distance_mi": 4.69,
+        "duration": "2:51:11",
+        "ascent": 294,
+        "descent": -313,
+        "center_lat": 50.56617291431732,
+        "center_lon": -3.9698976677240467,
+        "place_name": "Trout Cottage, Two Bridges, Dartmoor Forest",
+        "gridref": "SX 60909 75047",
+        "googleMapsLink": "https://www.google.com/maps?q=50.558586,-3.965012",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2022-11-17_18-14-24.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2022-11-17_18-14-24.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2022-11-17_18-14-24_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2022-11-17_18-14-24.png",
+        "cluster_label": 10,
+        "colour": "purple"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.033486,
+          50.555976
+        ]
+      },
+      "properties": {
+        "name": "2022-11-10 @ 18-15-50",
+        "date": "2022-11-10T18:15:50",
+        "distance_km": 6.22,
+        "distance_mi": 3.86,
+        "duration": "1:55:25",
+        "ascent": 200,
+        "descent": -192,
+        "center_lat": 50.55395178297392,
+        "center_lon": -4.031202416484516,
+        "place_name": "Foggintor School Ruin / Four Winds, B3357, Dartmoor Forest",
+        "gridref": "SX 56051 74888",
+        "googleMapsLink": "https://www.google.com/maps?q=50.555976,-4.033486",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2022-11-10_18-15-50.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2022-11-10_18-15-50.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2022-11-10_18-15-50_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2022-11-10_18-15-50.png",
+        "cluster_label": 10,
+        "colour": "black"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.037709,
+          50.462986
+        ]
+      },
+      "properties": {
+        "name": "2022-10-13 @ 18-06-44",
+        "date": "2022-10-13T18:06:44",
+        "distance_km": 6.63,
+        "distance_mi": 4.12,
+        "duration": "2:34:07",
+        "ascent": 323,
+        "descent": -319,
+        "center_lat": 50.45840640553792,
+        "center_lon": -4.053420047749085,
+        "place_name": "Cadover Bridge Car Park, Cadover Bridge, Shaugh Prior",
+        "gridref": "SX 55468 64557",
+        "googleMapsLink": "https://www.google.com/maps?q=50.462986,-4.037709",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2022-10-13_18-06-44.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2022-10-13_18-06-44.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2022-10-13_18-06-44_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2022-10-13_18-06-44.png",
+        "cluster_label": 1,
+        "colour": "darkred"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.917411,
+          50.314587
+        ]
+      },
+      "properties": {
+        "name": "2022-09-01 @ 18-04-50",
+        "date": "2022-09-01T18:04:50",
+        "distance_km": 9.69,
+        "distance_mi": 6.02,
+        "duration": "3:01:26",
+        "ascent": 459,
+        "descent": -459,
+        "center_lat": 50.305840927241974,
+        "center_lon": -3.9280413524231235,
+        "place_name": "Dolphin Inn Car Park, Yellands Park, Great Torr, Kingston",
+        "gridref": "SX 63580 47830",
+        "googleMapsLink": "https://www.google.com/maps?q=50.314587,-3.917411",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2022-09-01_18-04-50.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2022-09-01_18-04-50.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2022-09-01_18-04-50_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2022-09-01_18-04-50.png",
+        "cluster_label": 9,
+        "colour": "purple"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.853151,
+          50.527035
+        ]
+      },
+      "properties": {
+        "name": "2022-08-25 @ 18-06-41",
+        "date": "2022-08-25T18:06:41",
+        "distance_km": 7.76,
+        "distance_mi": 4.82,
+        "duration": "2:40:05",
+        "ascent": 327,
+        "descent": -295,
+        "center_lat": 50.522543094110894,
+        "center_lon": -3.8534924539254325,
+        "place_name": "Holne",
+        "gridref": "SX 68744 71335",
+        "googleMapsLink": "https://www.google.com/maps?q=50.527035,-3.853151",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2022-08-25_18-06-41.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2022-08-25_18-06-41.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2022-08-25_18-06-41_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2022-08-25_18-06-41.png",
+        "cluster_label": 5,
+        "colour": "cadetblue"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.813486,
+          50.577665
+        ]
+      },
+      "properties": {
+        "name": "2022-08-18 @ 18-18-06",
+        "date": "2022-08-18T18:18:06",
+        "distance_km": 6.45,
+        "distance_mi": 4.01,
+        "duration": "1:58:07",
+        "ascent": 361,
+        "descent": -224,
+        "center_lat": 50.596315624294604,
+        "center_lon": -3.8233427647598552,
+        "place_name": "B3387, Bonehill, Widecombe in the Moor",
+        "gridref": "SX 71693 76895",
+        "googleMapsLink": "https://www.google.com/maps?q=50.577665,-3.813486",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2022-08-18_18-18-06.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2022-08-18_18-18-06.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2022-08-18_18-18-06_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2022-08-18_18-18-06.png",
+        "cluster_label": 2,
+        "colour": "orange"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.969899,
+          50.519571
+        ]
+      },
+      "properties": {
+        "name": "2022-08-09 @ 11-30-00",
+        "date": "2022-08-09T11:30:00",
+        "distance_km": 15.06,
+        "distance_mi": 9.36,
+        "duration": "5:59:24",
+        "ascent": 308,
+        "descent": -423,
+        "center_lat": 50.48690889821718,
+        "center_lon": -3.909662397391489,
+        "place_name": "Tor Royal Lane, Peat Cot, Dartmoor Forest",
+        "gridref": "SX 60447 70719",
+        "googleMapsLink": "https://www.google.com/maps?q=50.519571,-3.969899",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2022-08-09_11-30-00.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2022-08-09_11-30-00.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2022-08-09_11-30-00_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2022-08-09_11-30-00.png",
+        "cluster_label": 10,
+        "colour": "cadetblue"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.887,
+          50.544575
+        ]
+      },
+      "properties": {
+        "name": "2022-08-04 @ 18-02-15",
+        "date": "2022-08-04T18:02:15",
+        "distance_km": 7.57,
+        "distance_mi": 4.7,
+        "duration": "2:42:33",
+        "ascent": 382,
+        "descent": -397,
+        "center_lat": 50.5500001799039,
+        "center_lon": -3.874339751665503,
+        "place_name": "Pixieland, Dartmoor Forest, Dartmeet",
+        "gridref": "SX 66394 73346",
+        "googleMapsLink": "https://www.google.com/maps?q=50.544575,-3.887",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2022-08-04_18-02-15.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2022-08-04_18-02-15.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2022-08-04_18-02-15_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2022-08-04_18-02-15.png",
+        "cluster_label": 5,
+        "colour": "darkgreen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.992786,
+          50.544031
+        ]
+      },
+      "properties": {
+        "name": "2022-07-07 @ 18-03-50",
+        "date": "2022-07-07T18:03:50",
+        "distance_km": 7.23,
+        "distance_mi": 4.5,
+        "duration": "2:42:33",
+        "ascent": 228,
+        "descent": -228,
+        "center_lat": 50.53232679007418,
+        "center_lon": -3.9906406434030552,
+        "place_name": "Tavistock Road, Princetown, Dartmoor Forest",
+        "gridref": "SX 58898 73481",
+        "googleMapsLink": "https://www.google.com/maps?q=50.544031,-3.992786",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2022-07-07_18-03-50.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2022-07-07_18-03-50.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2022-07-07_18-03-50_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2022-07-07_18-03-50.png",
+        "cluster_label": 10,
+        "colour": "darkgreen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.833361,
+          50.485124
+        ]
+      },
+      "properties": {
+        "name": "2022-06-30 @ 18-03-02",
+        "date": "2022-06-30T18:03:02",
+        "distance_km": 7.04,
+        "distance_mi": 4.38,
+        "duration": "2:11:42",
+        "ascent": 293,
+        "descent": -297,
+        "center_lat": 50.48627928187886,
+        "center_lon": -3.8528694865020627,
+        "place_name": "Oaklands Road, Parklands Farm, West Buckfastleigh, Combe",
+        "gridref": "SX 70031 66640",
+        "googleMapsLink": "https://www.google.com/maps?q=50.485124,-3.833361",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2022-06-30_18-03-02.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2022-06-30_18-03-02.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2022-06-30_18-03-02_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2022-06-30_18-03-02.png",
+        "cluster_label": 14,
+        "colour": "darkblue"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.074685,
+          50.693937
+        ]
+      },
+      "properties": {
+        "name": "2022-06-23 @ 18-10-27",
+        "date": "2022-06-23T18:10:27",
+        "distance_km": 9.29,
+        "distance_mi": 5.77,
+        "duration": "3:32:58",
+        "ascent": 461,
+        "descent": -462,
+        "center_lat": 50.686811915530484,
+        "center_lon": -4.051245172581668,
+        "place_name": "Granite Way, Aliceford, Sourton",
+        "gridref": "SX 53562 90308",
+        "googleMapsLink": "https://www.google.com/maps?q=50.693937,-4.074685",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2022-06-23_18-10-27.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2022-06-23_18-10-27.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2022-06-23_18-10-27_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2022-06-23_18-10-27.png",
+        "cluster_label": 3,
+        "colour": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.881695,
+          50.680052
+        ]
+      },
+      "properties": {
+        "name": "2022-06-16 @ 18-10-59",
+        "date": "2022-06-16T18:10:59",
+        "distance_km": 7.97,
+        "distance_mi": 4.95,
+        "duration": "2:51:01",
+        "ascent": 339,
+        "descent": -341,
+        "center_lat": 50.67080127914458,
+        "center_lon": -3.8911956222588504,
+        "place_name": "Gidleigh",
+        "gridref": "SX 67153 88400",
+        "googleMapsLink": "https://www.google.com/maps?q=50.680052,-3.881695",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2022-06-16_18-10-59.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2022-06-16_18-10-59.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2022-06-16_18-10-59_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2022-06-16_18-10-59.png",
+        "cluster_label": 7,
+        "colour": "blue"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.087116,
+          50.660697
+        ]
+      },
+      "properties": {
+        "name": "2022-06-09 @ 18-08-15",
+        "date": "2022-06-09T18:08:15",
+        "distance_km": 8.79,
+        "distance_mi": 5.46,
+        "duration": "2:35:45",
+        "ascent": 321,
+        "descent": -330,
+        "center_lat": 50.65512027077353,
+        "center_lon": -4.098075288658327,
+        "place_name": "Fox and Hounds, A386, Bridestowe",
+        "gridref": "SX 52580 86637",
+        "googleMapsLink": "https://www.google.com/maps?q=50.660697,-4.087116",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2022-06-09_18-08-15.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2022-06-09_18-08-15.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2022-06-09_18-08-15_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2022-06-09_18-08-15.png",
+        "cluster_label": 3,
+        "colour": "blue"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.781924,
+          50.598752
+        ]
+      },
+      "properties": {
+        "name": "2022-05-19 @ 18-12-46",
+        "date": "2022-05-19T18:12:46",
+        "distance_km": 8.31,
+        "distance_mi": 5.16,
+        "duration": "3:02:08",
+        "ascent": 416,
+        "descent": -413,
+        "center_lat": 50.58972385560503,
+        "center_lon": -3.767790442605414,
+        "place_name": "Great Houndtor, Manaton, Water",
+        "gridref": "SX 73984 79186",
+        "googleMapsLink": "https://www.google.com/maps?q=50.598752,-3.781924",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2022-05-19_18-12-46.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2022-05-19_18-12-46.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2022-05-19_18-12-46_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2022-05-19_18-12-46.png",
+        "cluster_label": 2,
+        "colour": "darkblue"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.087525,
+          50.607127
+        ]
+      },
+      "properties": {
+        "name": "2022-05-12 @ 18-18-26",
+        "date": "2022-05-12T18:18:26",
+        "distance_km": 7.14,
+        "distance_mi": 4.44,
+        "duration": "2:14:17",
+        "ascent": 267,
+        "descent": -265,
+        "center_lat": 50.6068989053801,
+        "center_lon": -4.088840849310712,
+        "place_name": "Horndon, Mary Tavy, Cudliptown",
+        "gridref": "SX 52383 80681",
+        "googleMapsLink": "https://www.google.com/maps?q=50.607127,-4.087525",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2022-05-12_18-18-26.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2022-05-12_18-18-26.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2022-05-12_18-18-26_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2022-05-12_18-18-26.png",
+        "cluster_label": 3,
+        "colour": "gray"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.051313,
+          50.484231
+        ]
+      },
+      "properties": {
+        "name": "2022-05-05 @ 18-07-37",
+        "date": "2022-05-05T18:07:37",
+        "distance_km": 6.28,
+        "distance_mi": 3.9,
+        "duration": "2:21:54",
+        "ascent": 309,
+        "descent": -306,
+        "center_lat": 50.4894516118889,
+        "center_lon": -4.042013310174587,
+        "place_name": "Lovaton, Meavy",
+        "gridref": "SX 54568 66946",
+        "googleMapsLink": "https://www.google.com/maps?q=50.484231,-4.051313",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2022-05-05_18-07-37.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2022-05-05_18-07-37.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2022-05-05_18-07-37_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2022-05-05_18-07-37.png",
+        "cluster_label": 1,
+        "colour": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.049501,
+          50.504866
+        ]
+      },
+      "properties": {
+        "name": "2022-04-21 @ 18-06-04",
+        "date": "2022-04-21T18:06:04",
+        "distance_km": 9.66,
+        "distance_mi": 6.0,
+        "duration": "2:49:56",
+        "ascent": 338,
+        "descent": -348,
+        "center_lat": 50.5173672856609,
+        "center_lon": -4.037802063367099,
+        "place_name": "B3212, Walkhampton, Dousland",
+        "gridref": "SX 54760 69236",
+        "googleMapsLink": "https://www.google.com/maps?q=50.504866,-4.049501",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2022-04-21_18-06-04.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2022-04-21_18-06-04.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2022-04-21_18-06-04_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2022-04-21_18-06-04.png",
+        "cluster_label": 1,
+        "colour": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.86286,
+          50.544407
+        ]
+      },
+      "properties": {
+        "name": "2022-04-14 @ 18-04-47",
+        "date": "2022-04-14T18:04:47",
+        "distance_km": 5.36,
+        "distance_mi": 3.33,
+        "duration": "2:01:55",
+        "ascent": 260,
+        "descent": -258,
+        "center_lat": 50.54577738659285,
+        "center_lon": -3.858302455178043,
+        "place_name": "B3357, Peter's Cottage, Widecombe in the Moor",
+        "gridref": "SX 68104 73284",
+        "googleMapsLink": "https://www.google.com/maps?q=50.544407,-3.86286",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2022-04-14_18-04-47.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2022-04-14_18-04-47.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2022-04-14_18-04-47_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2022-04-14_18-04-47.png",
+        "cluster_label": 5,
+        "colour": "orange"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.82763,
+          50.461466
+        ]
+      },
+      "properties": {
+        "name": "2022-04-07 @ 18-06-58",
+        "date": "2022-04-07T18:06:58",
+        "distance_km": 8.63,
+        "distance_mi": 5.37,
+        "duration": "2:18:31",
+        "ascent": 283,
+        "descent": -311,
+        "center_lat": 50.46872690541731,
+        "center_lon": -3.843970042857818,
+        "place_name": "Deancombe, Dean Prior",
+        "gridref": "SX 70373 64000",
+        "googleMapsLink": "https://www.google.com/maps?q=50.461466,-3.82763",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2022-04-07_18-06-58.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2022-04-07_18-06-58.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2022-04-07_18-06-58_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2022-04-07_18-06-58.png",
+        "cluster_label": 14,
+        "colour": "darkred"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.080745,
+          50.539783
+        ]
+      },
+      "properties": {
+        "name": "2022-03-31 @ 18-18-23",
+        "date": "2022-03-31T18:18:23",
+        "distance_km": 7.35,
+        "distance_mi": 4.57,
+        "duration": "2:19:47",
+        "ascent": 314,
+        "descent": -315,
+        "center_lat": 50.549462306951376,
+        "center_lon": -4.068702822189684,
+        "place_name": "Moortown, Whitchurch",
+        "gridref": "SX 52653 73180",
+        "googleMapsLink": "https://www.google.com/maps?q=50.539783,-4.080745",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2022-03-31_18-18-23.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2022-03-31_18-18-23.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2022-03-31_18-18-23_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2022-03-31_18-18-23.png",
+        "cluster_label": 12,
+        "colour": "darkred"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.004712,
+          50.488333
+        ]
+      },
+      "properties": {
+        "name": "2022-03-24 @ 18-09-28",
+        "date": "2022-03-24T18:09:28",
+        "distance_km": 6.97,
+        "distance_mi": 4.33,
+        "duration": "2:33:26",
+        "ascent": 209,
+        "descent": -211,
+        "center_lat": 50.481857262820974,
+        "center_lon": -4.0021628545008285,
+        "place_name": "Gutter Tor Car Park, Edward's Path, Sheepstor",
+        "gridref": "SX 57886 67311",
+        "googleMapsLink": "https://www.google.com/maps?q=50.488333,-4.004712",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2022-03-24_18-09-28.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2022-03-24_18-09-28.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2022-03-24_18-09-28_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2022-03-24_18-09-28.png",
+        "cluster_label": 1,
+        "colour": "blue"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.841394,
+          50.550581
+        ]
+      },
+      "properties": {
+        "name": "2022-03-17 @ 18-08-22",
+        "date": "2022-03-17T18:08:22",
+        "distance_km": 6.58,
+        "distance_mi": 4.09,
+        "duration": "2:22:52",
+        "ascent": 344,
+        "descent": -347,
+        "center_lat": 50.55598738912982,
+        "center_lon": -3.845948635389701,
+        "place_name": "Cubworthy, Widecombe in the Moor, Poundsgate",
+        "gridref": "SX 69642 73933",
+        "googleMapsLink": "https://www.google.com/maps?q=50.550581,-3.841394",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2022-03-17_18-08-22.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2022-03-17_18-08-22.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2022-03-17_18-08-22_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2022-03-17_18-08-22.png",
+        "cluster_label": 5,
+        "colour": "darkblue"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.100941,
+          50.580632
+        ]
+      },
+      "properties": {
+        "name": "2022-03-10 @ 18-10-24",
+        "date": "2022-03-10T18:10:24",
+        "distance_km": 7.04,
+        "distance_mi": 4.37,
+        "duration": "1:54:59",
+        "ascent": 279,
+        "descent": -273,
+        "center_lat": 50.579345479847895,
+        "center_lon": -4.081989561930856,
+        "place_name": "Harragrove, Peter Tavy, Cudliptown",
+        "gridref": "SX 51351 77762",
+        "googleMapsLink": "https://www.google.com/maps?q=50.580632,-4.100941",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2022-03-10_18-10-24.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2022-03-10_18-10-24.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2022-03-10_18-10-24_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2022-03-10_18-10-24.png",
+        "cluster_label": 12,
+        "colour": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.075086,
+          50.557434
+        ]
+      },
+      "properties": {
+        "name": "2022-02-10 @ 18-18-16",
+        "date": "2022-02-10T18:18:16",
+        "distance_km": 5.16,
+        "distance_mi": 3.2,
+        "duration": "1:55:58",
+        "ascent": 227,
+        "descent": -223,
+        "center_lat": 50.56441643851107,
+        "center_lon": -4.067827444707538,
+        "place_name": "Pork Hill Car Park, B3357, Whitchurch",
+        "gridref": "SX 53109 75132",
+        "googleMapsLink": "https://www.google.com/maps?q=50.557434,-4.075086",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2022-02-10_18-18-16.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2022-02-10_18-18-16.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2022-02-10_18-18-16_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2022-02-10_18-18-16.png",
+        "cluster_label": 12,
+        "colour": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.867745,
+          50.619053
+        ]
+      },
+      "properties": {
+        "name": "2022-02-03 @ 18-17-03",
+        "date": "2022-02-03T18:17:03",
+        "distance_km": 7.02,
+        "distance_mi": 4.36,
+        "duration": "2:08:28",
+        "ascent": 218,
+        "descent": -217,
+        "center_lat": 50.60981755829486,
+        "center_lon": -3.8566089774339614,
+        "place_name": "B3212, Chagford",
+        "gridref": "SX 67967 81592",
+        "googleMapsLink": "https://www.google.com/maps?q=50.619053,-3.867745",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2022-02-03_18-17-03.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2022-02-03_18-17-03.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2022-02-03_18-17-03_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2022-02-03_18-17-03.png",
+        "cluster_label": 11,
+        "colour": "orange"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.038054,
+          50.46248
+        ]
+      },
+      "properties": {
+        "name": "2022-01-27 @ 18-10-31",
+        "date": "2022-01-27T18:10:31",
+        "distance_km": 7.48,
+        "distance_mi": 4.65,
+        "duration": "2:34:42",
+        "ascent": 325,
+        "descent": -323,
+        "center_lat": 50.45872266805502,
+        "center_lon": -4.054359628550005,
+        "place_name": "Cadover Bridge Car Park, Cadover Bridge, Shaugh Prior",
+        "gridref": "SX 55442 64501",
+        "googleMapsLink": "https://www.google.com/maps?q=50.46248,-4.038054",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2022-01-27_18-10-31.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2022-01-27_18-10-31.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2022-01-27_18-10-31_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2022-01-27_18-10-31.png",
+        "cluster_label": 1,
+        "colour": "gray"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.779367,
+          50.55429
+        ]
+      },
+      "properties": {
+        "name": "2022-01-20 @ 18-07-47",
+        "date": "2022-01-20T18:07:47",
+        "distance_km": 9.01,
+        "distance_mi": 5.6,
+        "duration": "2:30:02",
+        "ascent": 284,
+        "descent": -286,
+        "center_lat": 50.557873137162346,
+        "center_lon": -3.7878941889305406,
+        "place_name": "B3387, Smallacombe, Ilsington, Haytor Vale",
+        "gridref": "SX 74046 74238",
+        "googleMapsLink": "https://www.google.com/maps?q=50.55429,-3.779367",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2022-01-20_18-07-47.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2022-01-20_18-07-47.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2022-01-20_18-07-47_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2022-01-20_18-07-47.png",
+        "cluster_label": 2,
+        "colour": "darkred"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.917946,
+          50.418568
+        ]
+      },
+      "properties": {
+        "name": "2022-01-13 @ 18-11-14",
+        "date": "2022-01-13T18:11:14",
+        "distance_km": 10.04,
+        "distance_mi": 6.24,
+        "duration": "3:05:49",
+        "ascent": 312,
+        "descent": -311,
+        "center_lat": 50.41971130324968,
+        "center_lon": -3.896100775799632,
+        "place_name": "Harford",
+        "gridref": "SX 63840 59392",
+        "googleMapsLink": "https://www.google.com/maps?q=50.418568,-3.917946",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2022-01-13_18-11-14.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2022-01-13_18-11-14.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2022-01-13_18-11-14_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2022-01-13_18-11-14.png",
+        "cluster_label": 0,
+        "colour": "orange"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.048963,
+          50.558032
+        ]
+      },
+      "properties": {
+        "name": "2021-12-30 @ 15-15-52",
+        "date": "2021-12-30T15:15:52",
+        "distance_km": 9.43,
+        "distance_mi": 5.86,
+        "duration": "2:29:55",
+        "ascent": 431,
+        "descent": -434,
+        "center_lat": 50.54264422401855,
+        "center_lon": -4.057550456325403,
+        "place_name": "B3357, Merrivale, Whitchurch",
+        "gridref": "SX 54961 75147",
+        "googleMapsLink": "https://www.google.com/maps?q=50.558032,-4.048963",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2021-12-30_15-15-52.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2021-12-30_15-15-52.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2021-12-30_15-15-52_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2021-12-30_15-15-52.png",
+        "cluster_label": 10,
+        "colour": "orange"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.019719,
+          50.505956
+        ]
+      },
+      "properties": {
+        "name": "2021-12-16 @ 18-12-48",
+        "date": "2021-12-16T18:12:48",
+        "distance_km": 2.71,
+        "distance_mi": 1.68,
+        "duration": "2:37:24",
+        "ascent": 115,
+        "descent": -116,
+        "center_lat": 50.50379265132746,
+        "center_lon": -4.011936557046437,
+        "place_name": "Burrator - Norsworthy, Norsworthy Bridge to South Hessary Tor, Walkhampton",
+        "gridref": "SX 56875 69300",
+        "googleMapsLink": "https://www.google.com/maps?q=50.505956,-4.019719",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2021-12-16_18-12-48.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2021-12-16_18-12-48.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2021-12-16_18-12-48_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2021-12-16_18-12-48.png",
+        "cluster_label": 1,
+        "colour": "purple"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.829201,
+          50.50205
+        ]
+      },
+      "properties": {
+        "name": "2021-12-09 @ 18-13-23",
+        "date": "2021-12-09T18:13:23",
+        "distance_km": 6.09,
+        "distance_mi": 3.78,
+        "duration": "1:46:45",
+        "ascent": 324,
+        "descent": -326,
+        "center_lat": 50.497069447216276,
+        "center_lon": -3.8441562633060715,
+        "place_name": "Scorriton, West Buckfastleigh, Combe",
+        "gridref": "SX 70373 68515",
+        "googleMapsLink": "https://www.google.com/maps?q=50.50205,-3.829201",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2021-12-09_18-13-23.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2021-12-09_18-13-23.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2021-12-09_18-13-23_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2021-12-09_18-13-23.png",
+        "cluster_label": 5,
+        "colour": "darkred"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.049621,
+          50.504814
+        ]
+      },
+      "properties": {
+        "name": "2021-11-25 @ 18-16-10",
+        "date": "2021-11-25T18:16:10",
+        "distance_km": 9.04,
+        "distance_mi": 5.62,
+        "duration": "2:39:56",
+        "ascent": 269,
+        "descent": -269,
+        "center_lat": 50.516188193048464,
+        "center_lon": -4.035785818421151,
+        "place_name": "B3212, Walkhampton, Dousland",
+        "gridref": "SX 54751 69231",
+        "googleMapsLink": "https://www.google.com/maps?q=50.504814,-4.049621",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2021-11-25_18-16-10.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2021-11-25_18-16-10.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2021-11-25_18-16-10_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2021-11-25_18-16-10.png",
+        "cluster_label": 1,
+        "colour": "black"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.964847,
+          50.559533
+        ]
+      },
+      "properties": {
+        "name": "2021-11-18 @ 18-12-30",
+        "date": "2021-11-18T18:12:30",
+        "distance_km": 8.3,
+        "distance_mi": 5.16,
+        "duration": "2:46:27",
+        "ascent": 269,
+        "descent": -282,
+        "center_lat": 50.572137634616105,
+        "center_lon": -3.9643829898558653,
+        "place_name": "B3357, Two Bridges, Dartmoor Forest",
+        "gridref": "SX 60923 75152",
+        "googleMapsLink": "https://www.google.com/maps?q=50.559533,-3.964847",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2021-11-18_18-12-30.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2021-11-18_18-12-30.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2021-11-18_18-12-30_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2021-11-18_18-12-30.png",
+        "cluster_label": 10,
+        "colour": "darkblue"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.969876,
+          50.424715
+        ]
+      },
+      "properties": {
+        "name": "2021-10-21 @ 18-01-36",
+        "date": "2021-10-21T18:01:36",
+        "distance_km": 9.52,
+        "distance_mi": 5.91,
+        "duration": "3:01:24",
+        "ascent": 483,
+        "descent": -496,
+        "center_lat": 50.44081712548322,
+        "center_lon": -3.9770547488395627,
+        "place_name": "Cornwood",
+        "gridref": "SX 60169 60172",
+        "googleMapsLink": "https://www.google.com/maps?q=50.424715,-3.969876",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2021-10-21_18-01-36.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2021-10-21_18-01-36.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2021-10-21_18-01-36_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2021-10-21_18-01-36.png",
+        "cluster_label": 0,
+        "colour": "darkblue"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.004058,
+          50.488359
+        ]
+      },
+      "properties": {
+        "name": "2021-10-14 @ 18-11-18",
+        "date": "2021-10-14T18:11:18",
+        "distance_km": 7.39,
+        "distance_mi": 4.59,
+        "duration": "2:24:58",
+        "ascent": 257,
+        "descent": -259,
+        "center_lat": 50.49149840403489,
+        "center_lon": -3.9891168000667787,
+        "place_name": "Gutter Tor Car Park, Edward's Path, Sheepstor",
+        "gridref": "SX 57932 67313",
+        "googleMapsLink": "https://www.google.com/maps?q=50.488359,-4.004058",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2021-10-14_18-11-18.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2021-10-14_18-11-18.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2021-10-14_18-11-18_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2021-10-14_18-11-18.png",
+        "cluster_label": 1,
+        "colour": "cadetblue"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.899149,
+          50.538084
+        ]
+      },
+      "properties": {
+        "name": "2021-09-23 @ 18-04-14",
+        "date": "2021-09-23T18:04:14",
+        "distance_km": 8.8,
+        "distance_mi": 5.47,
+        "duration": "3:15:45",
+        "ascent": 343,
+        "descent": -357,
+        "center_lat": 50.53074298108492,
+        "center_lon": -3.9176988893103397,
+        "place_name": "Hexworthy, Dartmoor Forest",
+        "gridref": "SX 65515 72646",
+        "googleMapsLink": "https://www.google.com/maps?q=50.538084,-3.899149",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2021-09-23_18-04-14.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2021-09-23_18-04-14.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2021-09-23_18-04-14_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2021-09-23_18-04-14.png",
+        "cluster_label": 5,
+        "colour": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.100927,
+          50.580566
+        ]
+      },
+      "properties": {
+        "name": "2021-09-16 @ 17-59-25",
+        "date": "2021-09-16T17:59:25",
+        "distance_km": 10.17,
+        "distance_mi": 6.32,
+        "duration": "3:18:05",
+        "ascent": 398,
+        "descent": -393,
+        "center_lat": 50.580840415929465,
+        "center_lon": -4.074808855524983,
+        "place_name": "Harragrove, Peter Tavy, Cudliptown",
+        "gridref": "SX 51351 77755",
+        "googleMapsLink": "https://www.google.com/maps?q=50.580566,-4.100927",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2021-09-16_17-59-25.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2021-09-16_17-59-25.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2021-09-16_17-59-25_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2021-09-16_17-59-25.png",
+        "cluster_label": 12,
+        "colour": "blue"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.782416,
+          50.223461
+        ]
+      },
+      "properties": {
+        "name": "2021-08-12 @ 18-26-25",
+        "date": "2021-08-12T18:26:25",
+        "distance_km": 7.09,
+        "distance_mi": 4.4,
+        "duration": "2:16:35",
+        "ascent": 362,
+        "descent": -287,
+        "center_lat": 50.21910768677505,
+        "center_lon": -3.8077200252294534,
+        "place_name": "Ringrone, Cliff Road, Salcombe",
+        "gridref": "SX 72948 37460",
+        "googleMapsLink": "https://www.google.com/maps?q=50.223461,-3.782416",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2021-08-12_18-26-25.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2021-08-12_18-26-25.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2021-08-12_18-26-25_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2021-08-12_18-26-25.png",
+        "cluster_label": 13,
+        "colour": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.810129,
+          50.577591
+        ]
+      },
+      "properties": {
+        "name": "2021-08-05 @ 17-58-43",
+        "date": "2021-08-05T17:58:43",
+        "distance_km": 11.0,
+        "distance_mi": 6.83,
+        "duration": "2:35:18",
+        "ascent": 364,
+        "descent": -370,
+        "center_lat": 50.5939146838073,
+        "center_lon": -3.817302655931218,
+        "place_name": "B3387, Bonehill, Widecombe in the Moor",
+        "gridref": "SX 71930 76881",
+        "googleMapsLink": "https://www.google.com/maps?q=50.577591,-3.810129",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2021-08-05_17-58-43.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2021-08-05_17-58-43.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2021-08-05_17-58-43_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2021-08-05_17-58-43.png",
+        "cluster_label": 2,
+        "colour": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.038503,
+          50.707758
+        ]
+      },
+      "properties": {
+        "name": "2021-07-01 @ 18-07-11",
+        "date": "2021-07-01T18:07:11",
+        "distance_km": 9.23,
+        "distance_mi": 5.74,
+        "duration": "3:03:38",
+        "ascent": 449,
+        "descent": -443,
+        "center_lat": 50.695467744957625,
+        "center_lon": -4.026643994722911,
+        "place_name": "Granite Way, Meldon, Okehampton Hamlets",
+        "gridref": "SX 56160 91774",
+        "googleMapsLink": "https://www.google.com/maps?q=50.707758,-4.038503",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2021-07-01_18-07-11.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2021-07-01_18-07-11.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2021-07-01_18-07-11_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2021-07-01_18-07-11.png",
+        "cluster_label": 3,
+        "colour": "purple"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.151636,
+          50.463985
+        ]
+      },
+      "properties": {
+        "name": "2021-06-24 @ 18-05-02",
+        "date": "2021-06-24T18:05:02",
+        "distance_km": 8.71,
+        "distance_mi": 5.41,
+        "duration": "2:44:47",
+        "ascent": 362,
+        "descent": -360,
+        "center_lat": 50.454036719692844,
+        "center_lon": -4.15096761128452,
+        "place_name": "Tidal walkway, Bere Ferrers, Milton Combe",
+        "gridref": "SX 47386 64896",
+        "googleMapsLink": "https://www.google.com/maps?q=50.463985,-4.151636",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2021-06-24_18-05-02.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2021-06-24_18-05-02.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2021-06-24_18-05-02_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2021-06-24_18-05-02.png",
+        "cluster_label": 12,
+        "colour": "gray"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.951231,
+          50.313957
+        ]
+      },
+      "properties": {
+        "name": "2021-06-17 @ 18-27-37",
+        "date": "2021-06-17T18:27:37",
+        "distance_km": 6.75,
+        "distance_mi": 4.19,
+        "duration": "2:20:16",
+        "ascent": 337,
+        "descent": -311,
+        "center_lat": 50.30680553016336,
+        "center_lon": -3.9837991068075236,
+        "place_name": "Wonwell Slipway, Kingston, Mothecombe",
+        "gridref": "SX 61170 47823",
+        "googleMapsLink": "https://www.google.com/maps?q=50.313957,-3.951231",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2021-06-17_18-27-37.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2021-06-17_18-27-37.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2021-06-17_18-27-37_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2021-06-17_18-27-37.png",
+        "cluster_label": 9,
+        "colour": "black"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.087245,
+          50.649484
+        ]
+      },
+      "properties": {
+        "name": "2021-06-10 @ 18-26-27",
+        "date": "2021-06-10T18:26:27",
+        "distance_km": 5.89,
+        "distance_mi": 3.66,
+        "duration": "1:49:36",
+        "ascent": 189,
+        "descent": -195,
+        "center_lat": 50.65533432977914,
+        "center_lon": -4.088129345021367,
+        "place_name": "A386, Vale Down, Lydford",
+        "gridref": "SX 52536 85390",
+        "googleMapsLink": "https://www.google.com/maps?q=50.649484,-4.087245",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2021-06-10_18-26-27.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2021-06-10_18-26-27.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2021-06-10_18-26-27_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2021-06-10_18-26-27.png",
+        "cluster_label": 3,
+        "colour": "black"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.041658,
+          50.308715
+        ]
+      },
+      "properties": {
+        "name": "2021-04-29 @ 18-09-31",
+        "date": "2021-04-29T18:09:31",
+        "distance_km": 11.02,
+        "distance_mi": 6.85,
+        "duration": "2:44:26",
+        "ascent": 386,
+        "descent": -357,
+        "center_lat": 50.303921582254766,
+        "center_lon": -4.045414351528064,
+        "place_name": "Hannaford Road, Noss Mayo, Newton and Noss, Newton Ferrers",
+        "gridref": "SX 54716 47413",
+        "googleMapsLink": "https://www.google.com/maps?q=50.308715,-4.041658",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2021-04-29_18-09-31.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2021-04-29_18-09-31.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2021-04-29_18-09-31_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2021-04-29_18-09-31.png",
+        "cluster_label": 9,
+        "colour": "cadetblue"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.087028,
+          50.649325
+        ]
+      },
+      "properties": {
+        "name": "2020-08-20 @ 10-13-00",
+        "date": "2020-07-01T00:00:00",
+        "distance_km": 16.78,
+        "distance_mi": 10.42,
+        "duration": "6:25:01",
+        "ascent": 681,
+        "descent": -677,
+        "center_lat": 50.65069730798048,
+        "center_lon": -4.0406250609485825,
+        "place_name": "A386, Vale Down, Lydford",
+        "gridref": "SX 52551 85372",
+        "googleMapsLink": "https://www.google.com/maps?q=50.649325,-4.087028",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2020-08-20_10-13-00.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2020-08-20_10-13-00.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2020-08-20_10-13-00_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2020-08-20_10-13-00.png",
+        "cluster_label": 3,
+        "colour": "cadetblue"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.862691,
+          50.544437
+        ]
+      },
+      "properties": {
+        "name": "2020 or Earlier - Yar Tor",
+        "date": "2020-07-01T00:00:00",
+        "distance_km": 4.51,
+        "distance_mi": 2.8,
+        "duration": "1:23:57",
+        "ascent": 152,
+        "descent": -151,
+        "center_lat": 50.547596504056926,
+        "center_lon": -3.8577911472151905,
+        "place_name": "B3357, Peter's Cottage, Widecombe in the Moor",
+        "gridref": "SX 68116 73287",
+        "googleMapsLink": "https://www.google.com/maps?q=50.544437,-3.862691",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2020orEarlier-YarTor.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2020orEarlier-YarTor.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2020orEarlier-YarTor_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2020orEarlier-YarTor.png",
+        "cluster_label": 5,
+        "colour": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.97199,
+          50.52274
+        ]
+      },
+      "properties": {
+        "name": "2020 or Earlier - Whiteworks",
+        "date": "2020-07-01T00:00:00",
+        "distance_km": 7.43,
+        "distance_mi": 4.61,
+        "duration": "1:32:07",
+        "ascent": 103,
+        "descent": -102,
+        "center_lat": 50.516543632194555,
+        "center_lon": -3.9559426739261165,
+        "place_name": "Tor Royal Lane, Peat Cot, Dartmoor Forest",
+        "gridref": "SX 60308 71075",
+        "googleMapsLink": "https://www.google.com/maps?q=50.52274,-3.97199",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2020orEarlier-Whiteworks.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2020orEarlier-Whiteworks.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2020orEarlier-Whiteworks_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2020orEarlier-Whiteworks.png",
+        "cluster_label": 10,
+        "colour": "darkred"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.990631,
+          50.543649
+        ]
+      },
+      "properties": {
+        "name": "2020 or Earlier - Tor Royal",
+        "date": "2020-07-01T00:00:00",
+        "distance_km": 7.25,
+        "distance_mi": 4.51,
+        "duration": "1:30:01",
+        "ascent": 93,
+        "descent": -92,
+        "center_lat": 50.5353795500293,
+        "center_lon": -3.978455936832026,
+        "place_name": "Ivybridge Lane, Princetown, Dartmoor Forest",
+        "gridref": "SX 59050 73435",
+        "googleMapsLink": "https://www.google.com/maps?q=50.543649,-3.990631",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2020orEarlier-TorRoyal.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2020orEarlier-TorRoyal.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2020orEarlier-TorRoyal_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2020orEarlier-TorRoyal.png",
+        "cluster_label": 10,
+        "colour": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.769245,
+          50.571754
+        ]
+      },
+      "properties": {
+        "name": "2020 or Earlier - Top Tor",
+        "date": "2020-07-01T00:00:00",
+        "distance_km": 5.68,
+        "distance_mi": 3.53,
+        "duration": "1:45:44",
+        "ascent": 102,
+        "descent": -101,
+        "center_lat": 50.57491595266876,
+        "center_lon": -3.779133979091786,
+        "place_name": "B3387, Smallacombe, Ilsington, Haytor Vale",
+        "gridref": "SX 74809 76162",
+        "googleMapsLink": "https://www.google.com/maps?q=50.571754,-3.769245",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2020orEarlier-TopTor.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2020orEarlier-TopTor.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2020orEarlier-TopTor_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2020orEarlier-TopTor.png",
+        "cluster_label": 2,
+        "colour": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.843401,
+          50.516968
+        ]
+      },
+      "properties": {
+        "name": "2020 or Earlier - Snowdon",
+        "date": "2020-07-01T00:00:00",
+        "distance_km": 7.88,
+        "distance_mi": 4.89,
+        "duration": "1:37:42",
+        "ascent": 244,
+        "descent": -243,
+        "center_lat": 50.508051968416254,
+        "center_lon": -3.8619908479872636,
+        "place_name": "Holne",
+        "gridref": "SX 69407 70199",
+        "googleMapsLink": "https://www.google.com/maps?q=50.516968,-3.843401",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2020orEarlier-Snowdon.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2020orEarlier-Snowdon.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2020orEarlier-Snowdon_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2020orEarlier-Snowdon.png",
+        "cluster_label": 5,
+        "colour": "blue"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.860044,
+          50.451133
+        ]
+      },
+      "properties": {
+        "name": "2020 or Earlier - Shipley Bridge",
+        "date": "2020-07-01T00:00:00",
+        "distance_km": 7.66,
+        "distance_mi": 4.76,
+        "duration": "1:35:03",
+        "ascent": 246,
+        "descent": -247,
+        "center_lat": 50.46091053725066,
+        "center_lon": -3.8677965542638653,
+        "place_name": "Zeal Tor Tramway, Shipley Bridge, South Brent, Didworthy",
+        "gridref": "SX 68044 62908",
+        "googleMapsLink": "https://www.google.com/maps?q=50.451133,-3.860044",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2020orEarlier-ShipleyBridge.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2020orEarlier-ShipleyBridge.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2020orEarlier-ShipleyBridge_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2020orEarlier-ShipleyBridge.png",
+        "cluster_label": 14,
+        "colour": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.99288,
+          50.543981
+        ]
+      },
+      "properties": {
+        "name": "2020 or Earlier - Princetown Transmitter",
+        "date": "2020-07-01T00:00:00",
+        "distance_km": 8.78,
+        "distance_mi": 5.45,
+        "duration": "1:48:51",
+        "ascent": 177,
+        "descent": -177,
+        "center_lat": 50.543729273037556,
+        "center_lon": -4.016470228012565,
+        "place_name": "Tavistock Road, Princetown, Dartmoor Forest",
+        "gridref": "SX 58891 73476",
+        "googleMapsLink": "https://www.google.com/maps?q=50.543981,-3.99288",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2020orEarlier-PrincetownTransmitter.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2020orEarlier-PrincetownTransmitter.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2020orEarlier-PrincetownTransmitter_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2020orEarlier-PrincetownTransmitter.png",
+        "cluster_label": 10,
+        "colour": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.033133,
+          50.555938
+        ]
+      },
+      "properties": {
+        "name": "2020 or Earlier - Peak Hill",
+        "date": "2020-07-01T00:00:00",
+        "distance_km": 4.91,
+        "distance_mi": 3.05,
+        "duration": "1:00:54",
+        "ascent": 123,
+        "descent": -123,
+        "center_lat": 50.5475137205678,
+        "center_lon": -4.032167660800097,
+        "place_name": "Foggintor School Ruin / Four Winds, B3357, Dartmoor Forest",
+        "gridref": "SX 56076 74883",
+        "googleMapsLink": "https://www.google.com/maps?q=50.555938,-4.033133",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2020orEarlier-PeakHill.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2020orEarlier-PeakHill.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2020orEarlier-PeakHill_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2020orEarlier-PeakHill.png",
+        "cluster_label": 10,
+        "colour": "blue"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.086837,
+          50.649065
+        ]
+      },
+      "properties": {
+        "name": "2020 or Earlier - Hare Tor",
+        "date": "2020-07-01T00:00:00",
+        "distance_km": 7.33,
+        "distance_mi": 4.55,
+        "duration": "2:16:23",
+        "ascent": 257,
+        "descent": -257,
+        "center_lat": 50.648382594159486,
+        "center_lon": -4.067585647312385,
+        "place_name": "A386, Vale Down, Lydford",
+        "gridref": "SX 52563 85343",
+        "googleMapsLink": "https://www.google.com/maps?q=50.649065,-4.086837",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2020orEarlier-HareTor.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2020orEarlier-HareTor.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2020orEarlier-HareTor_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2020orEarlier-HareTor.png",
+        "cluster_label": 3,
+        "colour": "darkgreen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.087572,
+          50.661224
+        ]
+      },
+      "properties": {
+        "name": "2020 or Earlier - Great Links Tor",
+        "date": "2020-07-01T00:00:00",
+        "distance_km": 8.72,
+        "distance_mi": 5.42,
+        "duration": "2:42:15",
+        "ascent": 294,
+        "descent": -295,
+        "center_lat": 50.664204365282565,
+        "center_lon": -4.068131596851891,
+        "place_name": "A386, Bridestowe",
+        "gridref": "SX 52550 86696",
+        "googleMapsLink": "https://www.google.com/maps?q=50.661224,-4.087572",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2020orEarlier-GreatLinksTor.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2020orEarlier-GreatLinksTor.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2020orEarlier-GreatLinksTor_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2020orEarlier-GreatLinksTor.png",
+        "cluster_label": 3,
+        "colour": "orange"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.858712,
+          50.419427
+        ]
+      },
+      "properties": {
+        "name": "2020 or Earlier - Glazebrook",
+        "date": "2020-07-01T00:00:00",
+        "distance_km": 5.25,
+        "distance_mi": 3.26,
+        "duration": "1:05:06",
+        "ascent": 274,
+        "descent": -215,
+        "center_lat": 50.41283648985618,
+        "center_lon": -3.8800405828050137,
+        "place_name": "Ugborough, Moorhaven Village",
+        "gridref": "SX 68050 59381",
+        "googleMapsLink": "https://www.google.com/maps?q=50.419427,-3.858712",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2020orEarlier-Glazebrook.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2020orEarlier-Glazebrook.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2020orEarlier-Glazebrook_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2020orEarlier-Glazebrook.png",
+        "cluster_label": 14,
+        "colour": "red"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.96504,
+          50.55838
+        ]
+      },
+      "properties": {
+        "name": "2020 or Earlier - Devils Tor",
+        "date": "2020-07-01T00:00:00",
+        "distance_km": 12.25,
+        "distance_mi": 7.61,
+        "duration": "2:32:09",
+        "ascent": 224,
+        "descent": -224,
+        "center_lat": 50.57454214999726,
+        "center_lon": -3.980539553854341,
+        "place_name": "B3357, Two Bridges, Dartmoor Forest",
+        "gridref": "SX 60906 75024",
+        "googleMapsLink": "https://www.google.com/maps?q=50.55838,-3.96504",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2020orEarlier-DevilsTor.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2020orEarlier-DevilsTor.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2020orEarlier-DevilsTor_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2020orEarlier-DevilsTor.png",
+        "cluster_label": 10,
+        "colour": "gray"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.920614,
+          50.726148
+        ]
+      },
+      "properties": {
+        "name": "2020 or Earlier - Cosdon Beacon",
+        "date": "2020-07-01T00:00:00",
+        "distance_km": 12.34,
+        "distance_mi": 7.67,
+        "duration": "3:49:43",
+        "ascent": 404,
+        "descent": -428,
+        "center_lat": 50.71094091319876,
+        "center_lon": -3.936228297477021,
+        "place_name": "Ford Cross, South Tawton, South Zeal",
+        "gridref": "SX 64536 93596",
+        "googleMapsLink": "https://www.google.com/maps?q=50.726148,-3.920614",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2020orEarlier-CosdonBeacon.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2020orEarlier-CosdonBeacon.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2020orEarlier-CosdonBeacon_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2020orEarlier-CosdonBeacon.png",
+        "cluster_label": 7,
+        "colour": "gray"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.004929,
+          50.4883
+        ]
+      },
+      "properties": {
+        "name": "2020 or Earlier - Combshead Tor",
+        "date": "2020-07-01T00:00:00",
+        "distance_km": 7.04,
+        "distance_mi": 4.37,
+        "duration": "1:27:19",
+        "ascent": 145,
+        "descent": -145,
+        "center_lat": 50.49694305068273,
+        "center_lon": -3.995410743475755,
+        "place_name": "Gutter Tor Car Park, Edward's Path, Sheepstor",
+        "gridref": "SX 57870 67308",
+        "googleMapsLink": "https://www.google.com/maps?q=50.4883,-4.004929",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2020orEarlier-CombsheadTor.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2020orEarlier-CombsheadTor.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2020orEarlier-CombsheadTor_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2020orEarlier-CombsheadTor.png",
+        "cluster_label": 1,
+        "colour": "darkgreen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.878208,
+          50.53069
+        ]
+      },
+      "properties": {
+        "name": "2020 or Earlier - Combestone Tor",
+        "date": "2020-07-01T00:00:00",
+        "distance_km": 5.71,
+        "distance_mi": 3.55,
+        "duration": "1:10:51",
+        "ascent": 62,
+        "descent": -63,
+        "center_lat": 50.53106775959891,
+        "center_lon": -3.867418699795358,
+        "place_name": "Holne",
+        "gridref": "SX 66978 71786",
+        "googleMapsLink": "https://www.google.com/maps?q=50.53069,-3.878208",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2020orEarlier-CombestoneTor.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2020orEarlier-CombestoneTor.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2020orEarlier-CombestoneTor_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2020orEarlier-CombestoneTor.png",
+        "cluster_label": 5,
+        "colour": "gray"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.877985,
+          50.530766
+        ]
+      },
+      "properties": {
+        "name": "2020 or Earlier - Combestone",
+        "date": "2020-07-01T00:00:00",
+        "distance_km": 7.87,
+        "distance_mi": 4.89,
+        "duration": "1:37:42",
+        "ascent": 233,
+        "descent": -233,
+        "center_lat": 50.53240904143084,
+        "center_lon": -3.8908854078317505,
+        "place_name": "B3357, Pixieland, Dartmoor Forest, Dartmeet",
+        "gridref": "SX 66994 71794",
+        "googleMapsLink": "https://www.google.com/maps?q=50.530766,-3.877985",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2020orEarlier-Combestone.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2020orEarlier-Combestone.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2020orEarlier-Combestone_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2020orEarlier-Combestone.png",
+        "cluster_label": 5,
+        "colour": "purple"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.780902,
+          50.696291
+        ]
+      },
+      "properties": {
+        "name": "2020 or Earlier - Castle Drogo",
+        "date": "2020-07-01T00:00:00",
+        "distance_km": 6.96,
+        "distance_mi": 4.32,
+        "duration": "2:09:30",
+        "ascent": 224,
+        "descent": -224,
+        "center_lat": 50.69464474707787,
+        "center_lon": -3.798565021212155,
+        "place_name": "Preston, Drewsteignton",
+        "gridref": "SX 74317 90029",
+        "googleMapsLink": "https://www.google.com/maps?q=50.696291,-3.780902",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2020orEarlier-CastleDrogo.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2020orEarlier-CastleDrogo.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2020orEarlier-CastleDrogo_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2020orEarlier-CastleDrogo.png",
+        "cluster_label": 15,
+        "colour": "green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.956207,
+          50.723102
+        ]
+      },
+      "properties": {
+        "name": "2020 or Earlier - Belstone",
+        "date": "2020-07-01T00:00:00",
+        "distance_km": 9.44,
+        "distance_mi": 5.86,
+        "duration": "2:55:42",
+        "ascent": 308,
+        "descent": -307,
+        "center_lat": 50.70988665401802,
+        "center_lon": -3.9462427804741913,
+        "place_name": "Belstone",
+        "gridref": "SX 62015 93323",
+        "googleMapsLink": "https://www.google.com/maps?q=50.723102,-3.956207",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2020orEarlier-Belstone.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2020orEarlier-Belstone.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2020orEarlier-Belstone_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2020orEarlier-Belstone.png",
+        "cluster_label": 7,
+        "colour": "purple"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.847868,
+          51.232133
+        ]
+      },
+      "properties": {
+        "name": "2019-05-15 @ 09-24-00",
+        "date": "2019-05-15T09:24:00",
+        "distance_km": 20.67,
+        "distance_mi": 12.84,
+        "duration": "8:09:21",
+        "ascent": 870,
+        "descent": -977,
+        "center_lat": 51.22637754702407,
+        "center_lon": -3.885922488202138,
+        "place_name": "Lynton, Lynton and Lynmouth, Lynbridge",
+        "gridref": "SS 71081 49728",
+        "googleMapsLink": "https://www.google.com/maps?q=51.232133,-3.847868",
+        "download_link": "https://moorwalkers.github.io/track_downloads/2019-05-15_09-24-00.gpx",
+        "ind_map_link": "https://moorwalkers.github.io/ind_maps/2019-05-15_09-24-00.html",
+        "ind_map_link_os": "https://moorwalkers.github.io/ind_maps_os/2019-05-15_09-24-00_os.html",
+        "elevation_profile_link": "https://moorwalkers.github.io/elevation_profiles/2019-05-15_09-24-00.png",
+        "cluster_label": 4,
+        "colour": "darkred"
+      }
+    }
+  ]
+}
