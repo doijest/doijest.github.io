@@ -41,30 +41,31 @@
         }).addTo(map);
 
         // Load GeoJSON data for markers
+        var markers; // Declare in outer scope
         fetch('points-of-interest.json')
             .then(response => response.json())
             .then(data => {
-                var markers = L.geoJSON(data, {
+                markers = L.geoJSON(data, {
                     onEachFeature: function (feature, layer) {
                         if (feature.properties && feature.properties.name) {
                             layer.bindPopup(feature.properties.name);
                         }
                     }
                 }).addTo(map);
+
+                // Add layer group control after markers is defined
+                var baseLayers = {
+                    "OpenStreetMap": osm,
+                    "Esri Topographic": esriTopo
+                };
+                var overlays = {
+                    "Points of Interest": markers
+                };
+                L.control.layers(baseLayers, overlays).addTo(map);
             })
             .catch(error => {
                 console.error('Error loading GeoJSON:', error);
             });
-
-        // Add layer group control
-        var baseLayers = {
-            "OpenStreetMap": osm,
-            "Esri Topographic": esriTopo
-        };
-        var overlays = {
-            "Points of Interest": markers
-        };
-        L.control.layers(baseLayers, overlays).addTo(map);
     </script>
 </body>
 </html>
