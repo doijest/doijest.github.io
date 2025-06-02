@@ -133,13 +133,17 @@
         //#### Enable touch support and 3D features
         L_NO_TOUCH = false;
         L_DISABLE_3D = false;
-
+    </script>
+    <script>
         //#### Toggle Tors of Dartmoor information ####
         function toggleContent() {
             const hiddentorsofdartmoorcontent = document.getElementById('hidden-tors-of-dartmoor-content');
             hiddentorsofdartmoorcontent.style.display = hiddentorsofdartmoorcontent.style.display === 'block' ? 'none' : 'block';
         }
-        
+    </script>
+    <script>    
+        //#### Add Filter Sliders ####
+
         //#### Add Ascent Filter Sliders ####
         // Set the minimum and maximum distances
         var minAscent = 0; // Set minimum Ascent
@@ -181,23 +185,39 @@
         minAscentSlider.addEventListener('input', function() {
             var sliderValueAscent = parseInt(this.value);
             minAscentSliderValueDisplay.textContent = sliderValueAscent + " metres"; // Update displayed value
-            updateGeoJSONVisibility(    new Date(parseInt(minDateSlider.value)),
-                                        new Date(parseInt(maxDateSlider.value)),
-                                        minDistanceSlider.value,
-                                        maxDistanceSlider.value,
-                                        minAscentSlider.value,maxAscentSlider.value
-                                        );
+            loadTracks(new Date(parseInt(minDateSlider.value)),
+                      new Date(parseInt(maxDateSlider.value)),
+                      minDistanceSlider.value,
+                      maxDistanceSlider.value,
+                      minAscentSlider.value,
+                      maxAscentSlider.value
+            );
+            loadTrackMarkers(new Date(parseInt(minDateSlider.value)),
+                             new Date(parseInt(maxDateSlider.value)),
+                             minDistanceSlider.value,
+                             maxDistanceSlider.value,
+                             minAscentSlider.value,
+                             maxAscentSlider.value
+            );
         });
 
         maxAscentSlider.addEventListener('input', function() {
             var sliderValueAscent = parseInt(this.value);
             maxAscentSliderValueDisplay.textContent = sliderValueAscent + " metres"; // Update displayed value
-            updateGeoJSONVisibility(    new Date(parseInt(minDateSlider.value)),
-                                        new Date(parseInt(maxDateSlider.value)),
-                                        minDistanceSlider.value,
-                                        maxDistanceSlider.value,
-                                        minAscentSlider.value,maxAscentSlider.value
-                                        );
+            loadTracks(new Date(parseInt(minDateSlider.value)),
+                      new Date(parseInt(maxDateSlider.value)),
+                      minDistanceSlider.value,
+                      maxDistanceSlider.value,
+                      minAscentSlider.value,
+                      maxAscentSlider.value
+            );
+            loadTrackMarkers(new Date(parseInt(minDateSlider.value)),
+                             new Date(parseInt(maxDateSlider.value)),
+                             minDistanceSlider.value,
+                             maxDistanceSlider.value,
+                             minAscentSlider.value,
+                             maxAscentSlider.value
+            );
         }); 
         
         
@@ -242,23 +262,39 @@
         minDistanceSlider.addEventListener('input', function() {
             var sliderValueDistance = parseInt(this.value);
             minDistanceSliderValueDisplay.textContent = sliderValueDistance + " miles"; // Update displayed value
-            updateGeoJSONVisibility(    new Date(parseInt(minDateSlider.value)),
-                                        new Date(parseInt(maxDateSlider.value)),
-                                        minDistanceSlider.value,
-                                        maxDistanceSlider.value,
-                                        minAscentSlider.value,maxAscentSlider.value
-                                        );
+            loadTracks(new Date(parseInt(minDateSlider.value)),
+                      new Date(parseInt(maxDateSlider.value)),
+                      minDistanceSlider.value,
+                      maxDistanceSlider.value,
+                      minAscentSlider.value,
+                      maxAscentSlider.value
+            );
+            loadTrackMarkers(new Date(parseInt(minDateSlider.value)),
+                             new Date(parseInt(maxDateSlider.value)),
+                             minDistanceSlider.value,
+                             maxDistanceSlider.value,
+                             minAscentSlider.value,
+                             maxAscentSlider.value
+            );
         });
 
         maxDistanceSlider.addEventListener('input', function() {
             var sliderValueDistance = parseInt(this.value);
             maxDistanceSliderValueDisplay.textContent = sliderValueDistance + " miles"; // Update displayed value
-            updateGeoJSONVisibility(    new Date(parseInt(minDateSlider.value)),
-                                        new Date(parseInt(maxDateSlider.value)),
-                                        minDistanceSlider.value,
-                                        maxDistanceSlider.value,
-                                        minAscentSlider.value,maxAscentSlider.value
-                                        );
+            loadTracks(new Date(parseInt(minDateSlider.value)),
+                      new Date(parseInt(maxDateSlider.value)),
+                      minDistanceSlider.value,
+                      maxDistanceSlider.value,
+                      minAscentSlider.value,
+                      maxAscentSlider.value
+            );
+            loadTrackMarkers(new Date(parseInt(minDateSlider.value)),
+                             new Date(parseInt(maxDateSlider.value)),
+                             minDistanceSlider.value,
+                             maxDistanceSlider.value,
+                             minAscentSlider.value,
+                             maxAscentSlider.value
+            );
         });   
         
 
@@ -330,12 +366,20 @@
             var day = selectedDate.getDate().toString().padStart(2, '0');
             var formattedDate = `${year}-${month}-${day}`;
             minDateSliderValueDisplay.textContent = formattedDate; // Update displayed value
-            updateGeoJSONVisibility(    new Date(parseInt(minDateSlider.value)),
-                                        new Date(parseInt(maxDateSlider.value)),
-                                        minDistanceSlider.value,
-                                        maxDistanceSlider.value,
-                                        minAscentSlider.value,maxAscentSlider.value
-                                        );
+            loadTracks(new Date(parseInt(minDateSlider.value)),
+                      new Date(parseInt(maxDateSlider.value)),
+                      minDistanceSlider.value,
+                      maxDistanceSlider.value,
+                      minAscentSlider.value,
+                      maxAscentSlider.value
+            );
+            loadTrackMarkers(new Date(parseInt(minDateSlider.value)),
+                             new Date(parseInt(maxDateSlider.value)),
+                             minDistanceSlider.value,
+                             maxDistanceSlider.value,
+                             minAscentSlider.value,
+                             maxAscentSlider.value
+            );
         });
 
         maxDateSlider.addEventListener('input', function() {
@@ -346,87 +390,24 @@
             var day = selectedDate.getDate().toString().padStart(2, '0');
             var formattedDate = `${year}-${month}-${day}`;
             maxDateSliderValueDisplay.textContent = formattedDate; // Update displayed value
-            updateGeoJSONVisibility(    new Date(parseInt(minDateSlider.value)),
-                                        new Date(parseInt(maxDateSlider.value)),
-                                        minDistanceSlider.value,
-                                        maxDistanceSlider.value,
-                                        minAscentSlider.value,maxAscentSlider.value
-                                        );
+            loadTracks(new Date(parseInt(minDateSlider.value)),
+                      new Date(parseInt(maxDateSlider.value)),
+                      minDistanceSlider.value,
+                      maxDistanceSlider.value,
+                      minAscentSlider.value,
+                      maxAscentSlider.value
+            );
+            loadTrackMarkers(new Date(parseInt(minDateSlider.value)),
+                             new Date(parseInt(maxDateSlider.value)),
+                             minDistanceSlider.value,
+                             maxDistanceSlider.value,
+                             minAscentSlider.value,
+                             maxAscentSlider.value
+            );
         });
-
-        //#### Function to update GeoJSON visibility based on slider values ####
-        function updateGeoJSONVisibility(minDate, maxDate, minDist, maxDist, minAsc, maxAsc) {
-            var minTimestamp = minDate.getTime();
-            var maxTimestamp = maxDate.getTime();
-            var minDistance = minDist;
-            var maxDistance = maxDist;
-            var minAscent = minAsc;
-            var maxAscent = maxAsc;
-            tracks.eachLayer(function (layer) {
-                if (layer instanceof L.GeoJSON) {
-                    layer.eachLayer(function (geoLayer) {
-                        var layerDate = new Date(geoLayer.feature.properties.date).getTime();
-                        var layerDistance = geoLayer.feature.properties.distance_mi;
-                        var layerAscent = geoLayer.feature.properties.ascent;
-                        if (layerDate < minTimestamp || layerDate > maxTimestamp || layerDistance < minDistance || layerDistance > maxDistance || layerAscent < minAscent || layerAscent > maxAscent) {
-                            if (map.hasLayer(layer)) {
-                                map.removeLayer(geoLayer);
-                            }
-                        } else {
-                            if (!map.hasLayer(geoLayer)) {
-                                map.addLayer(geoLayer);
-                            }
-                        }
-                });
-                } else if (layer instanceof L.Marker) {
-                    // Handle markers separately
-                    var layerDate = new Date(layer.options.date).getTime(); 
-                    var layerDistance = layer.options.distanceMi;
-                    var layerAscent = layer.options.ascent;
-                    if (layerDate < minTimestamp || layerDate > maxTimestamp || layerDistance < minDistance || layerDistance > maxDistance || layerAscent < minAscent || layerAscent > maxAscent) {
-                        if (map.hasLayer(layer)) {
-                            map.removeLayer(layer);
-                        }
-                    } else {
-                        if (!map.hasLayer(layer)) {
-                            map.addLayer(layer);
-                        }
-                    }
-                }
-            });
-            trackMarkers.eachLayer(function (layer) {
-                if (layer instanceof L.GeoJSON) {
-                    layer.eachLayer(function (geoLayer) {
-                        var layerDate = new Date(geoLayer.feature.properties.date).getTime();
-                        var layerDistance = geoLayer.feature.properties.distance_mi;
-                        var layerAscent = geoLayer.feature.properties.ascent;
-                        if (layerDate < minTimestamp || layerDate > maxTimestamp || layerDistance < minDistance || layerDistance > maxDistance || layerAscent < minAscent || layerAscent > maxAscent) {
-                            if (map.hasLayer(layer)) {
-                                map.removeLayer(geoLayer);
-                            }
-                        } else {
-                            if (!map.hasLayer(geoLayer)) {
-                                map.addLayer(geoLayer);
-                            }
-                        }
-                });
-                } else if (layer instanceof L.Marker) {
-                    // Handle markers separately
-                    var layerDate = new Date(layer.options.date).getTime(); 
-                    var layerDistance = layer.options.distanceMi;
-                    var layerAscent = layer.options.ascent;
-                    if (layerDate < minTimestamp || layerDate > maxTimestamp || layerDistance < minDistance || layerDistance > maxDistance || layerAscent < minAscent || layerAscent > maxAscent) {
-                        if (map.hasLayer(layer)) {
-                            map.removeLayer(layer);
-                        }
-                    } else {
-                        if (!map.hasLayer(layer)) {
-                            map.addLayer(layer);
-                        }
-                    }
-                }
-            });
-        }
+    </script>
+    <script>  
+        //#### Create the map ####
 
         // Setup the EPSG:27700 (British National Grid) projection.
         var crs = new L.Proj.CRS('EPSG:27700', '+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.9996012717 +x_0=400000 +y_0=-100000 +ellps=airy +towgs84=446.448,-125.157,542.06,0.15,0.247,0.842,-20.489 +units=m +no_defs', {
@@ -434,6 +415,7 @@
         origin: [ -238375.0, 1376256.0 ]
         });
 
+        // Initialize the map
         var map = L.map("map", {
             center: [50.554, -3.946],
             crs: crs,
@@ -444,41 +426,42 @@
             preferCanvas: false
         });
 
-            var tile_layer_outdoor27700 = L.tileLayer(
-                "https://api.os.uk/maps/raster/v1/zxy/Outdoor_27700/{z}/{x}/{y}.png?key=CKMgpGhRGckl2tk6802VEAGqKB7Gik5G",
-                {
-                    noWrap: false,
-                    subdomains: "abc",
-                    attribution: "Contains OS data © Crown copyright and database right 2024",
-                    detectRetina: false,
-                    tms: false,
-                    opacity: 1,
-                }
-            ).addTo(map);
+        // Add the Ordnance Survey base layers
+        var tile_layer_outdoor27700 = L.tileLayer(
+            "https://api.os.uk/maps/raster/v1/zxy/Outdoor_27700/{z}/{x}/{y}.png?key=CKMgpGhRGckl2tk6802VEAGqKB7Gik5G",
+            {
+                noWrap: false,
+                subdomains: "abc",
+                attribution: "Contains OS data © Crown copyright and database right 2024",
+                detectRetina: false,
+                tms: false,
+                opacity: 1,
+            }
+        ).addTo(map);
 
-            var tile_layer_road27700 = L.tileLayer(
-                "https://api.os.uk/maps/raster/v1/zxy/Road_27700/{z}/{x}/{y}.png?key=CKMgpGhRGckl2tk6802VEAGqKB7Gik5G",
-                {
-                    noWrap: false,
-                    subdomains: "abc",
-                    attribution: "Contains OS data © Crown copyright and database right 2024",
-                    detectRetina: false,
-                    tms: false,
-                    opacity: 1,
-                }
-            ).addTo(map);
+        var tile_layer_road27700 = L.tileLayer(
+            "https://api.os.uk/maps/raster/v1/zxy/Road_27700/{z}/{x}/{y}.png?key=CKMgpGhRGckl2tk6802VEAGqKB7Gik5G",
+            {
+                noWrap: false,
+                subdomains: "abc",
+                attribution: "Contains OS data © Crown copyright and database right 2024",
+                detectRetina: false,
+                tms: false,
+                opacity: 1,
+            }
+        ).addTo(map);
 
-            var tile_layer_leisure27700 = L.tileLayer(
-                "https://api.os.uk/maps/raster/v1/zxy/Leisure_27700/{z}/{x}/{y}.png?key=CKMgpGhRGckl2tk6802VEAGqKB7Gik5G",
-                {
-                    noWrap: false,
-                    subdomains: "abc",
-                    attribution: "Contains OS data © Crown copyright and database right 2024",
-                    detectRetina: false,
-                    tms: false,
-                    opacity: 1,
-                }
-            ).addTo(map);
+        var tile_layer_leisure27700 = L.tileLayer(
+            "https://api.os.uk/maps/raster/v1/zxy/Leisure_27700/{z}/{x}/{y}.png?key=CKMgpGhRGckl2tk6802VEAGqKB7Gik5G",
+            {
+                noWrap: false,
+                subdomains: "abc",
+                attribution: "Contains OS data © Crown copyright and database right 2024",
+                detectRetina: false,
+                tms: false,
+                opacity: 1,
+            }
+        ).addTo(map);
 
         // Define baseLayers and overlays before fetches
         var baseLayers = {
@@ -491,87 +474,142 @@
         // Add the layer control immediately (will update later)
         var layerControl = L.control.layers(baseLayers, overlays).addTo(map);
 
-        function loadTracks() {
+        // Debounce function to limit how often loadTracks and loadTrackMarkets runs
+        function debounce(func, wait) {
+            let timeout;
+            return function(...args) {
+            clearTimeout(timeout);
+            timeout = setTimeout(() => func.apply(this, args), wait);
+            };
+        }
+
+        // Function to load the tracks
+        const loadTracks = debounce(function() {
+            if (overlays["Tracks"]) {
+                map.removeLayer(overlays["Tracks"]);
+                layerControl.removeLayer(overlays["Tracks"]);
+                delete overlays["Tracks"];
+            }
+
             return new Promise((resolve, reject) => {
-                var tracks;
                 fetch('tracks_manifest.json')
                 .then(response => response.json())
                 .then(manifest => {
-                    if (Array.isArray(manifest)) {
-                        var extraLayers = [];
-                        var loadPromises = manifest.map(file =>
-                            fetch(file)
+                    if (!Array.isArray(manifest)) return resolve();
+
+                    const allFilteredFeatures = [];
+
+                    const loadPromises = manifest.map(file =>
+                        fetch(file)
                             .then(resp => resp.json())
                             .then(geojson => {
-                                var layer = L.geoJSON(geojson, {
-                                    style: function(feature) {
-                                        return {
-                                            color: feature.properties && feature.properties.colour ? feature.properties.colour : 'green',
-                                            weight: 3
-                                        };
-                                    },
-                                    onEachFeature: function (feature, layer) {
-                                        if (feature.properties && feature.properties.name) {
-                                            layer.bindPopup(feature.properties.name);
-                                        }
-                                    }
+                                const filtered = geojson.features.filter(feature => {
+                                    const props = feature.properties || {};
+                                    const date = new Date(props.date);
+                                    const distance = parseFloat(props.distance_mi);
+                                    const ascent = parseFloat(props.ascent);
+                                    return (
+                                        date >= new Date(parseInt(minDateSlider.value)) &&
+                                        date <= new Date(parseInt(maxDateSlider.value)) &&
+                                        distance >= parseFloat(minDistanceSlider.value) &&
+                                        distance <= parseFloat(maxDistanceSlider.value) &&
+                                        ascent >= parseFloat(minAscentSlider.value) &&
+                                        ascent <= parseFloat(maxAscentSlider.value)
+                                    );
                                 });
-                                extraLayers.push(layer);
-                                return layer;
+                                allFilteredFeatures.push(...filtered);
                             })
-                            .catch(err => {
-                                console.error('Error loading ' + file + ':', err);
-                            })
-                        );
-                        Promise.all(loadPromises).then(layers => {
-                            tracks = L.layerGroup(extraLayers);
-                            overlays["Tracks"] = tracks;
-                            layerControl.addOverlay(tracks, "Tracks");
-                            tracks.addTo(map);
-                            resolve();
-                        });
-                    } else {
+                            .catch(err => console.error('Error loading ' + file + ':', err))
+                    );
+
+                    Promise.all(loadPromises).then(() => {
+                        if (allFilteredFeatures.length > 0) {
+                            const unifiedLayer = L.geoJSON({ type: "FeatureCollection", features: allFilteredFeatures }, {
+                                style: feature => ({
+                                    color: feature.properties?.colour || 'green',
+                                    weight: 3
+                                }),
+                                onEachFeature: (feature, layer) => {
+                                    if (feature.properties?.name) {
+                                        layer.bindPopup(feature.properties.name);
+                                    }
+                                }
+                            });
+
+                            overlays["Tracks"] = unifiedLayer;
+                            layerControl.addOverlay(unifiedLayer, "Tracks");
+                            unifiedLayer.addTo(map);
+                        }
                         resolve();
-                    }
+                    });
                 })
                 .catch(error => {
                     console.error('Error loading tracks_manifest.json:', error);
                     resolve();
                 });
             });
-        }
-        function loadTrackMarkers() {
+        }, 400); // 400ms debounce pause before running
+
+        // Function to load the track markers
+        const loadTrackMarkers = debounce(function () {
+            if (overlays["Track Markers"]) {
+                map.removeLayer(overlays["Track Markers"]);
+                layerControl.removeLayer(overlays["Track Markers"]);
+                delete overlays["Track Markers"];
+            }
+
             return new Promise((resolve, reject) => {
-                var trackMarkers;
                 fetch('track_markers.geojson')
-                    .then(response => response.json())
-                    .then(data => {
-                        trackMarkers = L.geoJSON(data, {
-                            pointToLayer: function (feature, latlng) {
-                                // Allow marker icon to be set via feature.properties.icon or fallback to default
-                                var iconOptions = {
-                                    icon: feature.properties && feature.properties.icon ? feature.properties.icon : 'person-hiking',
-                                    markerColor: feature.properties && feature.properties.colour ? feature.properties.colour : 'black',
-                                    prefix: feature.properties && feature.properties.prefix ? feature.properties.prefix : 'fa'
-                                };
-                                return L.marker(latlng, { icon: L.AwesomeMarkers.icon(iconOptions) });
-                            },
-                            onEachFeature: function (feature, layer) {
-                                if (feature.properties && feature.properties.name) {
-                                    layer.bindPopup(feature.properties.name);
-                                }
-                            }
-                        }).addTo(map);
-                        overlays["Track Markers"] = trackMarkers;
-                        layerControl.addOverlay(trackMarkers, "Track Markers");
-                        resolve();
-                    })
-                    .catch(error => {
-                        console.error('Error loading track_markers.geojson:', error);
-                        resolve();
+                .then(response => response.json())
+                .then(data => {
+                    const filteredFeatures = data.features.filter(feature => {
+                        const props = feature.properties || {};
+                        const date = new Date(props.date);
+                        const distance = parseFloat(props.distance_mi);
+                        const ascent = parseFloat(props.ascent);
+                        return (
+                            date >= new Date(parseInt(minDateSlider.value)) &&
+                            date <= new Date(parseInt(maxDateSlider.value)) &&
+                            distance >= parseFloat(minDistanceSlider.value) &&
+                            distance <= parseFloat(maxDistanceSlider.value) &&
+                            ascent >= parseFloat(minAscentSlider.value) &&
+                            ascent <= parseFloat(maxAscentSlider.value)
+                        );
                     });
+
+                    const filteredGeoJSON = {
+                        type: "FeatureCollection",
+                        features: filteredFeatures
+                    };
+
+                    const trackMarkers = L.geoJSON(filteredGeoJSON, {
+                        pointToLayer: function (feature, latlng) {
+                            const iconOptions = {
+                                icon: feature.properties?.icon || 'person-hiking',
+                                markerColor: feature.properties?.colour || 'black',
+                                prefix: feature.properties?.prefix || 'fa'
+                            };
+                            return L.marker(latlng, { icon: L.AwesomeMarkers.icon(iconOptions) });
+                        },
+                        onEachFeature: function (feature, layer) {
+                            if (feature.properties?.name) {
+                                layer.bindPopup(feature.properties.name);
+                            }
+                        }
+                    }).addTo(map);
+
+                    overlays["Track Markers"] = trackMarkers;
+                    layerControl.addOverlay(trackMarkers, "Track Markers");
+                    resolve();
+                })
+                .catch(error => {
+                    console.error('Error loading track_markers.geojson:', error);
+                    resolve();
+                });
             });
-        }
+        }, 400);
+
+        // Functions to load Points of Interest (POI), Pubs, and Dartmoor Tors
         function loadPOI() {
             return new Promise((resolve, reject) => {
                 fetch('poi.geojson')
@@ -698,15 +736,15 @@
             });
         }
 
-        loadTracks()
-            .then(() => loadTrackMarkers())
-            .then(() => loadPOI())
-            .then(() => loadPubs())
-            .then(() => loadDartmoorTors());
+        // Run the initial load functions
+        loadTracks();
+        loadTrackMarkers();
+        loadPOI();
+        loadPubs();
+        loadDartmoorTors();
     
-        var locate_control = L.control.locate(
-            {}
-        ).addTo(map);
+        //Add the Locate Control to the map
+        var locate_control = L.control.locate({}).addTo(map);
     </script>
 </body>
 </html>

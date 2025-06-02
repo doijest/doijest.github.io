@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Dartmoor Night Walkers Standard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Leaflet 1.x CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <!-- Font Awesome CSS for AwesomeMarkers -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <!-- Leaflet.AwesomeMarkers CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.awesome-markers@2.0.0/dist/leaflet.awesome-markers.css" />
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        #map {
+            width: 100%;
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+    <!-- Leaflet 1.x JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <!-- Leaflet.AwesomeMarkers JS -->
+    <script src="https://unpkg.com/leaflet.awesome-markers@2.0.0/dist/leaflet.awesome-markers.js"></script>
+    <script>
+
+
+
+        var map = L.map("map", {
+            center: [50.554, -3.946],
+            minZoom: 7,
+            maxZoom: 18,
+            zoom: 10.5,
+            zoomControl: true,
+            preferCanvas: false
+        });
+
+        // OpenStreetMap base layer
+        var osm = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 18,
+            attribution: 'OpenStreetMap contributors'
+        }).addTo(map);
+
+        // Esri Topographic base layer
+        var esriTopo = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}', {
+            maxZoom: 18,
+            attribution: 'Tiles © Esri — Source: Esri, DeLorme, NAVTEQ, USGS, Intermap, iPC, NRCAN, Esri Japan, METI, Esri China (Hong Kong), Esri (Thailand), TomTom'
+        }).addTo(map);       
+
+        // Define baseLayers and overlays before fetches
+        var baseLayers = {
+            "Open Street Map": osm,
+            "ESRI Topo": esriTopo
+        };
+        var overlays = {};
+
+        // Add the layer control immediately (will update later)
+        var layerControl = L.control.layers(baseLayers, overlays).addTo(map);
+
+        function loadTracks() {
+            return new Promise((resolve, reject) => {
+                var tracks;
+                fetch('tracks_manifest.json')
+                .then(response => response.json())
+                .then(manifest => {
+                    if (Array.isArray(manifest)) {
+                        var extraLayers = [];
+                        var loadPromises = manifest.map(file =>
+                            fetch(file)
+                            .then(resp => resp.json())
+                            .then(geojson => {
+                                var layer = L.geoJSON(geojson, {
+                                    style: function(feature) {
+                                        return {
+                                            color: feature.properties && feature.properties.colour ? feature.properties.colour : 'green',
+                                            weight: 3
+                                        };
+                                    },
+                                    onEachFeature: function (feature, layer) {
+                                        if (feature.properties && feature.properties.name) {
+                                            layer.bindPopup(feature.properties.name);
+                                        }
+                                    }
+                                });
+                                extraLayers.push(layer);
+                                return layer;
+                            })
+                            .catch(err => {
+                                console.error('Error loading ' + file + ':', err);
+                            })
+                        );
+                        Promise.all(loadPromises).then(layers => {
+                            tracks = L.layerGroup(extraLayers);
+                            overlays["Tracks"] = tracks;
+                            layerControl.addOverlay(tracks, "Tracks");
+                            tracks.addTo(map);
+                            resolve();
+                        });
+                    } else {
+                        resolve();
+                    }
+                })
+                .catch(error => {
+                    console.error('Error loading tracks_manifest.json:', error);
+                    resolve();
+                });
+            });
+        }
+        function loadTrackMarkers() {
+            return new Promise((resolve, reject) => {
+                var trackMarkers;
+                fetch('track_markers.geojson')
+                    .then(response => response.json())
+                    .then(data => {
+                        trackMarkers = L.geoJSON(data, {
+                            pointToLayer: function (feature, latlng) {
+                                // Allow marker icon to be set via feature.properties.icon or fallback to default
+                                var iconOptions = {
+                                    icon: feature.properties && feature.properties.icon ? feature.properties.icon : 'person-hiking',
+                                    markerColor: feature.properties && feature.properties.colour ? feature.properties.colour : 'black',
+                                    prefix: feature.properties && feature.properties.prefix ? feature.properties.prefix : 'fa'
+                                };
+                                return L.marker(latlng, { icon: L.AwesomeMarkers.icon(iconOptions) });
+                            },
+                            onEachFeature: function (feature, layer) {
+                                if (feature.properties && feature.properties.name) {
+                                    layer.bindPopup(feature.properties.name);
+                                }
+                            }
+                        }).addTo(map);
+                        overlays["Track Markers"] = trackMarkers;
+                        layerControl.addOverlay(trackMarkers, "Track Markers");
+                        resolve();
+                    })
+                    .catch(error => {
+                        console.error('Error loading track_markers.geojson:', error);
+                        resolve();
+                    });
+            });
+        }
+        function loadPOI() {
+            return new Promise((resolve, reject) => {
+                fetch('poi.geojson')
+                    .then(response => response.json())
+                    .then(data => {
+                        poi = L.geoJSON(data, {
+                            pointToLayer: function (feature, latlng) {
+                                // Set icon options for POI
+                                var iconOptions = {
+                                    icon: 'info',
+                                    markerColor: 'black',
+                                    prefix: 'fa'
+                                };
+                                return L.marker(latlng, { icon: L.AwesomeMarkers.icon(iconOptions) });
+                            },
+                            onEachFeature: function (feature, layer) {
+                                if (feature.properties && feature.properties.name) {
+                                    layer.bindPopup(feature.properties.name);
+                                }
+                            }
+                        });
+                        overlays["POI"] = poi;
+                        layerControl.addOverlay(poi, "Points Of Interest");
+                        resolve();
+                    })
+                    .catch(error => {
+                        console.error('Error loading POI.geojson:', error);
+                        resolve();
+                    });
+            });
+        }
+        function loadPubs() {
+            return new Promise((resolve, reject) => {
+                fetch('pubs.geojson')
+                    .then(response => response.json())
+                    .then(data => {
+                        pubs = L.geoJSON(data, {
+                            pointToLayer: function (feature, latlng) {
+                                // Set icon options for pubs
+                                var iconOptions = {
+                                    icon: 'beer',
+                                    markerColor: 'black',
+                                    prefix: 'fa'
+                                };
+                                return L.marker(latlng, { icon: L.AwesomeMarkers.icon(iconOptions) });
+                            },
+                            onEachFeature: function (feature, layer) {
+                                if (feature.properties && feature.properties.name) {
+                                    layer.bindPopup(feature.properties.name);
+                                }
+                            }
+                        });
+                        overlays["Pubs"] = pubs;
+                        layerControl.addOverlay(pubs, "Pubs");
+                        resolve();
+                    })
+                    .catch(error => {
+                        console.error('Error loading pubs.geojson:', error);
+                        resolve();
+                    });
+            });
+        }
+        function loadDartmoorTors() {
+            return new Promise((resolve, reject) => {
+                fetch('dartmoor_tors.geojson')
+                    .then(response => response.json())
+                    .then(data => {
+                        var pendingFeatures = [];
+                        var completedFeatures = [];
+
+                        // Separate features by status
+                        data.features.forEach(function(feature) {
+                            if (feature.properties && feature.properties.status === "pending") {
+                                pendingFeatures.push(feature);
+                            } else {
+                                completedFeatures.push(feature);
+                            }
+                        });
+
+                        // Create layer for pending tors
+                        var pendingTors = L.geoJSON({ type: "FeatureCollection", features: pendingFeatures }, {
+                            pointToLayer: function (feature, latlng) {
+                                var iconOptions = {
+                                    icon: 'circle-xmark',
+                                    markerColor: feature.properties && feature.properties.icon === 'public_Icon' ? 'green' : 'blue',
+                                    prefix: 'fa'
+                                };
+                                return L.marker(latlng, { icon: L.AwesomeMarkers.icon(iconOptions) });
+                            },
+                            onEachFeature: function (feature, layer) {
+                                if (feature.properties && feature.properties.name) {
+                                    layer.bindPopup(feature.properties.name);
+                                }
+                            }
+                        });
+
+                        // Create layer for completed tors
+                        var completedTors = L.geoJSON({ type: "FeatureCollection", features: completedFeatures }, {
+                            pointToLayer: function (feature, latlng) {
+                                var iconOptions = {
+                                    icon: 'circle-check',
+                                    markerColor: feature.properties && feature.properties.icon === 'public_Icon' ? 'green' : 'blue',
+                                    prefix: 'fa'
+                                };
+                                return L.marker(latlng, { icon: L.AwesomeMarkers.icon(iconOptions) });
+                            },
+                            onEachFeature: function (feature, layer) {
+                                if (feature.properties && feature.properties.name) {
+                                    layer.bindPopup(feature.properties.name);
+                                }
+                            }
+                        });
+
+                        overlays["Dartmoor Tors - Pending"] = pendingTors;
+                        overlays["Dartmoor Tors - Completed"] = completedTors;
+                        layerControl.addOverlay(pendingTors, `Tors (${pendingFeatures.length} Pending)`);
+                        layerControl.addOverlay(completedTors, `Tors (${completedFeatures.length} Completed)`);
+                        resolve();
+                    })
+                    .catch(error => {
+                        console.error('Error loading dartmoor_tors.geojson:', error);
+                        resolve();
+                    });
+            });
+        }
+
+        loadTracks()
+            .then(() => loadTrackMarkers())
+            .then(() => loadPOI())
+            .then(() => loadPubs())
+            .then(() => loadDartmoorTors());
+    </script>
+</body>
+</html>
