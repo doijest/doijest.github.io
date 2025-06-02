@@ -1,47 +1,93 @@
-import os
-from datetime import timedelta  # Date and time module
-from datetime import datetime
+"""Processes GPX files to generate GeoJSON data, elevation profiles, downloadable GPX tracks, and an HTML index page for the Moor Walkers website. 
+
+Includes utilities for address lookup, track simplification, clustering, and feature splitting.
+Main functionalities:
+- Parse and simplify GPX tracks.
+- Calculate distances, elevation profiles, ascent/descent, and other track statistics.
+- Generate GeoJSON features and cluster start points for color assignment.
+- Save elevation profile images and downloadable GPX files.
+- Split tracks into individual GeoJSON files and create a manifest.
+- Generate an interactive HTML index page with filtering options.
+Dependencies: geojson, gpxpy, matplotlib, requests, geopy, OSGridConverter, shapely, sklearn, etc.
+"""
+
 import json
+import os
+import re
+import time
+from datetime import datetime, timedelta
+from math import sqrt
+from xml.etree.ElementTree import Element, SubElement, tostring
+
 import geojson
 import gpxpy
+import matplotlib.pyplot as plt
 import requests
-from geopy import distance  # Geographical distance calculation module
-from shapely.geometry import LineString  # Geometric operations library
-from OSGridConverter import (
-    latlong2grid,
-)  # Latitude and longitude to grid reference conversion
-from sklearn.cluster import KMeans  # K-means clustering module from scikit-learn
-from xml.etree.ElementTree import (
-    Element,
-    SubElement,
-    tostring,
-)  # XML data manipulation module
-import matplotlib.pyplot as plt  # Visualization library for creating plots and graphs
+from geopy import distance
+from OSGridConverter import latlong2grid
+from shapely.geometry import LineString
+from sklearn.cluster import KMeans
 
-def find_place_name(starting_latitude, starting_longitude):
-    # Construct the Nominatim API URL for reverse geocoding
-    nominatim_url = f"https://nominatim.openstreetmap.org/reverse?format=json&lat={starting_latitude}&lon={starting_longitude}"
-    response = requests.get(nominatim_url, timeout=10)  # Set a timeout for the request
-    if response.status_code == 200:
-        data = response.json()
-        if data:
-            # Extract the nearest place name
-            display_name = data.get("display_name", "Unknown")
-            # Split the string by commas and join the required parts
-            display_name_parts = display_name.split(",")
-            if len(display_name_parts) > 5:
-                display_name = ",".join(display_name_parts[:-5])
-            return display_name
-    # If request fails, provide the user with the option to manually input the location name
-    print(f"Unable to retrieve data from {nominatim_url}, please set manually.")
-    print(f"You can use the following URL to find the display_name: {nominatim_url}")
-    print("Please enter the full display_name value:")
-    display_name = input()
-    # Split the string by commas and join the required parts
-    display_name_parts = display_name.split(",")
-    if len(display_name_parts) > 5:
-        display_name = ",".join(display_name_parts[:-5])
-    return display_name
+def get_address_from_locationiq(lat, lon):
+    url = "https://us1.locationiq.com/v1/reverse.php"
+    api_key = "pk.1e029c5824010fa1167fc1a2996c5b99"
+    params = {
+        'key': api_key,
+        'lat': lat,
+        'lon': lon,
+        'format': 'json'
+    }
+    tries = 2
+    for attempt in range(tries):
+        try:
+            response = requests.get(url, params=params)
+            response.raise_for_status()
+            break
+        except requests.RequestException as e:
+            print(f"Error fetching address from LocationIQ: {e}")
+            if attempt == 0:
+                print("Waiting 30 seconds before retrying...")
+                time.sleep(30)
+            else:
+                print(f"Error fetching address from LocationIQ on further try: {e}")
+                input("Press Enter to continue and then update manually...")
+                return e
+    display_name = response.json().get('display_name')
+    if display_name:
+        sections = display_name.split(",")
+        if sections[0].strip().startswith("UCR"):
+            return ",".join(sections[1:4]).strip()
+        else:
+            return ",".join(sections[0:3]).strip()
+
+def douglas_peucker(points, epsilon):
+
+    def perpendicular_distance(pt, line_start, line_end):
+        if line_start == line_end:
+            return sqrt((pt[0] - line_start[0])**2 + (pt[1] - line_start[1])**2)
+        x0, y0 = pt
+        x1, y1 = line_start
+        x2, y2 = line_end
+        num = abs((y2 - y1)*x0 - (x2 - x1)*y0 + x2*y1 - y2*x1)
+        den = sqrt((y2 - y1)**2 + (x2 - x1)**2)
+        return num / den
+
+    def simplify(points, epsilon):
+        dmax = 0.0
+        index = 0
+        for i in range(1, len(points) - 1):
+            d = perpendicular_distance(points[i], points[0], points[-1])
+            if d > dmax:
+                index = i
+                dmax = d
+        if dmax > epsilon:
+            rec1 = simplify(points[:index+1], epsilon)
+            rec2 = simplify(points[index:], epsilon)
+            return rec1[:-1] + rec2
+        else:
+            return [points[0], points[-1]]
+
+    return simplify(points, epsilon)
 
 def create_data(main_geojson):
     # Create an empty list to store the track years
@@ -101,7 +147,10 @@ def create_data(main_geojson):
 
         # Extract the track segments and points from the GPX file
         track_segments = [s for s in gpx_data.tracks[0].segments]
-        track_points = [p for s in track_segments for p in s.points]
+        raw_points = [p for s in track_segments for p in s.points]
+        simplified_coords = douglas_peucker([(p.latitude, p.longitude) for p in raw_points], epsilon=0.0001)
+        track_points = [p for p in raw_points if (p.latitude, p.longitude) in simplified_coords]
+
 
         # Calculate cumulative distances for each point, required for elevation profiles
         total_distance = 0.0
@@ -222,20 +271,6 @@ def create_data(main_geojson):
         )
         # print(download_link)
 
-        # Generate the ind_map links
-        ind_map_link = (
-            "https://moorwalkers.github.io/ind_maps/"
-            + filename[:-4].replace(" ", "").replace("@", "_")
-            + ".html"
-        )
-        # print(ind_map_link)
-        ind_map_link_os = (
-            "https://moorwalkers.github.io/ind_maps_os/"
-            + filename[:-4].replace(" ", "").replace("@", "_")
-            + "_os.html"
-        )
-        # print(ind_map_link_os)
-
         # Generate the elevation profile image link
         elevation_profile_link = (
             "https://moorwalkers.github.io/elevation_profiles/"
@@ -263,6 +298,18 @@ def create_data(main_geojson):
         iso_date = python_date.isoformat()
         #print(iso_date)
 
+        # Generate the ind_map links
+        ind_map_link = (
+            "https://moorwalkers.github.io/map_std.html?track_id="
+            + iso_date
+        )
+        # print(ind_map_link)
+        ind_map_link_os = (
+            "https://moorwalkers.github.io/map_os.html?track_id="
+            + iso_date
+        )
+        # print(ind_map_link_os)
+
         # Create a GeoJSON feature LineString from the GPX file
         feature = geojson.Feature(
             geometry=geojson.LineString(line_coords),
@@ -276,7 +323,7 @@ def create_data(main_geojson):
                 "descent": int(total_descent_m),
                 "center_lat": center_latitude,
                 "center_lon": center_longitude,
-                "place_name": find_place_name(starting_latitude, starting_longitude),
+                "place_name": get_address_from_locationiq(starting_latitude, starting_longitude),
                 "gridref": gridref,
                 "googleMapsLink": googleMapsLink,
                 "download_link": download_link,
@@ -490,11 +537,9 @@ def split_features_to_files(features, output_dir):
             marker_features.append(marker_feature)
     return manifest, marker_features
 
-
 def write_manifest(manifest, manifest_path):
     with open(manifest_path, "w", encoding="utf-8") as mf:
         json.dump(manifest, mf, ensure_ascii=False, indent=2)
-
 
 def write_track_markers(marker_features, output_path):
     track_markers_geojson = {
@@ -503,6 +548,410 @@ def write_track_markers(marker_features, output_path):
     }
     with open(output_path, "w", encoding="utf-8") as mf:
         json.dump(track_markers_geojson, mf, ensure_ascii=False, indent=2)
+
+def create_index_page(years, feature_collection):
+    """
+    Create an HTML index page to showcase walking tracks for different years.
+
+    Args:
+        years (list of str): List of years to display tracks for.
+        feature_collection (dict): GeoJSON feature collection containing track information.
+
+    Generates an HTML index page containing links to individual track maps for each year
+    and associated track details.
+    """
+
+    # HTML template for the start of the page
+    html_start = """\
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Moor Walkers Map</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+		header {
+			background-color: #0A4478;
+			color: white;
+			padding: 1em;
+			text-align: center;
+		}
+		h1 {
+			text-align: center;
+			margin: 0;
+			font-size: 2.5em;
+		}
+		p {
+			font-size: 1.2em;
+			margin-top: 2em;
+			margin-bottom: 1em;
+			text-align: center;
+		}
+		ul {
+			list-style: none;
+			padding: 0;
+			margin: 0;
+			text-align: center;
+            font-size: 1.8em;
+		}
+		li {
+			display: inline-block;
+			margin: 0 1em;
+		}
+		a {
+			display: block;
+			padding: 0.5em 1em;
+			background-color: #0A4478;
+			color: white;
+			text-decoration: none;
+			border-radius: 5px;
+			transition: background-color 0.2s ease;
+            font-size: 1.0em;
+		}
+		a:hover {
+			background-color: #1A4E87;
+		}
+		.track-list {
+			display: grid;
+			gap: 10px;
+			padding: 20px;
+		}
+
+            /* Define the grid for larger screens (e.g., desktop) */
+            @media (min-width: 1501px) {
+                .track-list {
+                    grid-template-columns: repeat(5, 1fr);
+                }
+            }
+
+            /* Define the grid for medium-sized screens */
+            @media (min-width: 1291px) and (max-width: 1500px) {
+                .track-list {
+                    grid-template-columns: repeat(4, 1fr);
+                }
+            }
+
+            /* Define the grid for medium-sized screens */
+            @media (min-width: 1081px) and (max-width: 1290px) {
+                .track-list {
+                    grid-template-columns: repeat(3, 1fr);
+                }
+            }
+
+            /* Define the grid for smaller screens (e.g., mobile) */
+            @media (max-width: 1080px) {
+                .track-list {
+                    grid-template-columns: repeat(2, 1fr);
+                }
+            }
+
+		.track {
+			font-size: 1.0em;
+            border: 10px solid #ccc;
+			border-radius: 10px;
+			padding: 10px;
+			text-align: center;
+		}
+
+        .track img {
+            max-width: 100%; /* Set maximum width to fit the container */
+            max-height: 100%; /* Set maximum height to fit the container */
+            display: block; /* Ensures images resize properly */
+            margin: auto; /* Centers the images horizontally */
+        }
+		
+		.track-details {
+			text-align: left;
+			padding-left: 20px;
+			line-height: 0.9;
+		}
+		
+		.track-details-distance {
+			line-height: 0.6;
+		}
+
+        .track-details-ascent-normal {
+			font-weight: normal;
+		}
+		
+		.track-details-ascent-bold {
+			font-weight: bold;
+		}
+
+        /* Styling for the modal */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.7);
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Styling for the larger image */
+        .modal-content {
+            display: block;
+            max-width: 80%;
+            max-height: 80%;
+        }
+        
+        /* Styling for the clickable images */
+        .clickable-image {
+            cursor: pointer;
+        }
+
+        /* Custom styles for larger sliders */
+        input[type="range"] {
+            width: 400px; /* Adjust the width */
+        }
+	</style>
+    <script>
+        function displayLargeImage(imageUrl) {
+            var modal = document.getElementById('modal');
+            var largerImg = document.getElementById('largerImage');
+            // Show the modal
+            modal.style.display = 'flex';
+            // Set the larger image source
+            largerImg.src = imageUrl;
+        }
+
+        function closeModal() {
+            var modal = document.getElementById('modal');
+            modal.style.display = 'none';
+        }
+    </script>
+    <link rel="icon" href="https://moorwalkers.github.io/icons8-map-pastel-32.png" type="image/x-icon">
+	</head>
+	<body>
+		<!-- Modal for displaying larger image -->
+        <div id="modal" class="modal" onclick="closeModal()">
+            <img id="largerImage" class="modal-content" src="" alt="Larger Image">
+        </div>
+        <header>
+			<h1>Moor Walkers Map</h1>
+		</header>
+		<main>
+			<p>Welcome to our website, dedicated to showcasing the incredible walks that the Moor Walkers have taken over Dartmoor and the surrounding areas.
+			<br>Join us on a journey through the heart of this stunning landscape and discover the hidden treasures that Dartmoor has to offer.</p>
+			<p><strong>Click the links below to view the maps showing all tracks:</strong></p>
+			<ul>
+				<li><a href="https://moorwalkers.github.io/map_os.html">OS Map Layers<br>with All Tracks</a></li>
+                <li><a href="https://moorwalkers.github.io/map_std.html">Standard Map Layers<br>with All Tracks</a></li>
+			</ul>
+			<br>
+            <br>
+            <p><strong>Or click one of the following Individual Map links to view individual tracks:</strong></p>
+
+            <!-- Container for distance sliders -->
+            <div style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap;">
+            <div style="margin: 10px;">
+                <label for="minDistance">Minimum Distance:</label>
+                <input type="range" id="minDistance" name="minDistance" min="0" max="15" value="0">
+                <span id="minDistanceValue"></span> miles <!-- Display selected value -->
+                <br><br>
+                <label for="maxDistance">Maximum Distance:</label>
+                <input type="range" id="maxDistance" name="maxDistance" min="0" max="15" value="15">
+                <span id="maxDistanceValue"></span> miles <!-- Display selected value -->
+                <br><br><br>
+                <label for="minAscent">Minimum Ascent:</label>
+                <input type="range" id="minAscent" name="minAscent" min="0" max="1500" value="0">
+                <span id="minAscentValue"></span> meters <!-- Display selected value -->
+                <br><br>
+                <label for="maxAscent">Maximum Ascent:</label>
+                <input type="range" id="maxAscent" name="maxAscent" min="0" max="1500" value="1500">
+                <span id="maxAscentValue"></span> meters <!-- Display selected value -->
+                <br><br>
+            </div>
+            </div>
+    """
+
+    # HTML template for the end of the page
+    html_end = """    
+        </main>
+    </body>
+<script>
+  // Function to set maximum values for distance and ascent sliders
+  function setMaxSliderValues() {
+    // Retrieve all tracks
+    var tracks = document.querySelectorAll('.track');
+
+    // Initialize variables to store maximum distance and ascent values
+    var maxDistance = 0;
+    var maxAscent = 0;
+
+    // Loop through each track to find the maximum distance and ascent
+    tracks.forEach(function(track) {
+      // Extract distance and ascent details from track elements
+      var trackDistance = parseFloat(track.querySelector('.track-details-distance').innerText.trim().split(' ')[0]);
+      var ascentDetails = track.querySelector('.track-details-ascent-normal') || track.querySelector('.track-details-ascent-bold');
+      var trackAscent = parseFloat(ascentDetails.innerText.trim().split(' ')[1]);
+
+      // Update the maximum distance and ascent values
+      maxDistance = Math.max(maxDistance, Math.ceil(trackDistance)); // Round up distance to nearest whole number
+      maxAscent = Math.max(maxAscent, Math.ceil(trackAscent / 100) * 100); // Round up ascent to nearest 100
+    });
+
+    // Set the maximum values for distance and ascent sliders
+    document.getElementById('maxDistance').setAttribute('max', maxDistance);
+    document.getElementById('maxAscent').setAttribute('max', maxAscent);
+
+    // Display the maximum values next to the sliders
+    document.getElementById('maxDistanceValue').innerText = maxDistance;
+    document.getElementById('maxAscentValue').innerText = maxAscent;
+  }
+
+  // Function to filter tracks based on slider values
+  function filterTracks() {
+    // Retrieve slider values for minimum and maximum distance and ascent
+    var minDistance = parseFloat(document.getElementById('minDistance').value);
+    var maxDistance = parseFloat(document.getElementById('maxDistance').value);
+    var minAscent = parseFloat(document.getElementById('minAscent').value);
+    var maxAscent = parseFloat(document.getElementById('maxAscent').value);
+
+    // Retrieve all tracks
+    var tracks = document.querySelectorAll('.track');
+
+    // Loop through each track and show/hide tracks based on distance and ascent criteria
+    tracks.forEach(function(track) {
+      var trackDistance = parseFloat(track.querySelector('.track-details-distance').innerText.trim().split(' ')[0]);
+      var ascentDetails = track.querySelector('.track-details-ascent-normal') || track.querySelector('.track-details-ascent-bold');
+      var trackAscent = parseFloat(ascentDetails.innerText.trim().split(' ')[1]);
+
+      // Show the track if it satisfies the distance and ascent criteria, otherwise hide it
+      if (
+        trackDistance >= minDistance &&
+        trackDistance <= maxDistance &&
+        trackAscent >= minAscent &&
+        trackAscent <= maxAscent
+      ) {
+        track.style.display = 'block';
+      } else {
+        track.style.display = 'none';
+      }
+    });
+
+    // Display the selected slider values
+    document.getElementById('minDistanceValue').innerText = minDistance;
+    document.getElementById('maxDistanceValue').innerText = maxDistance;
+    document.getElementById('minAscentValue').innerText = minAscent;
+    document.getElementById('maxAscentValue').innerText = maxAscent;
+  }
+
+  // Add event listeners to the sliders to trigger filtering when their values change
+  document.getElementById('minDistance').addEventListener('input', filterTracks);
+  document.getElementById('maxDistance').addEventListener('input', filterTracks);
+  document.getElementById('minAscent').addEventListener('input', filterTracks);
+  document.getElementById('maxAscent').addEventListener('input', filterTracks);
+
+  // Initialize maximum slider values and perform initial filtering
+  setMaxSliderValues();
+  filterTracks();
+</script>
+</html>
+    """
+
+    # Output file path
+    output_file = os.path.join(os.getcwd(), "index.html")
+
+    with open(output_file, "w") as f:
+        # Write the start of the HTML page to the output file
+        f.write(html_start)
+
+        # Iterate through the specified years
+        for year in years:
+            if int(year) <= 2020:
+                display_year = "2020 or Earlier"
+            else:
+                display_year = year
+
+            # HTML template for the year section
+            if int(year) >= 2020:
+                html_year = f"""\
+    <h1>{display_year}</h1>
+    <div class="track-list">
+            """
+                f.write(html_year)
+
+                # Iterate through the features in the GeoJSON collection
+                for feature in feature_collection["features"]:
+                    if int(feature["properties"]["name"][:4]) <= 2020:
+                        track_year = '2020'
+                    else:
+                        track_year = feature["properties"]["name"][:4]
+                    if track_year == year:
+                        # Set the grid box background colour
+                        grid_colour = ""
+                        if feature["properties"]["distance_mi"] < 5:
+                            grid_colour = "#C0FFC0"
+                        if (
+                            feature["properties"]["distance_mi"] >= 5
+                            and feature["properties"]["distance_mi"] < 6
+                        ):
+                            grid_colour = "#90EE90"
+                        if (
+                            feature["properties"]["distance_mi"] >= 6
+                            and feature["properties"]["distance_mi"] < 7
+                        ):
+                            grid_colour = "#F1C40F"
+                        if feature["properties"]["distance_mi"] >= 7:
+                            grid_colour = "#FFA07A"
+
+                        # Set the ascent / descent font weight
+                        asc_desc_font_weight = ""
+                        if feature["properties"]["ascent"] < 500:
+                            asc_desc_font_weight = "normal"
+                        else:
+                            asc_desc_font_weight = "bold"
+
+                        # Set the Date/Title
+                        # Define a regular expression pattern for a date in the format "YYYY-MM-DD"
+                        date_pattern = r"\d{4}-\d{2}-\d{2}"
+                        # Ues the date_pattern to identify and then set the 2 date/title types
+                        if re.match(date_pattern, feature["properties"]["name"]):
+                            date_title = feature["properties"]["name"][:10]
+                        else:
+                            date_title = feature["properties"]["name"]
+
+                        # HTML template for each track
+                        html_track = f"""\
+<div class="track" style="border: 10px solid {grid_colour};">
+                <div class="track-details">
+					<br>{feature['properties']['gridref']}</br>
+                    <br>Date: {date_title}</br>
+                    <br>Distance:</br>
+                    <div class="track-details-distance">
+                        <br>{feature['properties']['distance_mi']} miles</br>
+                        <br>{feature['properties']['distance_km']} km</br>
+                    </div>
+                    <br>Duration: {feature['properties']['duration']}</br>
+                    <div class="track-details-ascent-{asc_desc_font_weight}">
+                        <br>Ascent: {feature['properties']['ascent']}m</br>
+                        <br>Descent: {feature['properties']['descent']}m</br>
+                    </div>
+                </div>
+                <img src="{feature['properties']['elevation_profile_link']}" alt="Elevation Profile" class="clickable-image" onclick="displayLargeImage('{feature['properties']['elevation_profile_link']}')">
+                <a href=\"{feature['properties']['ind_map_link_os']}" target=\"_self\" style='display: block; margin-top: 5px;'>Open OS Map</a>
+                <a href=\"{feature['properties']['ind_map_link']}" target=\"_self\" style='display: block; margin-top: 5px;'>Open Standard Map</a>
+                <a href=\"{feature['properties']['googleMapsLink']}\" target=\"_blank\" style='display: block; margin-top: 5px;'>Starting Location on Google Maps</a>
+                <a href=\"{feature['properties']['download_link']}\" download=\"{os.path.basename(feature['properties']['download_link'])}\" style='display: block; margin-top: 5px;'>Download GPX Track File</a>
+                <div style='text-align: center; margin-top: 10px; font-weight: bold;'>{feature['properties']['place_name']}</div>
+            </div>
+                    """
+                        f.write(html_track)
+
+                # Close the track-list section for the current year
+                f.write("</div>")
+
+        # Write the end of the HTML page
+        f.write(html_end)
+
+    print("Index page created")
 
 def main():
     # Paths
@@ -532,6 +981,9 @@ def main():
     write_track_markers(marker_features, track_markers_path)
 
     print(f"Split {len(features)} features into '{output_dir}' folder, created manifest '{manifest_path}', and created '{track_markers_path}' with {len(marker_features)} markers.")
+
+    # Create the indxx page
+    create_index_page(years, feature_collection)
 
 
 if __name__ == "__main__":
