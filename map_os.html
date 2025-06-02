@@ -141,6 +141,13 @@
             hiddentorsofdartmoorcontent.style.display = hiddentorsofdartmoorcontent.style.display === 'block' ? 'none' : 'block';
         }
     </script>
+    <script>
+        function getQueryParam(param) {
+        const urlParams = new URLSearchParams(window.location.search);
+        return urlParams.get(param);
+        }
+        const selectedTrackId = getQueryParam('track_id');
+    </script>
     <script>    
         //#### Add Filter Sliders ####
 
@@ -504,6 +511,7 @@
                             .then(resp => resp.json())
                             .then(geojson => {
                                 const filtered = geojson.features.filter(feature => {
+                                    if (selectedTrackId && feature.properties.date !== selectedTrackId) return false;
                                     const props = feature.properties || {};
                                     const date = new Date(props.date);
                                     const distance = parseFloat(props.distance_mi);
@@ -539,6 +547,14 @@
                             overlays["Tracks"] = unifiedLayer;
                             layerControl.addOverlay(unifiedLayer, "Tracks");
                             unifiedLayer.addTo(map);
+
+                            // If an individual track is selected via the url, zoom to its bounds
+                            if (selectedTrackId) {
+                                const bounds = unifiedLayer.getBounds();
+                                if (bounds.isValid()) {
+                                    map.fitBounds(bounds, { maxZoom: 8 });
+                                }
+                            }
                         }
                         resolve();
                     });
@@ -563,6 +579,7 @@
                 .then(response => response.json())
                 .then(data => {
                     const filteredFeatures = data.features.filter(feature => {
+                        if (selectedTrackId && feature.properties.date !== selectedTrackId) return false;
                         const props = feature.properties || {};
                         const date = new Date(props.date);
                         const distance = parseFloat(props.distance_mi);
