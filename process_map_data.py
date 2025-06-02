@@ -5,7 +5,6 @@ import json
 import geojson
 import gpxpy
 import requests
-import time
 from geopy import distance  # Geographical distance calculation module
 from shapely.geometry import LineString  # Geometric operations library
 from OSGridConverter import (

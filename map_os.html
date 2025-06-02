@@ -531,7 +531,7 @@
                                 }),
                                 onEachFeature: (feature, layer) => {
                                     if (feature.properties?.name) {
-                                        layer.bindPopup(feature.properties.name);
+                                        layer.bindTooltip((`<div style="font-size: 10px;">${feature.properties.gridref}<br>${feature.properties.name}<br>${feature.properties.place_name}</dev>`));
                                     }
                                 }
                             });
@@ -593,7 +593,8 @@
                         },
                         onEachFeature: function (feature, layer) {
                             if (feature.properties?.name) {
-                                layer.bindPopup(feature.properties.name);
+                                const download_filename = feature.properties.download_link.split('/').pop();
+                                layer.bindPopup(`<div style="width: 100.0%; height: 100.0%;font-size: 10px;"><div style='width: 170px'>${feature.properties.gridref}<br>${feature.properties.name}<br>Distance: ${feature.properties.distance_mi} mile / ${feature.properties.distance_km} km<br>Duration: ${feature.properties.duration}<br>Ascent: ${feature.properties.ascent} metres<br>Descent: ${feature.properties.descent} metres<a href=${feature.properties.elevation_profile_link} target="_blank"><img src=${feature.properties.elevation_profile_link} alt="Elevation Profile" style="width: 100%; margin-bottom: 5px;"></a><a href=${feature.properties.ind_map_link_os} target="_blank" style='display: block; margin-bottom: 5px; padding: 0.5em 1em; background-color: #0A4478; color: white; text-decoration: none; border-radius: 3px; transition: background-color 0.2s ease; font-size: 1.0em; text-align: center;'>Open OS Map</a><a href=${feature.properties.ind_map_link} target="_blank" style='display: block; margin-bottom: 5px; padding: 0.5em 1em; background-color: #0A4478; color: white; text-decoration: none; border-radius: 3px; transition: background-color 0.2s ease; font-size: 1.0em; text-align: center;'>Open Standard Map</a><a href=${feature.properties.googleMapsLink} target="_blank" style='display: block; margin-bottom: 5px; padding: 0.5em 1em; background-color: #0A4478; color: white; text-decoration: none; border-radius: 3px; transition: background-color 0.2s ease; font-size: 1.0em; text-align: center;'>Starting Location on Google Maps</a><a href=${feature.properties.download_link} download="${download_filename}" style='display: block; margin-bottom: 5px; padding: 0.5em 1em; background-color: #0A4478; color: white; text-decoration: none; border-radius: 3px; transition: background-color 0.2s ease; font-size: 1.0em; text-align: center;'>Download GPX Track File</a><div style='text-align: center; margin-bottom: 5px; font-weight: bold;'>${feature.properties.place_name}</div></div></div>`);
                             }
                         }
                     }).addTo(map);
