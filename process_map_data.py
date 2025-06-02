@@ -525,7 +525,6 @@ def main():
     # Load GeoJSON
     with open(main_geojson, "r", encoding="utf-8") as f:
         data = json.load(f)
-
     features = data.get("features", [])
 
     manifest, marker_features = split_features_to_files(features, output_dir)
