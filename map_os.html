@@ -142,6 +142,9 @@
         }
     </script>
     <script>
+        //#### Function to get query parameters from the URL, runs on page load ####
+        // To use this function, add '?track_id='' to end of the url, along with a valid track date
+        // e.g. /map_os.html?track_id=2025-05-08T18:00:00
         function getQueryParam(param) {
         const urlParams = new URLSearchParams(window.location.search);
         return urlParams.get(param);
